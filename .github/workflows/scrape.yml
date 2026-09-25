@@ -1,0 +1,67 @@
+name: Update GeM bid dashboard
+
+on:
+  schedule:
+    # 04:00 UTC = 09:30 IST. GitHub cron is always UTC.
+    - cron: "0 4 * * *"
+  workflow_dispatch:        # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write           # needed to commit bids.csv back to the repo
+
+concurrency:
+  group: gem-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      # no pip install: the scraper uses only the standard library
+
+      - name: Scrape GeM
+        run: |
+          python gem_bids_scraper.py "laptop" "notebook"
+          python gem_bids_scraper.py "desktop computer"
+          python gem_bids_scraper.py "server" "all in one pc"
+          python gem_bids_scraper.py "workstation"
+
+      - name: Build dashboard
+        run: |
+          python build_dashboard.py
+          mkdir -p _site
+          cp dashboard.html _site/index.html
+          cp bids.csv _site/bids.csv
+
+      # Committing bids.csv is what preserves history between runs and
+      # keeps the repo active so GitHub does not disable the schedule.
+      - name: Commit updated data
+        run: |
+          git config user.name  "gem-bot"
+          git config user.email "gem-bot@users.noreply.github.com"
+          git add bids.csv bids.json
+          git diff --staged --quiet || git commit -m "data: $(date -u +%Y-%m-%d)"
+          git push
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: scrape
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
