@@ -114,16 +114,42 @@ FIELDS = ["bid_number", "category", "matched_items", "item", "ministry",
           "bid_start_date", "bid_end_date", "bid_url", "captured_on"]
 
 
-def get_session():
-    """Load /all-bids to pick up cookies + the CSRF token the AJAX call needs."""
-    cj = http.cookiejar.CookieJar()
-    op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
-    op.addheaders = [("User-Agent", UA), ("Accept-Language", "en-US,en;q=0.9")]
-    page = op.open(LIST_URL, timeout=30).read().decode("utf8", "ignore")
-    m = re.search(r"csrf_bd_gem_nk'\s*:\s*'([a-f0-9]+)'", page)
-    if not m:
-        raise RuntimeError("CSRF token not found - GeM page layout may have changed")
-    return op, m.group(1)
+def get_session(attempts=3):
+    """Load /all-bids to pick up cookies + the CSRF token the AJAX call needs.
+
+    Retries with backoff: GeM sits behind bot protection that intermittently
+    challenges requests, especially from datacenter IPs (CI runners).
+    """
+    last = None
+    for i in range(attempts):
+        try:
+            cj = http.cookiejar.CookieJar()
+            op = urllib.request.build_opener(
+                urllib.request.HTTPCookieProcessor(cj))
+            op.addheaders = [
+                ("User-Agent", UA),
+                ("Accept", "text/html,application/xhtml+xml,application/xml;"
+                           "q=0.9,*/*;q=0.8"),
+                ("Accept-Language", "en-US,en;q=0.9"),
+                ("Upgrade-Insecure-Requests", "1"),
+            ]
+            page = op.open(LIST_URL, timeout=40).read().decode("utf8", "ignore")
+            m = re.search(r"csrf_bd_gem_nk'\s*:\s*'([a-f0-9]+)'", page)
+            if m:
+                return op, m.group(1)
+            last = ("no CSRF token in a {} byte response. GeM either changed "
+                    "its page or served a bot-protection challenge."
+                    .format(len(page)))
+            if "captcha" in page.lower() or "access denied" in page.lower():
+                last += " Response mentions captcha/access-denied -> blocked."
+        except Exception as e:                       # noqa: BLE001
+            last = "{}: {}".format(type(e).__name__, e)
+        if i < attempts - 1:
+            wait = 5 * (i + 1)
+            print("  session attempt {} failed ({}); retrying in {}s"
+                  .format(i + 1, last, wait), flush=True)
+            time.sleep(wait)
+    raise RuntimeError("could not open a GeM session - " + str(last))
 
 
 def fetch_page(op, token, term, page):
@@ -309,7 +335,16 @@ def merge(rows):
 if __name__ == "__main__":
     terms = sys.argv[1:] or None
     print("Scraping GeM bids ...", flush=True)
-    rows = scrape(terms)
+    try:
+        rows = scrape(terms)
+    except Exception as e:                           # noqa: BLE001
+        print("SCRAPE FAILED: {}: {}".format(type(e).__name__, e), flush=True)
+        # Exit 0 when we already have data so a transient GeM block does not
+        # fail the whole pipeline; the dashboard just keeps yesterday's rows.
+        if os.path.exists(CSV_PATH):
+            print("existing {} kept; continuing".format(CSV_PATH), flush=True)
+            sys.exit(0)
+        sys.exit(1)
     allrows, new = merge(rows)
     print("")
     print("Matched this run   : {}".format(len(rows)))
