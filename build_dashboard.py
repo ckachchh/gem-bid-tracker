@@ -52,10 +52,13 @@ for r in ROWS:
     _slim.append(o)
 ROWS = _slim
 
-# daily bid-start counts, last 21 days
+# Daily bid-start counts, last 21 days.
+# NOTE: ROWS has already been slimmed above, so the start date lives in "t",
+# not "bid_start_date". Reading the old name here silently produced an
+# all-zero chart.
 counts = {}
 for r in ROWS:
-    d = (r.get("bid_start_date") or "")[:10]
+    d = (r.get("t") or "")[:10]
     if d:
         counts[d] = counts.get(d, 0) + 1
 today = datetime.now(timezone.utc).date()
