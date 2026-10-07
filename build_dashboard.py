@@ -6,7 +6,51 @@ from datetime import datetime, timedelta, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = json.load(open(os.path.join(HERE, "bids.json"), encoding="utf8"))
-ROWS = DATA["rows"]
+ALL_ROWS = DATA["rows"]
+
+# The CSV keeps every bid ever seen; the page only needs what is still
+# actionable, otherwise index.html grows without limit. Keep bids that are
+# still open, plus a short tail of recently-closed ones for reference.
+CLOSED_GRACE_DAYS = int(os.environ.get("GEM_CLOSED_GRACE_DAYS", "7"))
+_today = datetime.now(timezone.utc).date()
+_cutoff = (_today - timedelta(days=CLOSED_GRACE_DAYS)).isoformat()
+
+
+def _still_relevant(r):
+    end = (r.get("bid_end_date") or "")[:10]
+    if not end:
+        return True              # unknown close date: keep rather than hide
+    return end >= _cutoff
+
+
+ROWS = [r for r in ALL_ROWS if _still_relevant(r)]
+DROPPED = len(ALL_ROWS) - len(ROWS)
+
+# Trim the embedded payload. bid_url is a constant prefix + id, and the
+# verbose "item" string is only needed as a tooltip on bundled rows.
+URL_PREFIX = "https://bidplus.gem.gov.in/showbidDocument/"
+_slim = []
+for r in ROWS:
+    o = {
+        "b": r.get("bid_number", ""),
+        "i": (r.get("bid_url") or "").replace(URL_PREFIX, ""),
+        "c": r.get("category", ""),
+        "m": r.get("matched_items") or r.get("item", ""),
+        "d": r.get("department", ""),
+        "y": r.get("ministry", ""),
+        "s": r.get("state", ""),
+        "q": r.get("quantity", ""),
+        "e": (r.get("bid_end_date") or "")[:10],
+        "t": (r.get("bid_start_date") or "")[:10],
+        "a": r.get("captured_on", ""),
+    }
+    if str(r.get("is_bundle")) == "1":
+        o["n"] = r.get("n_items", "")
+        full = r.get("item", "")
+        if full != o["m"]:
+            o["f"] = full
+    _slim.append(o)
+ROWS = _slim
 
 # daily bid-start counts, last 21 days
 counts = {}
@@ -108,14 +152,14 @@ a:hover{text-decoration:underline}
   </select>
  </div>
  <table><thead><tr>
-  <th data-k="bid_number">Bid Number</th>
-  <th data-k="category">Type</th>
-  <th data-k="department">Department</th>
-  <th data-k="state">State</th>
-  <th data-k="quantity">Qty</th>
-  <th data-k="bid_start_date">Bid Start Date</th>
-  <th data-k="bid_end_date">Closes</th>
-  <th data-k="captured_on">Added</th>
+  <th data-k="b">Bid Number</th>
+  <th data-k="c">Type</th>
+  <th data-k="d">Department</th>
+  <th data-k="s">State</th>
+  <th data-k="q">Qty</th>
+  <th data-k="t">Bid Start Date</th>
+  <th data-k="e">Closes</th>
+  <th data-k="a">Added</th>
  </tr></thead><tbody id="tb"></tbody></table>
  <div class="empty" id="empty" style="display:none">No bids match these filters.</div>
  <p class="note"><b>Reading this table.</b> The line under each bid number shows only the
@@ -124,15 +168,18 @@ a:hover{text-decoration:underline}
  case the quantity carries an asterisk<span class="approx">*</span> because GeM publishes only a
  bid-wide total covering every line item, not just the computers. Per-product quantities exist
  only inside the bid PDF. &ldquo;Bid Start Date&rdquo; is when bidding opens, not the document
- publication date. Reverse auctions are excluded &mdash; only open tenders are listed. <b>State</b> is read from the buyer&rsquo;s department name; bids marked <i>central</i> are national bodies such as Military Affairs or Indian Railways that are not tied to one state.</p>
+ publication date. Reverse auctions are excluded &mdash; only open tenders are listed. Bids that closed more than __GRACE__ days ago are not shown here &mdash; the full
+ history (__ALLN__ bids) is in <a href="bids.csv">bids.csv</a>.
+ <b>State</b> is read from the buyer&rsquo;s department name; bids marked <i>central</i> are national bodies such as Military Affairs or Indian Railways that are not tied to one state.</p>
 </div>
 </div>
 <script>
 const ROWS = __ROWS__;
+const URLP='https://bidplus.gem.gov.in/showbidDocument/';
 const DAYS = __DAYS__, SERIES = __SERIES__;
 const TODAY = new Date().toISOString().slice(0,10);
 let cat = localStorage.getItem('gem_cat') || 'all';
-let sortK = 'bid_start_date', sortDir = -1;
+let sortK = 't', sortDir = -1;
 
 document.querySelectorAll('.chip').forEach(c=>{
   c.classList.toggle('on', c.dataset.cat===cat);
@@ -143,7 +190,7 @@ document.getElementById('q').oninput=render;
 document.getElementById('range').onchange=render;
 document.getElementById('bundle').onchange=render;
 const stSel=document.getElementById('state');
-[...new Set(ROWS.map(r=>r.state).filter(Boolean))].sort().forEach(st=>{
+[...new Set(ROWS.map(r=>r.s).filter(Boolean))].sort().forEach(st=>{
   const o=document.createElement('option');o.value=st;o.textContent=st;stSel.appendChild(o);});
 {const o=document.createElement('option');o.value='__central';o.textContent='Central bodies';stSel.appendChild(o);}
 stSel.onchange=render;
@@ -160,18 +207,18 @@ function filtered(){
   let cut=null;
   if(days){const d=new Date();d.setDate(d.getDate()-(days-1));cut=d.toISOString().slice(0,10);}
   return ROWS.filter(r=>{
-    if(cat!=='all' && r.category!==cat) return false;
-    if(stVal==='__central' && r.state) return false;
-    if(stVal!=='all' && stVal!=='__central' && r.state!==stVal) return false;
-    if(bundleVal==='single' && +r.is_bundle) return false;
-    if(bundleVal==='bundle' && !+r.is_bundle) return false;
-    if(addedOnly && (r.captured_on||'').slice(0,10)!==TODAY) return false;
-    if(cut && (r.bid_start_date||'').slice(0,10) < cut) return false;
-    if(q && !((r.bid_number+' '+r.department+' '+r.ministry+' '+r.item+' '+(r.matched_items||'')+' '+(r.state||'')).toLowerCase().includes(q))) return false;
+    if(cat!=='all' && r.c!==cat) return false;
+    if(stVal==='__central' && r.s) return false;
+    if(stVal!=='all' && stVal!=='__central' && r.s!==stVal) return false;
+    if(bundleVal==='single' && r.n) return false;
+    if(bundleVal==='bundle' && !r.n) return false;
+    if(addedOnly && (r.a||'')!==TODAY) return false;
+    if(cut && (r.t||'') < cut) return false;
+    if(q && !((r.b+' '+r.d+' '+r.y+' '+r.m+' '+(r.s||'')).toLowerCase().includes(q))) return false;
     return true;
   }).sort((a,b)=>{
     let x=a[sortK]??'', y=b[sortK]??'';
-    if(sortK==='quantity'){x=+x||0;y=+y||0;return (x-y)*sortDir;}
+    if(sortK==='q'){x=+x||0;y=+y||0;return (x-y)*sortDir;}
     return String(x).localeCompare(String(y))*sortDir;
   });
 }
@@ -179,29 +226,29 @@ function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt
 function render(){
   const rows=filtered();
   document.getElementById('tb').innerHTML = rows.map(r=>{
-    const isNew=(r.bid_start_date||'').slice(0,10)===TODAY;
-    const isNewToday=(r.captured_on||'').slice(0,10)===TODAY;
-    const cls='t-'+(r.category==='All-in-One PC'?'AIO':r.category);
+    const isNew=(r.t||'')===TODAY;
+    const isNewToday=(r.a||'')===TODAY;
+    const cls='t-'+(r.c==='All-in-One PC'?'AIO':r.c);
     return `<tr>
-      <td><a href="${esc(r.bid_url)}" target="_blank" rel="noopener">${esc(r.bid_number)}</a>${isNew?'<span class="new">new</span>':''}
-<div class="matched">${esc(r.matched_items||r.item)}</div>
-          ${+r.is_bundle?`<div class="bundle" title="Full bid contents: ${esc(r.item)}">bundled bid &middot; ${esc(r.n_items)} line items</div>`:''}</td>
-      <td><span class="tag ${cls}">${esc(r.category)}</span></td>
-      <td><div class="dept">${esc(r.department)}</div><div class="min">${esc(r.ministry)}</div></td>
-      <td>${r.state?`<span class="st">${esc(r.state)}</span>`:'<span class="central" title="Central / national body &mdash; no single state">central</span>'}</td>
-      <td class="qty">${esc(r.quantity)}${+r.is_bundle?'<span class="approx" title="Bid total across all line items, not just this category">*</span>':''}</td>
-      <td>${esc(r.bid_start_date)}</td>
-      <td>${esc(r.bid_end_date)}</td>
-      <td>${esc(r.captured_on)}${isNewToday?'<span class="new">new</span>':''}</td></tr>`;
+      <td><a href="${URLP}${esc(r.i)}" target="_blank" rel="noopener">${esc(r.b)}</a>${isNew?'<span class="new">new</span>':''}
+<div class="matched">${esc(r.m)}</div>
+          ${r.n?`<div class="bundle" title="Full bid contents: ${esc(r.f||r.m)}">bundled bid &middot; ${esc(r.n)} line items</div>`:''}</td>
+      <td><span class="tag ${cls}">${esc(r.c)}</span></td>
+      <td><div class="dept">${esc(r.d)}</div><div class="min">${esc(r.y)}</div></td>
+      <td>${r.s?`<span class="st">${esc(r.s)}</span>`:'<span class="central" title="Central / national body &mdash; no single state">central</span>'}</td>
+      <td class="qty">${esc(r.q)}${r.n?'<span class="approx" title="Bid total across all line items, not just this category">*</span>':''}</td>
+      <td>${esc(r.t)}</td>
+      <td>${esc(r.e)}</td>
+      <td>${esc(r.a)}${isNewToday?'<span class="new">new</span>':''}</td></tr>`;
   }).join('');
   document.getElementById('empty').style.display = rows.length?'none':'block';
   const wk=new Date();wk.setDate(wk.getDate()-6);const wkS=wk.toISOString().slice(0,10);
   document.getElementById('kTotal').textContent=rows.length;
-  document.getElementById('kToday').textContent=rows.filter(r=>(r.bid_start_date||'').slice(0,10)===TODAY).length;
-  document.getElementById('kWeek').textContent=rows.filter(r=>(r.bid_start_date||'').slice(0,10)>=wkS).length;
-  document.getElementById('kQty').textContent=rows.reduce((s,r)=>s+(+r.quantity||0),0).toLocaleString();
-  document.getElementById('kAdded').textContent=rows.filter(r=>(r.captured_on||'').slice(0,10)===TODAY).length;
-  document.getElementById('kState').textContent=new Set(rows.map(r=>r.state).filter(Boolean)).size;
+  document.getElementById('kToday').textContent=rows.filter(r=>(r.t||'')===TODAY).length;
+  document.getElementById('kWeek').textContent=rows.filter(r=>(r.t||'')>=wkS).length;
+  document.getElementById('kQty').textContent=rows.reduce((s,r)=>s+(+r.q||0),0).toLocaleString();
+  document.getElementById('kAdded').textContent=rows.filter(r=>(r.a||'')===TODAY).length;
+  document.getElementById('kState').textContent=new Set(rows.map(r=>r.s).filter(Boolean)).size;
 }
 render();
 new Chart(document.getElementById('chart'),{type:'bar',
@@ -215,11 +262,14 @@ new Chart(document.getElementById('chart'),{type:'bar',
 </script></body></html>"""
 
 out = (TEMPLATE
-       .replace("__ROWS__", json.dumps(ROWS))
+       .replace("__ROWS__", json.dumps(ROWS, separators=(",",":")))
        .replace("__DAYS__", json.dumps(days))
        .replace("__SERIES__", json.dumps(series))
-       .replace("__UPDATED__", DATA["updated"]))
+       .replace("__UPDATED__", DATA["updated"])
+       .replace("__GRACE__", str(CLOSED_GRACE_DAYS))
+       .replace("__ALLN__", "{:,}".format(len(ALL_ROWS))))
 
 path = os.path.join(HERE, "dashboard.html")
 open(path, "w", encoding="utf8").write(out)
-print(f"Wrote {path} ({len(ROWS)} bids)")
+print("Wrote {} ({:,} of {:,} bids; {:,} closed >{}d ago omitted)".format(
+    path, len(ROWS), len(ALL_ROWS), DROPPED, CLOSED_GRACE_DAYS))

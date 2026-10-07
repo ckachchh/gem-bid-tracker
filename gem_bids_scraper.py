@@ -95,6 +95,13 @@ ITEM_EXCLUDE = [
     r"\bstand\b", r"\btrolley\b", r"\bcover\b", r"\bskin\b", r"\bkeyboard\b",
     r"\bmouse\b", r"\bups\b", r"\bcable\b", r"\btoner\b", r"cartridge",
     r"\bgpu\s*card", r"storage\s*server",
+    # "<thing> Desktop/Server" where the thing is not a computer
+    r"desktop\s*(calculator|monitor|scanner|printer|speaker|phone|charger|fan|"
+    r"organi[sz]er|clock|lamp|tray|mat|stand)",
+    r"(monitor|calculator|speaker|lamp|clock)\s*,?\s*desktop",
+    r"\baaa\s*server", r"\bntp\s*server", r"\bdns\s*server",
+    r"\bproxy\s*server", r"\bprint\s*server", r"\bterminal\s*server",
+    r"vpn\s*server", r"\bwlan\b", r"\bqrng\b",
     # services / software / furniture
     r"repair", r"\bamc\b", r"maintenance", r"hiring", r"rental", r"\brent\b",
     r"manpower", r"subscription", r"renewal", r"licen[cs]e", r"\balng\b",
@@ -106,7 +113,30 @@ ITEM_EXCLUDE = [
 ]
 
 # Whole-bid rejects: if the bid title itself is a service contract
-BID_EXCLUDE = [r"custom bid for services", r"\bamc\b", r"manpower"]
+# Checked against the WHOLE title before the comma-split, because a phrase
+# like "Annual Maintenance Service - Desktops,  Laptops and Peripherals"
+# splits into pieces that individually look like genuine hardware.
+BID_EXCLUDE = [
+    r"custom bid for services", r"manpower",
+    r"\bamc\b", r"\bcamc\b", r"annual\s*maint", r"maintenance\s*service",
+    r"comprehensive\s*annual", r"comprehensive\s*maint",
+    r"maintenance\s*(contract|of|for)", r"\bupkeep\b",
+    r"repair\s*(and|&|of)", r"servicing\s*of", r"\bwarranty\s*extension",
+]
+
+
+# Bid numbers rejected manually. Anything here is never included, whatever
+# the classifier thinks. Add to this when a bid is wrong but the item text
+# gives no safe general rule.
+BLOCKLIST = {
+    "GEM/2026/B/8096926",   # AMC - Railways HHT
+    "GEM/2026/B/8116163",   # stationery bundle, matched "LED Desktop Calculator"
+    "GEM/2026/B/7733477",   # AV/lab bundle, matched "Desktop Monitor"
+    "GEM/2026/B/8011364",   # network security, matched "AAA Server"
+    "GEM/2026/B/7831757",
+    "GEM/2026/B/8095242",
+    "GEM/2026/B/8096227",
+}
 
 
 FIELDS = ["bid_number", "category", "matched_items", "item", "ministry",
@@ -273,6 +303,8 @@ def scrape(terms=None, max_pages=MAX_PAGES, delay=DELAY):
                     doc_id = str(one(d.get("b_id")))
 
                 if "/R/" in bid_no:       # belt and braces
+                    continue
+                if bid_no in BLOCKLIST:
                     continue
                 if bid_no in found:
                     continue
