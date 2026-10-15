@@ -100,6 +100,8 @@ ITEM_EXCLUDE = [
     r"organi[sz]er|clock|lamp|tray|mat|stand)",
     r"(monitor|calculator|speaker|lamp|clock)\s*,?\s*desktop",
     r"\baaa\s*server", r"\bntp\s*server", r"\bdns\s*server",
+    r"\bvms\b", r"\bcctv\b", r"video\s*(wall|controller|management)",
+    r"network\s*laptop", r"\brfid\b", r"staff\s*workstation",
     r"\bproxy\s*server", r"\bprint\s*server", r"\bterminal\s*server",
     r"vpn\s*server", r"\bwlan\b", r"\bqrng\b",
     # services / software / furniture
@@ -136,6 +138,10 @@ BLOCKLIST = {
     "GEM/2026/B/7831757",
     "GEM/2026/B/8095242",
     "GEM/2026/B/8096227",
+    "GEM/2026/B/8092498",   # RFID/library bundle, matched "Hybrid Staff workstation"
+    "GEM/2026/B/8134289",   # network infra bundle, matched "Network Laptop"
+    "GEM/2026/B/8118509",   # CCTV/VMS bundle, matched "Server for VMS Management"
+    "GEM/2026/B/8119237",   # CCTV/VMS bundle, matched "Server for VMS Management"
 }
 
 
