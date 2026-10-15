@@ -341,6 +341,21 @@ def scrape(terms=None, max_pages=MAX_PAGES, delay=DELAY):
     return list(found.values())
 
 
+def norm_date(v):
+    """Coerce a date to ISO. Guards against DD-MM-YYYY creeping in, which
+    silently breaks sorting and month grouping."""
+    v = (v or "").strip()
+    if not v:
+        return ""
+    if re.match(r"^\d{4}-\d{2}-\d{2}", v):
+        return v
+    m = re.match(r"^(\d{2})-(\d{2})-(\d{4})(.*)$", v)
+    if m:
+        d, mo, y, rest = m.groups()
+        return "{}-{}-{}{}".format(y, mo, d, rest)
+    return v
+
+
 def merge(rows):
     """Append only bid numbers we have not seen before."""
     existing = {}
@@ -348,6 +363,10 @@ def merge(rows):
         with open(CSV_PATH, newline="", encoding="utf8") as f:
             for r in csv.DictReader(f):
                 existing[r["bid_number"]] = r
+    for r in list(existing.values()) + list(rows):
+        for k in ("bid_start_date", "bid_end_date", "captured_on"):
+            if k in r:
+                r[k] = norm_date(r.get(k))
     new = [r for r in rows if r["bid_number"] not in existing]
     for r in new:
         existing[r["bid_number"]] = r

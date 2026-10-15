@@ -43,6 +43,7 @@ for r in ROWS:
         "e": (r.get("bid_end_date") or "")[:10],
         "t": (r.get("bid_start_date") or "")[:10],
         "a": r.get("captured_on", ""),
+        "mo": (r.get("bid_start_date") or "")[:7],
     }
     if str(r.get("is_bundle")) == "1":
         o["n"] = r.get("n_items", "")
@@ -113,6 +114,11 @@ a:hover{text-decoration:underline}
 .approx{color:#b45309;font-weight:700;margin-left:2px;cursor:help}
 .st{display:inline-block;background:#eef2f6;color:#334155;padding:2px 8px;border-radius:10px;font-size:11.5px;white-space:nowrap}
 .central{color:#9aa3ad;font-size:11.5px;font-style:italic;cursor:help}
+.mrow td{background:#f0f2f4;cursor:pointer;padding:10px 12px;font-size:13.5px;
+ border-top:1px solid #dfe3e8;user-select:none}
+.mrow:hover td{background:#e7eaed}
+.mrow .caret{display:inline-block;width:14px;color:#6b7280}
+.mcount{color:#6b7280;font-size:12px;margin-left:10px;font-weight:400}
 .empty{padding:40px;text-align:center;color:#6b7280}
 .note{color:#6b7280;font-size:12px;margin:12px 2px 0;line-height:1.6}
 .new{background:#fff5d6;border:1px solid #f0dc9a;color:#7a5c00;
@@ -124,7 +130,7 @@ a:hover{text-decoration:underline}
 <div class="cards">
  <div class="card"><div class="n" id="kTotal">0</div><div class="l">Bids tracked</div></div>
  <div class="card"><div class="n" id="kToday">0</div><div class="l">Starting today</div></div>
- <div class="card"><div class="n" id="kWeek">0</div><div class="l">Last 7 days</div></div>
+ <div class="card"><div class="n" id="kClosing">0</div><div class="l">Closing in 7 days</div></div>
  <div class="card"><div class="n" id="kQty">0</div><div class="l">Total quantity</div></div>
  <div class="card"><div class="n" id="kAdded">0</div><div class="l">Added today</div></div>
  <div class="card"><div class="n" id="kState">0</div><div class="l">States</div></div>
@@ -148,6 +154,11 @@ a:hover{text-decoration:underline}
    <option value="30">Started last 30 days</option>
   </select>
   <select id="state"><option value="all">All states</option></select>
+  <select id="status">
+   <option value="open">Open bids only</option>
+   <option value="closing">Closing within 7 days</option>
+   <option value="all">Include closed</option>
+  </select>
   <select id="bundle">
    <option value="all">All bids</option>
    <option value="single">Single-product only</option>
@@ -171,7 +182,7 @@ a:hover{text-decoration:underline}
  case the quantity carries an asterisk<span class="approx">*</span> because GeM publishes only a
  bid-wide total covering every line item, not just the computers. Per-product quantities exist
  only inside the bid PDF. &ldquo;Bid Start Date&rdquo; is when bidding opens, not the document
- publication date. Reverse auctions are excluded &mdash; only open tenders are listed. Bids that closed more than __GRACE__ days ago are not shown here &mdash; the full
+ publication date. Reverse auctions are excluded &mdash; only open tenders are listed. Bids are grouped by month &mdash; click a month to expand or collapse it. The view defaults to <b>open bids only</b>; use the status filter to include closed ones. Bids that closed more than __GRACE__ days ago are not stored in the page at all &mdash; the full
  history (__ALLN__ bids) is in <a href="bids.csv">bids.csv</a>.
  <b>State</b> is read from the buyer&rsquo;s department name; bids marked <i>central</i> are national bodies such as Military Affairs or Indian Railways that are not tied to one state.</p>
 </div>
@@ -192,6 +203,7 @@ document.querySelectorAll('.chip').forEach(c=>{
 document.getElementById('q').oninput=render;
 document.getElementById('range').onchange=render;
 document.getElementById('bundle').onchange=render;
+document.getElementById('status').onchange=()=>{openMonths=null;render();};
 const stSel=document.getElementById('state');
 [...new Set(ROWS.map(r=>r.s).filter(Boolean))].sort().forEach(st=>{
   const o=document.createElement('option');o.value=st;o.textContent=st;stSel.appendChild(o);});
@@ -205,6 +217,8 @@ function filtered(){
   const rangeVal=document.getElementById('range').value;
   const addedOnly = rangeVal==='added';
   const bundleVal=document.getElementById('bundle').value;
+  const stat=document.getElementById('status').value;
+  const soon=new Date(Date.now()+7*864e5).toISOString().slice(0,10);
   const stVal=document.getElementById('state').value;
   const days = addedOnly ? 0 : +rangeVal;
   let cut=null;
@@ -213,6 +227,8 @@ function filtered(){
     if(cat!=='all' && r.c!==cat) return false;
     if(stVal==='__central' && r.s) return false;
     if(stVal!=='all' && stVal!=='__central' && r.s!==stVal) return false;
+    if(stat==='open'    && (r.e||'') < TODAY) return false;
+    if(stat==='closing' && !((r.e||'') >= TODAY && (r.e||'') <= soon)) return false;
     if(bundleVal==='single' && r.n) return false;
     if(bundleVal==='bundle' && !r.n) return false;
     if(addedOnly && (r.a||'')!==TODAY) return false;
@@ -226,9 +242,16 @@ function filtered(){
   });
 }
 function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
-function render(){
-  const rows=filtered();
-  document.getElementById('tb').innerHTML = rows.map(r=>{
+const MONTHNAMES=['January','February','March','April','May','June','July',
+  'August','September','October','November','December'];
+function monthLabel(mo){
+  if(!mo) return 'Undated';
+  const [y,m]=mo.split('-');
+  return MONTHNAMES[(+m)-1]+' '+y;
+}
+let openMonths=JSON.parse(localStorage.getItem('gem_openmo')||'null');
+
+function rowHtml(r){
     const isNew=(r.t||'')===TODAY;
     const isNewToday=(r.a||'')===TODAY;
     const cls='t-'+(r.c==='All-in-One PC'?'AIO':r.c);
@@ -243,12 +266,39 @@ function render(){
       <td>${esc(r.t)}</td>
       <td>${esc(r.e)}</td>
       <td>${esc(r.a)}${isNewToday?'<span class="new">new</span>':''}</td></tr>`;
+}
+
+function render(){
+  const rows=filtered();
+  // group by month, newest first
+  const groups=new Map();
+  rows.forEach(r=>{const k=r.mo||'';if(!groups.has(k))groups.set(k,[]);groups.get(k).push(r);});
+  const keys=[...groups.keys()].sort().reverse();
+  if(openMonths===null) openMonths=[];   // all collapsed: page opens as a month summary
+  document.getElementById('tb').innerHTML = keys.map(k=>{
+    const g=groups.get(k);
+    const isOpen=openMonths.includes(k);
+    const qty=g.reduce((s,r)=>s+(+r.q||0),0);
+    const head=`<tr class="mrow" data-mo="${esc(k)}"><td colspan="8">
+        <span class="caret">${isOpen?'&#9662;':'&#9656;'}</span>
+        <b>${esc(monthLabel(k))}</b>
+        <span class="mcount">${g.length} bids &middot; ${qty.toLocaleString()} units</span>
+      </td></tr>`;
+    return head + (isOpen ? g.map(rowHtml).join('') : '');
   }).join('');
+  document.querySelectorAll('.mrow').forEach(tr=>{
+    tr.onclick=()=>{
+      const k=tr.dataset.mo;
+      openMonths = openMonths.includes(k) ? openMonths.filter(x=>x!==k) : openMonths.concat([k]);
+      localStorage.setItem('gem_openmo',JSON.stringify(openMonths));
+      render();
+    };
+  });
   document.getElementById('empty').style.display = rows.length?'none':'block';
-  const wk=new Date();wk.setDate(wk.getDate()-6);const wkS=wk.toISOString().slice(0,10);
+  const soon2=new Date(Date.now()+7*864e5).toISOString().slice(0,10);
   document.getElementById('kTotal').textContent=rows.length;
   document.getElementById('kToday').textContent=rows.filter(r=>(r.t||'')===TODAY).length;
-  document.getElementById('kWeek').textContent=rows.filter(r=>(r.t||'')>=wkS).length;
+  document.getElementById('kClosing').textContent=rows.filter(r=>(r.e||'')>=TODAY&&(r.e||'')<=soon2).length;
   document.getElementById('kQty').textContent=rows.reduce((s,r)=>s+(+r.q||0),0).toLocaleString();
   document.getElementById('kAdded').textContent=rows.filter(r=>(r.a||'')===TODAY).length;
   document.getElementById('kState').textContent=new Set(rows.map(r=>r.s).filter(Boolean)).size;
