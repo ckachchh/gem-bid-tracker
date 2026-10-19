@@ -15,6 +15,10 @@ python gem_bids_scraper.py "desktop computer"       >> update.log 2>&1
 python gem_bids_scraper.py "server" "all in one pc" >> update.log 2>&1
 python gem_bids_scraper.py "workstation"            >> update.log 2>&1
 
+REM Move bids closed >90 days ago into bids-archive.csv so bids.csv does
+REM not grow without limit. Nothing is deleted; the archive is committed too.
+python archive.py --days 90 >> update.log 2>&1
+
 python build_dashboard.py >> update.log 2>&1
 if errorlevel 1 (
   echo [%date% %time%] BUILD FAILED - nothing pushed >> update.log
@@ -25,7 +29,7 @@ if not exist docs mkdir docs
 copy /y dashboard.html docs\index.html >nul
 copy /y bids.csv       docs\bids.csv   >nul
 
-git add bids.csv bids.json docs >> update.log 2>&1
+git add bids.csv bids.json bids-archive.csv docs >> update.log 2>&1
 git diff --staged --quiet
 if not errorlevel 1 (
   echo [%date% %time%] no changes to push >> update.log
@@ -40,8 +44,8 @@ git fetch origin >> update.log 2>&1
 git rebase origin/main >> update.log 2>&1
 if errorlevel 1 (
   echo [%date% %time%] rebase conflict - taking local generated files >> update.log
-  git checkout --ours bids.csv bids.json docs/index.html docs/bids.csv >> update.log 2>&1
-  git add bids.csv bids.json docs >> update.log 2>&1
+  git checkout --ours bids.csv bids.json bids-archive.csv docs/index.html docs/bids.csv >> update.log 2>&1
+  git add bids.csv bids.json bids-archive.csv docs >> update.log 2>&1
   git -c core.editor=true rebase --continue >> update.log 2>&1
   if errorlevel 1 (
     git rebase --abort >> update.log 2>&1

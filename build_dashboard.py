@@ -154,6 +154,13 @@ a:hover{text-decoration:underline}
    <option value="30">Started last 30 days</option>
   </select>
   <select id="state"><option value="all">All states</option></select>
+  <select id="minq">
+   <option value="0">Any quantity</option>
+   <option value="5">5+ units</option>
+   <option value="20">20+ units</option>
+   <option value="50">50+ units</option>
+   <option value="100">100+ units</option>
+  </select>
   <select id="status">
    <option value="open">Open bids only</option>
    <option value="closing">Closing within 7 days</option>
@@ -182,7 +189,7 @@ a:hover{text-decoration:underline}
  case the quantity carries an asterisk<span class="approx">*</span> because GeM publishes only a
  bid-wide total covering every line item, not just the computers. Per-product quantities exist
  only inside the bid PDF. &ldquo;Bid Start Date&rdquo; is when bidding opens, not the document
- publication date. Reverse auctions are excluded &mdash; only open tenders are listed. Bids are grouped by month &mdash; click a month to expand or collapse it. The view defaults to <b>open bids only</b>; use the status filter to include closed ones. Bids that closed more than __GRACE__ days ago are not stored in the page at all &mdash; the full
+ publication date. Reverse auctions are excluded &mdash; only open tenders are listed. Bids are grouped by month &mdash; click a month to expand or collapse it. The view defaults to <b>open bids of 5+ units</b> &mdash; single-unit tenders are hidden by default. Use the quantity and status filters to widen it. Bids that closed more than __GRACE__ days ago are not stored in the page at all &mdash; the full
  history (__ALLN__ bids) is in <a href="bids.csv">bids.csv</a>.
  <b>State</b> is read from the buyer&rsquo;s department name; bids marked <i>central</i> are national bodies such as Military Affairs or Indian Railways that are not tied to one state.</p>
 </div>
@@ -204,6 +211,9 @@ document.getElementById('q').oninput=render;
 document.getElementById('range').onchange=render;
 document.getElementById('bundle').onchange=render;
 document.getElementById('status').onchange=()=>{openMonths=null;render();};
+const mq=document.getElementById('minq');
+mq.value=localStorage.getItem('gem_minq')||'5';
+mq.onchange=()=>{localStorage.setItem('gem_minq',mq.value);render();};
 const stSel=document.getElementById('state');
 [...new Set(ROWS.map(r=>r.s).filter(Boolean))].sort().forEach(st=>{
   const o=document.createElement('option');o.value=st;o.textContent=st;stSel.appendChild(o);});
@@ -218,6 +228,7 @@ function filtered(){
   const addedOnly = rangeVal==='added';
   const bundleVal=document.getElementById('bundle').value;
   const stat=document.getElementById('status').value;
+  const minq=+document.getElementById('minq').value||0;
   const soon=new Date(Date.now()+7*864e5).toISOString().slice(0,10);
   const stVal=document.getElementById('state').value;
   const days = addedOnly ? 0 : +rangeVal;
@@ -227,6 +238,7 @@ function filtered(){
     if(cat!=='all' && r.c!==cat) return false;
     if(stVal==='__central' && r.s) return false;
     if(stVal!=='all' && stVal!=='__central' && r.s!==stVal) return false;
+    if(minq && (+r.q||0) < minq) return false;
     if(stat==='open'    && (r.e||'') < TODAY) return false;
     if(stat==='closing' && !((r.e||'') >= TODAY && (r.e||'') <= soon)) return false;
     if(bundleVal==='single' && r.n) return false;
