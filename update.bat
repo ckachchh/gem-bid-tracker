@@ -10,16 +10,28 @@ cd /d "%~dp0"
 echo. >> update.log
 echo ======== [%date% %time%] start ======== >> update.log
 
-python gem_bids_scraper.py "laptop" "notebook"      >> update.log 2>&1
-python gem_bids_scraper.py "desktop computer"       >> update.log 2>&1
-python gem_bids_scraper.py "server" "all in one pc" >> update.log 2>&1
-python gem_bids_scraper.py "workstation"            >> update.log 2>&1
+REM ---- Find Python ------------------------------------------------
+REM If auto-detect fails, edit the "set PY=" line below to the full path, e.g.
+REM   set PY="C:\Users\you\AppData\Local\Programs\Python\Python312\python.exe"
+set PY=
+if not defined PY (py -3 --version >nul 2>&1 && set PY=py -3)
+if not defined PY (python --version >nul 2>&1 && set PY=python)
+if not defined PY (
+  echo [%date% %time%] PYTHON NOT FOUND - install Python or set PY in update.bat >> update.log
+  exit /b 1
+)
+echo using: %PY% >> update.log
+
+%PY% gem_bids_scraper.py "laptop" "notebook"      >> update.log 2>&1
+%PY% gem_bids_scraper.py "desktop computer"       >> update.log 2>&1
+%PY% gem_bids_scraper.py "server" "all in one pc" >> update.log 2>&1
+%PY% gem_bids_scraper.py "workstation"            >> update.log 2>&1
 
 REM Move bids closed >90 days ago into bids-archive.csv so bids.csv does
 REM not grow without limit. Nothing is deleted; the archive is committed too.
-python archive.py --days 90 >> update.log 2>&1
+%PY% archive.py --days 90 >> update.log 2>&1
 
-python build_dashboard.py >> update.log 2>&1
+%PY% build_dashboard.py >> update.log 2>&1
 if errorlevel 1 (
   echo [%date% %time%] BUILD FAILED - nothing pushed >> update.log
   exit /b 1
