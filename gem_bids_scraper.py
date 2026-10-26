@@ -142,6 +142,21 @@ BLOCKLIST = {
     "GEM/2026/B/8134289",   # network infra bundle, matched "Network Laptop"
     "GEM/2026/B/8118509",   # CCTV/VMS bundle, matched "Server for VMS Management"
     "GEM/2026/B/8119237",   # CCTV/VMS bundle, matched "Server for VMS Management"
+    # added 2026-10-26 on request
+    "GEM/2026/B/8183146",   # J&K network infra, matched "Server or Network Rack"
+    "GEM/2026/B/8181907",   # J&K network infra, matched "Server or Network Rack"
+    "GEM/2026/B/8187883",   # Odisha PACS bundle (desktop+MFP+UPS)
+    "GEM/2026/B/8164925",   # LoRa situational awareness system, matched "Management Console (Laptop)"
+    "GEM/2026/B/8028138",   # DRDO smart rack system for server room
+    "GEM/2026/B/8190241",   # DAE furniture, matched "WISH PENTA WORKSTATION" (desk)
+    "GEM/2026/B/8089819",   # personnel tracking / LoRaWAN, matched "Network Server"
+    "GEM/2026/B/8182545",   # AAI displays/racks/conduit bundle, matched "WORKSTATION"
+    "GEM/2026/B/8154230",   # central server + thin clients bundle
+    "GEM/2026/B/8176116",   # ops-room furniture, matched "Aluminium workstation"
+    "GEM/2026/B/8081648",   # trainee/instructor station simulator bundle
+    "GEM/2026/B/8178755",   # office chairs/furniture, matched "Workstation"
+    "GEM/2026/B/8185697",   # agri supplies, matched "Desktop Plastic tray"
+    "GEM/2026/B/8160690",   # banking "Workstation Node" system bundle
 }
 
 
