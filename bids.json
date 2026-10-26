@@ -1,19 +1,19 @@
 {
- "updated": "2026-10-26 11:55 UTC",
- "total": 4005,
+ "updated": "2026-10-26 12:09 UTC",
+ "total": 3993,
  "new_today": 1,
  "rows": [
   {
    "bid_number": "GEM/2026/B/7676325",
    "category": "Desktop",
+   "matched_items": "Digital Forensic Workstation",
    "item": "Digital Forensic Workstation",
    "ministry": "Ministry of Home Affairs",
    "department": "Women Safety Division",
    "state": "",
-   "quantity": 3,
-   "matched_items": "Digital Forensic Workstation",
-   "n_items": 1,
-   "is_bundle": 0,
+   "quantity": "3",
+   "n_items": "1",
+   "is_bundle": "0",
    "bid_start_date": "2026-10-27 18:00",
    "bid_end_date": "2026-10-28 18:00",
    "bid_url": "https://bidplus.gem.gov.in/showbidDocument/9481662",
@@ -193,6 +193,38 @@
    "bid_start_date": "2026-10-27 11:00",
    "bid_end_date": "2026-10-28 11:00",
    "bid_url": "https://bidplus.gem.gov.in/showbidDocument/9847657",
+   "captured_on": "2026-10-26"
+  },
+  {
+   "bid_number": "GEM/2026/B/8202632",
+   "category": "Laptop",
+   "matched_items": "Rugged Laptop for testing TCMS (Train Control Management System)",
+   "item": "Rugged Laptop for testing TCMS (Train Control Management System)",
+   "ministry": "Ministry of Defence",
+   "department": "Department of Defence Production",
+   "state": "",
+   "quantity": "2",
+   "n_items": "1",
+   "is_bundle": "0",
+   "bid_start_date": "2026-10-26 17:28",
+   "bid_end_date": "2026-11-17 15:00",
+   "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10083512",
+   "captured_on": "2026-10-26"
+  },
+  {
+   "bid_number": "GEM/2026/B/8167957",
+   "category": "Desktop",
+   "item": "Digital Forensic Workstation",
+   "ministry": "Ministry of Home Affairs",
+   "department": "Women Safety Division",
+   "state": "",
+   "quantity": 5,
+   "matched_items": "Digital Forensic Workstation",
+   "n_items": 1,
+   "is_bundle": 0,
+   "bid_start_date": "2026-10-26 17:24",
+   "bid_end_date": "2026-11-16 18:00",
+   "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10043162",
    "captured_on": "2026-10-26"
   },
   {
@@ -673,22 +705,6 @@
    "bid_start_date": "2026-10-26 14:36",
    "bid_end_date": "2026-11-05 21:00",
    "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10081960",
-   "captured_on": "2026-10-26"
-  },
-  {
-   "bid_number": "GEM/2026/B/8164925",
-   "category": "Laptop",
-   "matched_items": "Management Console (Laptop)",
-   "item": "LORA (Long Range) Based Situational Awareness System,Management Console (Laptop),Visual Display Dev",
-   "ministry": "Ministry of Defence",
-   "department": "Department of Military Affairs",
-   "state": "",
-   "quantity": "5011",
-   "n_items": "3",
-   "is_bundle": "1",
-   "bid_start_date": "2026-10-26 14:27",
-   "bid_end_date": "2026-11-16 14:00",
-   "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10039744",
    "captured_on": "2026-10-26"
   },
   {
@@ -3108,22 +3124,6 @@
    "captured_on": "2026-10-26"
   },
   {
-   "bid_number": "GEM/2026/B/8178755",
-   "category": "Desktop",
-   "matched_items": "Workstation X sha",
-   "item": "Officer Chair,Staff Chair,Visitors Chair,Conference Room and Training Room Chairs,Workstation X sha",
-   "ministry": "Ministry of Labour and Employment",
-   "department": "NA",
-   "state": "",
-   "quantity": "317",
-   "n_items": "5",
-   "is_bundle": "1",
-   "bid_start_date": "2026-10-23 18:08",
-   "bid_end_date": "2026-11-14 11:00",
-   "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10055605",
-   "captured_on": "2026-10-26"
-  },
-  {
    "bid_number": "GEM/2026/B/7972151",
    "category": "Desktop",
    "matched_items": "High End Desktop Computer",
@@ -3844,22 +3844,6 @@
    "captured_on": "2026-10-26"
   },
   {
-   "bid_number": "GEM/2026/B/8181907",
-   "category": "Server",
-   "matched_items": "Server or Network Rack (V2)",
-   "item": "Server or Network Rack (V2),Ethernet Cables,Copper Patch Cord,Copper Patch Cord,Distribution Switch",
-   "ministry": "",
-   "department": "Information Technology Department Jammu and Kashmir",
-   "state": "Jammu & Kashmir",
-   "quantity": "44077",
-   "n_items": "5",
-   "is_bundle": "1",
-   "bid_start_date": "2026-10-23 15:09",
-   "bid_end_date": "2026-11-07 16:00",
-   "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10059485",
-   "captured_on": "2026-10-26"
-  },
-  {
    "bid_number": "GEM/2026/B/8192852",
    "category": "Desktop",
    "matched_items": "High End Desktop Computer",
@@ -3873,22 +3857,6 @@
    "bid_start_date": "2026-10-23 15:08",
    "bid_end_date": "2026-11-06 15:00",
    "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10072056",
-   "captured_on": "2026-10-26"
-  },
-  {
-   "bid_number": "GEM/2026/B/8183146",
-   "category": "Server",
-   "matched_items": "Server or Network Rack (V2)",
-   "item": "Server or Network Rack (V2),Ethernet Cables,Copper Patch Cord,Copper Patch Cord,Core switch,Distrib",
-   "ministry": "",
-   "department": "Information Technology Department Jammu and Kashmir",
-   "state": "Jammu & Kashmir",
-   "quantity": "44797",
-   "n_items": "6",
-   "is_bundle": "1",
-   "bid_start_date": "2026-10-23 15:05",
-   "bid_end_date": "2026-11-07 16:00",
-   "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10061024",
    "captured_on": "2026-10-26"
   },
   {
@@ -4385,22 +4353,6 @@
    "bid_start_date": "2026-10-23 12:26",
    "bid_end_date": "2026-11-13 13:00",
    "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10068214",
-   "captured_on": "2026-10-26"
-  },
-  {
-   "bid_number": "GEM/2026/B/8187883",
-   "category": "Desktop",
-   "matched_items": "DESKTOP PACS",
-   "item": "DESKTOP PACS,A4 and Legal Size Multifunction Printer (MFP),Line Interactive UPS with AVR (V2),L 1 F",
-   "ministry": "",
-   "department": "Co-operation Department Odisha",
-   "state": "Odisha",
-   "quantity": "13540",
-   "n_items": "4",
-   "is_bundle": "1",
-   "bid_start_date": "2026-10-23 12:26",
-   "bid_end_date": "2026-11-07 13:00",
-   "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10066476",
    "captured_on": "2026-10-26"
   },
   {
@@ -5105,22 +5057,6 @@
    "bid_start_date": "2026-10-22 18:57",
    "bid_end_date": "2026-11-02 18:00",
    "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10063606",
-   "captured_on": "2026-10-23"
-  },
-  {
-   "bid_number": "GEM/2026/B/8190241",
-   "category": "Desktop",
-   "matched_items": "WISH PENTA WORKSTATION 1500W1 x 1500W2 x 600D X 1200H in mm",
-   "item": "WISH PENTA WORKSTATION 1500W1 x 1500W2 x 600D X 1200H in mm,Arrive Table MAIN 3600 WITH ERU 1900W,A",
-   "ministry": "PMO",
-   "department": "Department of Atomic Energy",
-   "state": "",
-   "quantity": "1081",
-   "n_items": "3",
-   "is_bundle": "1",
-   "bid_start_date": "2026-10-22 18:53",
-   "bid_end_date": "2026-11-12 15:00",
-   "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10069079",
    "captured_on": "2026-10-23"
   },
   {
@@ -5857,22 +5793,6 @@
    "bid_start_date": "2026-10-22 15:35",
    "bid_end_date": "2026-11-02 16:00",
    "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10007600",
-   "captured_on": "2026-10-23"
-  },
-  {
-   "bid_number": "GEM/2026/B/8081648",
-   "category": "Server",
-   "matched_items": "Trainee Station Personal Computer with given minimum | Instructor Station Configured as Server PC wit",
-   "item": "Trainee Station Personal Computer with given minimum,Instructor Station Configured as Server PC wit",
-   "ministry": "Ministry of Defence",
-   "department": "Department of Military Affairs",
-   "state": "",
-   "quantity": "466",
-   "n_items": "2",
-   "is_bundle": "1",
-   "bid_start_date": "2026-10-22 15:29",
-   "bid_end_date": "2026-11-12 16:00",
-   "bid_url": "https://bidplus.gem.gov.in/showbidDocument/9944500",
    "captured_on": "2026-10-23"
   },
   {
@@ -6753,22 +6673,6 @@
    "bid_start_date": "2026-10-22 10:14",
    "bid_end_date": "2026-11-06 11:00",
    "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10064485",
-   "captured_on": "2026-10-22"
-  },
-  {
-   "bid_number": "GEM/2026/B/8185697",
-   "category": "Desktop",
-   "matched_items": "Desktop Plastic tray",
-   "item": "Vermi compost beds,Belcha,Glycel,Khurpi alloy steel,Green net,Desktop Plastic tray,Plant cutter for",
-   "ministry": "Ministry of Agriculture and Farmers Welfare",
-   "department": "Department of Agricultural Research and Education (DARE)",
-   "state": "",
-   "quantity": "248",
-   "n_items": "7",
-   "is_bundle": "1",
-   "bid_start_date": "2026-10-22 10:04",
-   "bid_end_date": "2026-11-12 12:00",
-   "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10063975",
    "captured_on": "2026-10-22"
   },
   {
@@ -8081,22 +7985,6 @@
    "bid_start_date": "2026-10-21 13:52",
    "bid_end_date": "2026-10-31 14:00",
    "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10061190",
-   "captured_on": "2026-10-21"
-  },
-  {
-   "bid_number": "GEM/2026/B/8182545",
-   "category": "Desktop",
-   "matched_items": "WORKSTATION",
-   "item": "43INNCH DIPLAY,55INNCH DIPLAY,WORKSTATION,EQUIPMENTRACK,PVC_CODUIT,3CORE2POINT5_CABLE,CAT6_CABLE,SO",
-   "ministry": "Ministry of Civil Aviation",
-   "department": "Airports Authority of India (AAI)",
-   "state": "",
-   "quantity": "952",
-   "n_items": "8",
-   "is_bundle": "1",
-   "bid_start_date": "2026-10-21 13:51",
-   "bid_end_date": "2026-11-11 14:00",
-   "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10060289",
    "captured_on": "2026-10-21"
   },
   {
@@ -9748,22 +9636,6 @@
    "captured_on": "2026-10-21"
   },
   {
-   "bid_number": "GEM/2026/B/8089819",
-   "category": "Server",
-   "matched_items": "Network Server",
-   "item": "Personnel Tracking Tag,Outdoor LoRaWAN Gateway,BLE Gateway BLE Scanner,BLE Beacon,Network Server,Ap",
-   "ministry": "Ministry of Defence",
-   "department": "Department of Military Affairs",
-   "state": "",
-   "quantity": "1361",
-   "n_items": "6",
-   "is_bundle": "1",
-   "bid_start_date": "2026-10-19 13:29",
-   "bid_end_date": "2026-11-09 14:00",
-   "bid_url": "https://bidplus.gem.gov.in/showbidDocument/9953898",
-   "captured_on": "2026-10-21"
-  },
-  {
    "bid_number": "GEM/2026/B/7527633",
    "category": "Laptop",
    "matched_items": "Laptop | Laptop (Macbook)",
@@ -11316,22 +11188,6 @@
    "captured_on": "2026-10-19"
   },
   {
-   "bid_number": "GEM/2026/B/8176116",
-   "category": "Desktop",
-   "matched_items": "Customized Aluminium workstation for Ops Room",
-   "item": "Customized Table of Size 3 x 2 ft with drawer,Customized Aluminium workstation for Ops Room,Photo F",
-   "ministry": "Ministry of Defence",
-   "department": "Department of Military Affairs",
-   "state": "",
-   "quantity": "486",
-   "n_items": "3",
-   "is_bundle": "1",
-   "bid_start_date": "2026-10-17 15:21",
-   "bid_end_date": "2026-10-27 16:00",
-   "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10052471",
-   "captured_on": "2026-10-19"
-  },
-  {
    "bid_number": "GEM/2026/B/8175962",
    "category": "Desktop",
    "matched_items": "Fixed Computer Workstation (V2)",
@@ -12337,22 +12193,6 @@
    "bid_start_date": "2026-10-16 23:40",
    "bid_end_date": "2026-10-27 12:00",
    "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10047812",
-   "captured_on": "2026-10-19"
-  },
-  {
-   "bid_number": "GEM/2026/B/8154230",
-   "category": "Server",
-   "matched_items": "Central Server",
-   "item": "Central Server,Thin Client 8GB RAM 256GB SSD N Computing C400 8GB and 1GB,LED Monitors HP 27 Inch F",
-   "ministry": "Ministry of Defence",
-   "department": "Department of Military Affairs",
-   "state": "",
-   "quantity": "939",
-   "n_items": "3",
-   "is_bundle": "1",
-   "bid_start_date": "2026-10-16 21:35",
-   "bid_end_date": "2026-10-27 21:00",
-   "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10027808",
    "captured_on": "2026-10-19"
   },
   {
@@ -13553,22 +13393,6 @@
    "bid_start_date": "2026-10-16 15:14",
    "bid_end_date": "2026-10-26 16:00",
    "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10047554",
-   "captured_on": "2026-10-19"
-  },
-  {
-   "bid_number": "GEM/2026/B/8028138",
-   "category": "Server",
-   "matched_items": "Integrated Smart Rack System for Server Room-1 | Integrated Smart Rack System for Server Room-2",
-   "item": "Integrated Smart Rack System for Server Room-1,Integrated Smart Rack System for Server Room-2,Serve",
-   "ministry": "Ministry of Defence",
-   "department": "Department of Defence Research & Development",
-   "state": "",
-   "quantity": "3722",
-   "n_items": "3",
-   "is_bundle": "1",
-   "bid_start_date": "2026-10-16 15:10",
-   "bid_end_date": "2026-11-06 16:00",
-   "bid_url": "https://bidplus.gem.gov.in/showbidDocument/9883074",
    "captured_on": "2026-10-19"
   },
   {
@@ -18002,22 +17826,6 @@
    "bid_end_date": "2026-11-04 12:00",
    "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10031451",
    "captured_on": "2026-10-15"
-  },
-  {
-   "bid_number": "GEM/2026/B/8160690",
-   "category": "Desktop",
-   "matched_items": "Workstation Node",
-   "item": "Workstation Node,Hardcopy output peripheral,Network Routing unit,Delivery and Installation,Configur",
-   "ministry": "Ministry of Finance",
-   "department": "BANKING SECTOR",
-   "state": "",
-   "quantity": "215",
-   "n_items": "5",
-   "is_bundle": "1",
-   "bid_start_date": "2026-10-14 16:38",
-   "bid_end_date": "2026-11-04 17:00",
-   "bid_url": "https://bidplus.gem.gov.in/showbidDocument/10034948",
-   "captured_on": "2026-10-16"
   },
   {
    "bid_number": "GEM/2026/B/8161469",
