@@ -112,6 +112,14 @@ ITEM_EXCLUDE = [
     r"modular\s*work\s*station", r"combined\s*style", r"seater", r"\bchair\b",
     r"\bdesk\b", r"\btable\b", r"furniture", r"frame\s*:",
     r"air\s*condition", r"\bvrf\b", r"\bvrv\b",
+    # hand tools / misc that slipped through on the word "PC" (2026-10-29).
+    # "N pc" inside a set/kit is a piece count ("9 pc Hex Wrench Set"), not a
+    # computer. Model numbers ("Optiplex 3090 PC") are unaffected: no set/kit.
+    r"\b(set|kit)\b.*\b\d+\s*pcs?\b", r"\b\d+\s*pcs?\b.*\b(set|kit)\b",
+    r"wrench", r"screw\s*dri?e?ver", r"\bspanner", r"\bplier", r"hex\s*key",
+    r"\bchairs\b", r"adopter", r"\bpc\s*-\s*\d+(\.\d+)?\s*m", r"\bacms\b",
+    # thin clients are not PCs, even when listed as "Thin Client or Mini PC"
+    r"thin\s*client",
 ]
 
 # Whole-bid rejects: if the bid title itself is a service contract
