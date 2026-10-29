@@ -123,42 +123,9 @@ ITEM_EXCLUDE = [
     r"\b(set|kit)\b.*\b\d+\s*pcs?\b", r"\b\d+\s*pcs?\b.*\b(set|kit)\b",
     r"wrench", r"screw\s*dri?e?ver", r"\bspanner", r"\bplier", r"hex\s*key",
     r"\bchairs\b", r"adopter", r"\bpc\s*-\s*\d+(\.\d+)?\s*m", r"\bacms\b",
-    # "2 PC BOWL" / "3 pc cookware": a small number + PC + another noun is a
-    # piece count (2026-10-30). Model names ("Optiplex 3090 PC", "HP 400 G9 PC",
-    # "HP Pro 400 PC with ...") have 3+ digits or nothing/with after PC.
-    r"\b\d{1,2}\s*pcs?\s+(?!with\b|for\b|and\b|desktop|computer|system|tower)[a-z]",
-    # kitchenware / corporate gift items
-    r"\bbowls?\b", r"\bmugs?\b", r"casserole", r"cookware", r"crockery",
-    r"dinner\s*set", r"\butensil", r"\btiffin", r"\btumbler", r"\bflask\b",
     # thin clients are not PCs, even when listed as "Thin Client or Mini PC"
     r"thin\s*client",
-    # racks are not servers (2026-10-29): "Server or Network Rack (V2)",
-    # "Smart Rack for DGX", "42U Server Rack Cabinet". An item ENDING in "rack"
-    # is the rack itself; "Rack Server" / "Rack-mountable server" don't end in
-    # it, and "Server with server rack" is kept (the server is the item).
-    r"^(?!.*\bserver\s+with\b).*\brack\s*(\(v\d+\))?\s*$",
-    r"rack\s*(cabinet|enclosure)", r"smart\s*(server\s*)?rack", r"network\s*rack",
-    # office furniture sold as "workstation" (desks / cubicles)
-    r"\bl[\s-]*shaped?\b", r"\blinear\s*work", r"curvilinear", r"desking",
-    r"cubic(al|le)", r"open\s*type\s*work", r"executive\s*work",
-    r"height\s*adjustable", r"\bc\s*type\b", r"\d+(\.\d+)?\s*(mm|ft|feet)\s*[x×*]",
-    r"alumin",
-    # lab / medical units sold as "workstation"
-    r"\bent\b", r"ear\s*nose", r"\besd\b", r"histopath", r"electro\s*chemical",
-    r"tissue\s*culture", r"photochemical", r"seam\s*seal", r"accelerometer",
-    r"ergonomic",
 ]
-
-# A bare "Workstation" in a bid that also lists chairs / pedestals / tables
-# is a desk, not a computer (2026-10-29). Items with any computer word
-# ("Computer Workstation", "GPU Workstation", "Workstation i7") are kept.
-FURNITURE_HINT = (r"\bchairs?\b|pedestal|almirah|over\s*head|storage\s*(cabinet|unit)|"
-                  r"partition|\bsofa|visitor|book\s*shelf|cpu\s*trolley|cupboard|"
-                  r"\btables?\b|modular|drawer")
-COMPUTE_HINT = (r"comput|\bpc\b|desktop|\bcpu\b|gpu|processor|intel|amd|xeon|ryzen|"
-                r"\bi[3579]\b|\bram\b|\d+\s*gb|windows|ubuntu|linux|\bmac|graphic|"
-                r"server|laptop|mobile|portable|high[\s-]*(end|performance)|"
-                r"hi[\s-]*end|\(v\d\)|\bz\d|precision|forensic|\bgen\b|monitor")
 
 # Whole-bid rejects: if the bid title itself is a service contract
 # Checked against the WHOLE title before the comma-split, because a phrase
@@ -170,9 +137,6 @@ BID_EXCLUDE = [
     r"comprehensive\s*annual", r"comprehensive\s*maint",
     r"maintenance\s*(contract|of|for)", r"\bupkeep\b",
     r"repair\s*(and|&|of)", r"servicing\s*of", r"\bwarranty\s*extension",
-    # added 2026-10-29 on request: lump-sum service bids and LoRa/LoRaWAN
-    # tracking systems (laptops there are just consoles for the system)
-    r"facility\s*management", r"\blora(wan)?\b",
 ]
 
 
@@ -311,11 +275,6 @@ def classify(title):
             if any(re.search(p, t) for p in pats):
                 matched.append((bucket, item))
                 break
-
-    if any(re.search(FURNITURE_HINT, i.lower()) for i in items):
-        matched = [(b, i) for b, i in matched
-                   if not (re.search(r"work\s*station", i.lower())
-                           and not re.search(COMPUTE_HINT, i.lower()))]
 
     if not matched:
         return None, [], len(items)
