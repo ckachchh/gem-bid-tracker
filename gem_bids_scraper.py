@@ -123,6 +123,13 @@ ITEM_EXCLUDE = [
     r"\b(set|kit)\b.*\b\d+\s*pcs?\b", r"\b\d+\s*pcs?\b.*\b(set|kit)\b",
     r"wrench", r"screw\s*dri?e?ver", r"\bspanner", r"\bplier", r"hex\s*key",
     r"\bchairs\b", r"adopter", r"\bpc\s*-\s*\d+(\.\d+)?\s*m", r"\bacms\b",
+    # "2 PC BOWL" / "3 pc cookware": a small number + PC + another noun is a
+    # piece count (2026-10-30). Model names ("Optiplex 3090 PC", "HP 400 G9 PC",
+    # "HP Pro 400 PC with ...") have 3+ digits or nothing/with after PC.
+    r"\b\d{1,2}\s*pcs?\s+(?!with\b|for\b|and\b|desktop|computer|system|tower)[a-z]",
+    # kitchenware / corporate gift items
+    r"\bbowls?\b", r"\bmugs?\b", r"casserole", r"cookware", r"crockery",
+    r"dinner\s*set", r"\butensil", r"\btiffin", r"\btumbler", r"\bflask\b",
     # thin clients are not PCs, even when listed as "Thin Client or Mini PC"
     r"thin\s*client",
     # racks are not servers (2026-10-29): "Server or Network Rack (V2)",
