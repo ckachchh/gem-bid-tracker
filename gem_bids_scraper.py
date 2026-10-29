@@ -13,7 +13,7 @@ Usage:
     python3 gem_bids_scraper.py                 # all search terms
     python3 gem_bids_scraper.py laptop server   # subset
 Env:
-    GEM_MAX_PAGES (default 30)   GEM_DELAY (default 1.2 seconds between pages)
+    GEM_MAX_PAGES (default 300)  GEM_DELAY (default 1.2 seconds between pages)
 """
 
 import csv
@@ -40,7 +40,12 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 CSV_PATH = os.path.join(HERE, "bids.csv")
 JSON_PATH = os.path.join(HERE, "bids.json")
 
-MAX_PAGES = int(os.environ.get("GEM_MAX_PAGES", "30"))
+# Read every page of results, not just the newest few. GeM's full-text search
+# is loose ("all in one pc" returns ~2,500 open bids, most irrelevant), so a
+# 30-page cap missed dozens of genuine bids, and never re-read older bids, so
+# extended close dates went unnoticed. Paging stops at numFound anyway; this
+# is only a safety cap.
+MAX_PAGES = int(os.environ.get("GEM_MAX_PAGES", "300"))
 DELAY = float(os.environ.get("GEM_DELAY", "1.2"))
 
 # Terms handed to GeM's own full-text search (server-side narrowing)
@@ -297,12 +302,42 @@ def scrape(terms=None, max_pages=MAX_PAGES, delay=DELAY):
     found = {}
     for term in (terms or SEARCH_TERMS):
         page = 1
+        num_found = None      # from the last good page; lets us skip a bad one
+        bad_in_row = 0
         while page <= max_pages:
-            try:
-                resp = fetch_page(op, token, term, page)
-            except Exception as e:
-                print("  ! {} p{}: {}".format(term, page, e), flush=True)
-                break
+            # GeM throws the odd HTTP 500 / connection reset. Retry the page
+            # twice (5s, then 10s with a fresh session) before giving up on
+            # it, and then skip just that page instead of dropping the rest of
+            # the term. Three dead pages in a row = GeM is down, stop the term.
+            resp, err = None, None
+            for attempt, wait in enumerate((0, 5, 10)):
+                if wait:
+                    time.sleep(wait)
+                    if attempt == 2:
+                        try:
+                            op, token = get_session()
+                        except Exception as e:
+                            err = e
+                            continue
+                try:
+                    resp = fetch_page(op, token, term, page)
+                    break
+                except Exception as e:
+                    err = e
+                    print("  ! {} p{} try {}: {}".format(term, page, attempt + 1, e), flush=True)
+            if resp is None:
+                bad_in_row += 1
+                if num_found is None or bad_in_row >= 3:
+                    print("  ! {}: giving up at p{}".format(term, page), flush=True)
+                    break
+                print("  ! {}: skipping p{}".format(term, page), flush=True)
+                if page * 10 >= num_found:
+                    break
+                page += 1
+                time.sleep(delay)
+                continue
+            bad_in_row = 0
+            num_found = resp.get("numFound", 0)
             docs = resp.get("docs", [])
             if not docs:
                 break
@@ -335,7 +370,12 @@ def scrape(terms=None, max_pages=MAX_PAGES, delay=DELAY):
                     continue
                 if bid_no in BLOCKLIST:
                     continue
+                end_date = fmt_date(one(d.get("final_end_date_sort")))
                 if bid_no in found:
+                    # same tender seen again (e.g. via its reverse auction):
+                    # keep the later close date
+                    if end_date > found[bid_no]["bid_end_date"]:
+                        found[bid_no]["bid_end_date"] = end_date
                     continue
 
                 dept = html.unescape(str(one(d.get("ba_official_details_deptName"))))
@@ -352,7 +392,7 @@ def scrape(terms=None, max_pages=MAX_PAGES, delay=DELAY):
                     "n_items": n_items,
                     "is_bundle": 1 if n_items > 1 else 0,
                     "bid_start_date": fmt_date(one(d.get("final_start_date_sort"))),
-                    "bid_end_date": fmt_date(one(d.get("final_end_date_sort"))),
+                    "bid_end_date": end_date,
                     "bid_url": BASE + "/showbidDocument/" + doc_id,
                     "captured_on": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
                 }
@@ -380,7 +420,13 @@ def norm_date(v):
 
 
 def merge(rows):
-    """Append only bid numbers we have not seen before."""
+    """Append bid numbers we have not seen before, and refresh the close date
+    of ones we have. Everything else on an existing row is left as first seen.
+
+    GeM extends close dates often; without the refresh an extended bid keeps
+    its old date, shows as closed and drops off the dashboard while it is
+    still open. Only a LATER date is taken, never an earlier one.
+    """
     existing = {}
     if os.path.exists(CSV_PATH):
         with open(CSV_PATH, newline="", encoding="utf8") as f:
@@ -391,6 +437,12 @@ def merge(rows):
             if k in r:
                 r[k] = norm_date(r.get(k))
     new = [r for r in rows if r["bid_number"] not in existing]
+    extended = 0
+    for r in rows:
+        old = existing.get(r["bid_number"])
+        if old is not None and (r.get("bid_end_date") or "") > (old.get("bid_end_date") or ""):
+            old["bid_end_date"] = r["bid_end_date"]
+            extended += 1
     for r in new:
         existing[r["bid_number"]] = r
 
@@ -409,7 +461,7 @@ def merge(rows):
             "new_today": len(new),
             "rows": allrows,
         }, f, indent=1)
-    return allrows, new
+    return allrows, new, extended
 
 
 if __name__ == "__main__":
@@ -425,10 +477,11 @@ if __name__ == "__main__":
             print("existing {} kept; continuing".format(CSV_PATH), flush=True)
             sys.exit(0)
         sys.exit(1)
-    allrows, new = merge(rows)
+    allrows, new, extended = merge(rows)
     print("")
     print("Matched this run   : {}".format(len(rows)))
     print("New since last run : {}".format(len(new)))
+    print("Close date extended: {}".format(extended))
     print("Total tracked      : {}".format(len(allrows)))
     print("CSV  : " + CSV_PATH)
     print("JSON : " + JSON_PATH)
