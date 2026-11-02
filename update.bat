@@ -27,6 +27,11 @@ echo using: %PY% >> update.log
 %PY% gem_bids_scraper.py "server" "all in one pc" >> update.log 2>&1
 %PY% gem_bids_scraper.py "workstation"            >> update.log 2>&1
 
+REM Read the bid PDF of each new bundled bid (e.g. "Desktop, Printer, UPS") to
+REM get exact desktop/laptop/AIO/workstation/server counts -> bid_items.json.
+REM Only bids not read before are downloaded. A failure here never stops the run.
+%PY% gem_items.py >> update.log 2>&1
+
 REM Move bids closed >90 days ago into bids-archive.csv so bids.csv does
 REM not grow without limit. Nothing is deleted; the archive is committed too.
 %PY% archive.py --days 90 >> update.log 2>&1
@@ -41,7 +46,7 @@ if not exist docs mkdir docs
 copy /y dashboard.html docs\index.html >nul
 copy /y bids.csv       docs\bids.csv   >nul
 
-git add bids.csv bids.json bids-archive.csv docs >> update.log 2>&1
+git add bids.csv bids.json bids-archive.csv bid_items.json docs >> update.log 2>&1
 git diff --staged --quiet
 if not errorlevel 1 (
   echo [%date% %time%] no changes to push >> update.log
@@ -53,11 +58,12 @@ git commit -m "data: %date%" >> update.log 2>&1
 REM Remote may have moved (e.g. edits made on github.com). Rebase onto it
 REM first; generated files always resolve in favour of our fresh copy.
 git fetch origin >> update.log 2>&1
-git rebase origin/main >> update.log 2>&1
+REM --autostash: uncommitted code edits (e.g. a changed .py) must not block the push
+git rebase --autostash origin/main >> update.log 2>&1
 if errorlevel 1 (
   echo [%date% %time%] rebase conflict - taking local generated files >> update.log
-  git checkout --ours bids.csv bids.json bids-archive.csv docs/index.html docs/bids.csv >> update.log 2>&1
-  git add bids.csv bids.json bids-archive.csv docs >> update.log 2>&1
+  git checkout --ours bids.csv bids.json bids-archive.csv bid_items.json docs/index.html docs/bids.csv >> update.log 2>&1
+  git add bids.csv bids.json bids-archive.csv bid_items.json docs >> update.log 2>&1
   git -c core.editor=true rebase --continue >> update.log 2>&1
   if errorlevel 1 (
     git rebase --abort >> update.log 2>&1

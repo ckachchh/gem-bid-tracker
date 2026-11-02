@@ -28,7 +28,8 @@ Dashboard URL: `https://<username>.github.io/<repo>/`
 
 ## What runs each day
 
-`update.bat` scrapes GeM, rebuilds `docs/index.html`, and pushes. If the build
+`update.bat` scrapes GeM, reads the PDFs of new bundled bids (`gem_items.py`),
+rebuilds `docs/index.html`, and pushes. If the build
 fails it does not push, so a broken run leaves the last good dashboard up.
 Output is appended to `update.log`.
 
@@ -37,8 +38,17 @@ Output is appended to `update.log`.
 - **Bid Start Date** is when bidding opens - *not* the document publication
   date. That appears only in the bid PDF as rendered graphics, not extractable
   text, so it is not collected.
-- **Quantity** on a bundled bid is GeM's bid-wide total across every line item,
-  not the number of computers. Those rows are marked `*`.
+- **Computers** (the quantity column and the Desktops / Laptops / All-in-Ones /
+  Workstations / Servers cards) are exact unit counts. For a single-product bid
+  this is GeM's quantity. For a bundled bid GeM only gives a bid-wide total
+  across every line item, so `gem_items.py` downloads the bid PDF, reads the
+  item list and caches it in `bid_items.json`. Each item is classified again on
+  every build, so rule changes apply to cached bids too. A bundle whose PDF has
+  not been read yet shows the bid-wide total marked `*` and is left out of the
+  per-type totals.
+  A cached item list is trusted only if its quantities add up to the PDF's
+  "Total Quantity". If one doesn't, the bid is retried after `PARSER_VERSION` in
+  `gem_items.py` is bumped.
 - **Reverse auctions** resolve to their parent tender number; RA numbers are
   never shown.
 - **State** comes from the buyer's department name. Central bodies (Military
@@ -60,6 +70,8 @@ has twice removed genuine bids here.
 
 ```
 python gem_bids_scraper.py          # all search terms
+python gem_items.py                 # read PDFs of new bundled bids -> bid_items.json
+python gem_items.py --test X.pdf    # show the items/counts found in one bid PDF
 python build_dashboard.py           # writes dashboard.html
 ```
 
