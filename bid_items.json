@@ -203,6 +203,22 @@
 "total": 17,
 "v": 3
 },
+"GEM/2026/B/7409412": {
+"items": [
+[
+"Price Bid Format - 1775102139.xlsx Fixed Computer Workstation",
+5,
+[],
+[
+"Bangalore"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 5,
+"v": 3
+},
 "GEM/2026/B/7409621": {
 "items": [
 [
@@ -1102,6 +1118,22 @@
 "total": 6,
 "v": 3
 },
+"GEM/2026/B/7637136": {
+"items": [
+[
+"Price Bid Format - 1782878016.xlsx High End Desktop Computer",
+16,
+[],
+[
+"Bangalore"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 16,
+"v": 3
+},
 "GEM/2026/B/7638438": {
 "items": [
 [
@@ -1136,6 +1168,22 @@
 "Uttar Pradesh"
 ],
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/7641537": {
+"items": [
+[
+"High End CPU Intensive Workstation ( 4 the number pi )",
+4,
+[],
+[
+"PANCHKULA"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 4,
 "v": 3
 },
 "GEM/2026/B/7644038": {
@@ -1954,6 +2002,86 @@
 "on": "2026-10-30",
 "states": [],
 "total": 40,
+"v": 3
+},
+"GEM/2026/B/7719917": {
+"items": [
+[
+"High End Desktop Computer I7 Processor, 16 GB RAM, 512 GB SSD, 512 GB HDD, Windows OS",
+36,
+[],
+[
+"Bardhaman"
+]
+],
+[
+"High End Desktop Computer I7 Processor, 16 GB RAM, 512 GB SSD, 512 GB HDD, DOS",
+12,
+[],
+[
+"Bardhaman"
+]
+],
+[
+"Colour Inkjet Printer Auto Duplex Printing, 600 DPI, Processor Speed 800 MHz",
+6,
+[],
+[
+"Bardhaman"
+]
+],
+[
+"Biometric Optical Fingerprint Scanning Technology, USB 2.0",
+10,
+[],
+[
+"Bardhaman"
+]
+],
+[
+"Graphics Card GPU 4 GB DDR6, CUDA Core 768, HDCP 2.2",
+6,
+[],
+[
+"Bardhaman"
+]
+],
+[
+"1 KVA UPS Battery Type SMF-Sealed Maintenance Free, Simulated Sine Wave",
+5,
+[],
+[
+"Bardhaman"
+]
+],
+[
+"Conference Camera 1 Oblique 2.8 Inch Low Noise CMOS, 3D Digital Noise Reduction",
+2,
+[],
+[
+"Bardhaman"
+]
+],
+[
+"5 KVA UPS IGBT Switching Technology, SMF, 26 Ah Battery",
+2,
+[],
+[
+"Bardhaman"
+]
+],
+[
+"Computer Workstation Core Ultra 9 Processor, 128 GB RAM, 2 TB HDD, 1 TB SSD, 8 GB Graphic Card",
+2,
+[],
+[
+"Bardhaman"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 81,
 "v": 3
 },
 "GEM/2026/B/7720067": {
@@ -4529,6 +4657,22 @@
 "total": 25,
 "v": 3
 },
+"GEM/2026/B/7817936": {
+"items": [
+[
+"Procurement Of Deployed Server Including Windows Server (CMMS Server)",
+2,
+[],
+[
+"South Andaman"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
 "GEM/2026/B/7819046": {
 "items": [
 [
@@ -4543,6 +4687,278 @@
 "ok": true,
 "on": "2026-11-03",
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/7819763": {
+"items": [
+[
+"Cameras1",
+120,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Cameras2",
+35,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Servers",
+4,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Allied Equipment",
+1,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Joystick",
+5,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Keyboards",
+5,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Processing Units",
+5,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Display",
+20,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Controllers",
+9,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Software",
+1,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Security",
+12,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Security",
+1,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Traffic Control",
+4,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Traffic Control",
+8,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Traffic Control",
+10,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Traffic Control",
+800,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Smart Card",
+1000,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Camera Box",
+166,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Convertors",
+18,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Racks",
+4,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Switches",
+1,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Switches",
+4,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Switch Module",
+145,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Fibre Connection",
+164,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Weatherised Box",
+156,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Illuminator Light",
+160,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Illuminator Light",
+20,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Cables",
+1660,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Cables",
+14547,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Cables",
+14363,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"UPS",
+5,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Racks",
+80,
+[],
+[
+"NILGIRIS"
+]
+],
+[
+"Cameras1",
+1,
+[],
+[
+"NILGIRIS"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 33534,
 "v": 3
 },
 "GEM/2026/B/7820284": {
@@ -6134,6 +6550,38 @@
 "total": 1,
 "v": 3
 },
+"GEM/2026/B/7867703": {
+"items": [
+[
+"Servers (V2)",
+1,
+[
+"Jharkhand"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/7867753": {
+"items": [
+[
+"High End Desktop Computer",
+55,
+[
+"Gujarat"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 55,
+"v": 3
+},
 "GEM/2026/B/7868557": {
 "items": [
 [
@@ -6949,6 +7397,22 @@
 "total": 5,
 "v": 3
 },
+"GEM/2026/B/7881740": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+25,
+[
+"Odisha"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 25,
+"v": 3
+},
 "GEM/2026/B/7882108": {
 "items": [
 [
@@ -6961,6 +7425,22 @@
 "on": "2026-10-30",
 "states": [],
 "total": 17,
+"v": 3
+},
+"GEM/2026/B/7882145": {
+"items": [
+[
+"High End Laptop - Notebook",
+10,
+[],
+[
+"BANGALORE CITY"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 10,
 "v": 3
 },
 "GEM/2026/B/7882161": {
@@ -11042,6 +11522,166 @@
 "total": 33,
 "v": 3
 },
+"GEM/2026/B/7932366": {
+"items": [
+[
+"Laptop",
+25,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"Wi-Fi Router Dual Band",
+25,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"Printer All In One MFD 20 PPM",
+25,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"Digital Web Cam High Resolution 3.1 Mp Or Higher",
+100,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"Crimping Tools",
+125,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"Digital Multi Meter",
+100,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"Screw Driver Set",
+100,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"Head Phone AND Mic Set",
+125,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"Sound System 2.1",
+25,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"LAN Tester UTP Cat 5 Cable Tester RJ45",
+250,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"Punching Tool",
+125,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"Chair For The Instructor",
+25,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"Table For The Instructor",
+25,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"Student Table",
+600,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"Student Stool",
+600,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"Computer Table",
+600,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"Operator Chairs",
+600,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"White Board 4 BY 6 Feet",
+25,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"Entry And Mid Level Desktop Computer",
+600,
+[
+"Rajasthan"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 4100,
+"v": 3
+},
 "GEM/2026/B/7932512": {
 "items": [
 [
@@ -11202,6 +11842,22 @@
 "on": "2026-10-30",
 "states": [],
 "total": 5,
+"v": 3
+},
+"GEM/2026/B/7935837": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+2,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
 "v": 3
 },
 "GEM/2026/B/7935877": {
@@ -11390,6 +12046,22 @@
 "on": "2026-10-30",
 "states": [],
 "total": 2564,
+"v": 3
+},
+"GEM/2026/B/7936075": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+21,
+[
+"Chhattisgarh"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 21,
 "v": 3
 },
 "GEM/2026/B/7937755": {
@@ -13745,6 +14417,158 @@
 "total": 19,
 "v": 3
 },
+"GEM/2026/B/7955983": {
+"items": [
+[
+"Active LED Data Wall",
+1,
+[],
+[
+"Jammu"
+]
+],
+[
+"AIO PC",
+3,
+[],
+[
+"Jammu"
+]
+],
+[
+"75 Inches 4K Display Panel",
+1,
+[],
+[
+"Jammu"
+]
+],
+[
+"AI Based Speaker Tracking VC Setup",
+1,
+[],
+[
+"Jammu"
+]
+],
+[
+"24 Inches 4k LED Monitors Displays",
+4,
+[],
+[
+"Jammu"
+]
+],
+[
+"50 Inches 4K Display",
+8,
+[],
+[
+"Jammu"
+]
+],
+[
+"Work Station PCs",
+4,
+[],
+[
+"Jammu"
+]
+],
+[
+"Equipment Rack With All Accessories",
+1,
+[],
+[
+"Jammu"
+]
+],
+[
+"Acoustic Doors",
+2,
+[],
+[
+"Jammu"
+]
+],
+[
+"UPS",
+1,
+[],
+[
+"Jammu"
+]
+],
+[
+"AC",
+3,
+[],
+[
+"Jammu"
+]
+],
+[
+"Fire Alarm System",
+1,
+[],
+[
+"Jammu"
+]
+],
+[
+"CCTV System",
+1,
+[],
+[
+"Jammu"
+]
+],
+[
+"Aesthetic Wall Paneling",
+2000,
+[],
+[
+"Jammu"
+]
+],
+[
+"Architectural Ceiling Work",
+1700,
+[],
+[
+"Jammu"
+]
+],
+[
+"Electrical Wiring And Fittings",
+1,
+[],
+[
+"Jammu"
+]
+],
+[
+"HDMI Cables",
+1,
+[],
+[
+"Jammu"
+]
+],
+[
+"Complete SITC",
+1,
+[],
+[
+"Jammu"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 3734,
+"v": 3
+},
 "GEM/2026/B/7956163": {
 "items": [
 [
@@ -14066,6 +14890,22 @@
 "on": "2026-10-30",
 "states": [],
 "total": 4,
+"v": 3
+},
+"GEM/2026/B/7959907": {
+"items": [
+[
+"Servers (V2)",
+1,
+[
+"Puducherry"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
 "v": 3
 },
 "GEM/2026/B/7960008": {
@@ -15041,6 +15881,22 @@
 "total": 7,
 "v": 3
 },
+"GEM/2026/B/7968373": {
+"items": [
+[
+"High-End Server",
+1,
+[
+"Karnataka"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
 "GEM/2026/B/7968637": {
 "items": [
 [
@@ -15091,6 +15947,46 @@
 "Karnataka"
 ],
 "total": 16,
+"v": 3
+},
+"GEM/2026/B/7969622": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+6,
+[
+"Odisha"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+2,
+[
+"Odisha"
+],
+[]
+],
+[
+"Computer Printer (V2)",
+6,
+[
+"Odisha"
+],
+[]
+],
+[
+"Line Interactive UPS With AVR (V2)",
+6,
+[
+"Odisha"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 20,
 "v": 3
 },
 "GEM/2026/B/7969636": {
@@ -16312,6 +17208,30 @@
 "Delhi"
 ],
 "total": 22,
+"v": 3
+},
+"GEM/2026/B/7977209": {
+"items": [
+[
+"Desktop I7 With 24 Inch Monitor",
+1,
+[],
+[
+"SRINAGAR"
+]
+],
+[
+"Desktop I5 With 21.5 Inch Monitor",
+4,
+[],
+[
+"SRINAGAR"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 5,
 "v": 3
 },
 "GEM/2026/B/7978158": {
@@ -20643,6 +21563,22 @@
 "total": 10,
 "v": 3
 },
+"GEM/2026/B/8003738": {
+"items": [
+[
+"High End Laptop - Notebook",
+3,
+[],
+[
+"Jorhat"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 3,
+"v": 3
+},
 "GEM/2026/B/8004379": {
 "items": [
 [
@@ -21477,6 +22413,22 @@
 "on": "2026-10-30",
 "states": [],
 "total": 2,
+"v": 3
+},
+"GEM/2026/B/8005140": {
+"items": [
+[
+"Desktop Computer I5 13th Gen",
+3,
+[],
+[
+"Sagar"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 3,
 "v": 3
 },
 "GEM/2026/B/8005378": {
@@ -43213,6 +44165,70 @@
 "total": 30,
 "v": 3
 },
+"GEM/2026/B/8080214": {
+"items": [
+[
+"All In One PC Without UPS",
+1,
+[],
+[
+"KHASI HILLS EAST"
+]
+],
+[
+"PC Without UPS",
+10,
+[],
+[
+"KHASI HILLS EAST"
+]
+],
+[
+"Table Top Book Scanner",
+2,
+[],
+[
+"KHASI HILLS EAST"
+]
+],
+[
+"Scanner",
+1,
+[],
+[
+"KHASI HILLS EAST"
+]
+],
+[
+"Laptop",
+1,
+[],
+[
+"KHASI HILLS EAST"
+]
+],
+[
+"Interactive Panel",
+1,
+[],
+[
+"KHASI HILLS EAST"
+]
+],
+[
+"Moniter 32 Inch LED",
+1,
+[],
+[
+"KHASI HILLS EAST"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 17,
+"v": 3
+},
 "GEM/2026/B/8080258": {
 "items": [
 [
@@ -45522,6 +46538,22 @@
 "Kerala"
 ],
 "total": 23,
+"v": 3
+},
+"GEM/2026/B/8084002": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+9,
+[],
+[
+"Chandigarh"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 9,
 "v": 3
 },
 "GEM/2026/B/8084005": {
@@ -49086,6 +50118,22 @@
 "total": 1,
 "v": 3
 },
+"GEM/2026/B/8090438": {
+"items": [
+[
+"High End Laptop - Notebook",
+1,
+[
+"West Bengal"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
 "GEM/2026/B/8090453": {
 "items": [
 [
@@ -51446,6 +52494,38 @@
 "on": "2026-10-30",
 "states": [],
 "total": 11,
+"v": 3
+},
+"GEM/2026/B/8092392": {
+"items": [
+[
+"Line Interactive UPS With AVR (V2)",
+2,
+[],
+[
+"East Khasi hills"
+]
+],
+[
+"Computer Monitor (V2)",
+1,
+[],
+[
+"East Khasi hills"
+]
+],
+[
+"High End Desktop Computer",
+2,
+[],
+[
+"East Khasi hills"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 5,
 "v": 3
 },
 "GEM/2026/B/8092454": {
@@ -62273,6 +63353,22 @@
 "total": 1,
 "v": 3
 },
+"GEM/2026/B/8108870": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+5,
+[],
+[
+"Ernakulam"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 5,
+"v": 3
+},
 "GEM/2026/B/8108876": {
 "items": [
 [
@@ -68622,6 +69718,22 @@
 "total": 2,
 "v": 3
 },
+"GEM/2026/B/8119061": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+2,
+[
+"Bihar"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
 "GEM/2026/B/8119091": {
 "items": [
 [
@@ -70934,6 +72046,22 @@
 "total": 13,
 "v": 3
 },
+"GEM/2026/B/8123238": {
+"items": [
+[
+"All In One PC (V2)",
+5,
+[
+"Bihar"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 5,
+"v": 3
+},
 "GEM/2026/B/8123241": {
 "items": [
 [
@@ -72793,6 +73921,22 @@
 "Kerala"
 ],
 "total": 5,
+"v": 3
+},
+"GEM/2026/B/8126706": {
+"items": [
+[
+"High End Laptop - Notebook",
+3,
+[
+"Odisha"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 3,
 "v": 3
 },
 "GEM/2026/B/8126744": {
@@ -81944,6 +83088,30 @@
 "total": 10,
 "v": 3
 },
+"GEM/2026/B/8140350": {
+"items": [
+[
+"Server Dell Poweredge R330",
+1,
+[
+"Delhi"
+],
+[]
+],
+[
+"PSD SERVER (Dell PowerEdge R630 Server)",
+1,
+[
+"Delhi"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
 "GEM/2026/B/8140389": {
 "items": [
 [
@@ -87433,6 +88601,30 @@
 "total": 100,
 "v": 3
 },
+"GEM/2026/B/8151788": {
+"items": [
+[
+"Line Interactive UPS With AVR (V2)",
+15,
+[],
+[
+"GANGA NAGAR"
+]
+],
+[
+"Entry And Mid Level Desktop Computer",
+15,
+[],
+[
+"GANGA NAGAR"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 30,
+"v": 3
+},
 "GEM/2026/B/8151851": {
 "items": [
 [
@@ -89155,6 +90347,22 @@
 "total": 3,
 "v": 3
 },
+"GEM/2026/B/8154599": {
+"items": [
+[
+"AMD RYZEN 7 OCTA CORE LAPTOP",
+1,
+[],
+[
+"Raipur"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
 "GEM/2026/B/8154635": {
 "items": [
 [
@@ -90207,6 +91415,22 @@
 "Uttar Pradesh"
 ],
 "total": 19,
+"v": 3
+},
+"GEM/2026/B/8156487": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Tamil Nadu"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
 "v": 3
 },
 "GEM/2026/B/8156526": {
@@ -92623,6 +93847,46 @@
 "total": 1739,
 "v": 3
 },
+"GEM/2026/B/8160849": {
+"items": [
+[
+"LED 65INCH",
+1,
+[],
+[
+"BHATINDA"
+]
+],
+[
+"CONFERENCE CAMERA",
+1,
+[],
+[
+"BHATINDA"
+]
+],
+[
+"High End Desktop Computer",
+6,
+[],
+[
+"BHATINDA"
+]
+],
+[
+"Kiosk Displays",
+1,
+[],
+[
+"BHATINDA"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 9,
+"v": 3
+},
 "GEM/2026/B/8160880": {
 "items": [
 [
@@ -93139,6 +94403,22 @@
 "Andhra Pradesh"
 ],
 "total": 18,
+"v": 3
+},
+"GEM/2026/B/8161698": {
+"items": [
+[
+"High End Laptop - Notebook",
+20,
+[
+"Gujarat"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 20,
 "v": 3
 },
 "GEM/2026/B/8161701": {
@@ -93663,6 +94943,38 @@
 "Andhra Pradesh"
 ],
 "total": 1072,
+"v": 3
+},
+"GEM/2026/B/8162367": {
+"items": [
+[
+"All In One PC (V2)",
+49,
+[
+"Maharashtra"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+20,
+[
+"Maharashtra"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+13,
+[
+"Maharashtra"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 82,
 "v": 3
 },
 "GEM/2026/B/8162396": {
@@ -95331,6 +96643,22 @@
 "Kerala"
 ],
 "total": 10,
+"v": 3
+},
+"GEM/2026/B/8165331": {
+"items": [
+[
+"All In One PC (V2)",
+2,
+[
+"Assam"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
 "v": 3
 },
 "GEM/2026/B/8165352": {
@@ -97524,6 +98852,62 @@
 "total": 2,
 "v": 3
 },
+"GEM/2026/B/8169137": {
+"items": [
+[
+"All In One PC (V2)",
+22,
+[],
+[
+"East Khasi hills"
+]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+9,
+[],
+[
+"East Khasi hills"
+]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[],
+[
+"East Khasi hills"
+]
+],
+[
+"A3 Size Multifunction Printer (MFP)",
+3,
+[],
+[
+"East Khasi hills"
+]
+],
+[
+"Wide Format Plotter",
+3,
+[],
+[
+"East Khasi hills"
+]
+],
+[
+"Work Stn",
+4,
+[],
+[
+"East Khasi hills"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 42,
+"v": 3
+},
 "GEM/2026/B/8169194": {
 "items": [
 [
@@ -97705,6 +99089,22 @@
 "states": [
 "Kerala"
 ],
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8169488": {
+"items": [
+[
+"High End Desktop Computer",
+2,
+[
+"Maharashtra"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
 "total": 2,
 "v": 3
 },
@@ -98372,6 +99772,22 @@
 "West Bengal"
 ],
 "total": 7,
+"v": 3
+},
+"GEM/2026/B/8170503": {
+"items": [
+[
+"High End Laptop - Notebook",
+6,
+[
+"Madhya Pradesh"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 6,
 "v": 3
 },
 "GEM/2026/B/8170515": {
@@ -99994,6 +101410,54 @@
 "total": 165,
 "v": 3
 },
+"GEM/2026/B/8172080": {
+"items": [
+[
+"RF HILS Software For Radar- RWR - Jammer",
+1,
+[],
+[
+"Bangalore"
+]
+],
+[
+"Integrated Scenario Software",
+1,
+[],
+[
+"Bangalore"
+]
+],
+[
+"Scenario Simulation Server Hardware",
+1,
+[],
+[
+"Bangalore"
+]
+],
+[
+"3D Digital Mission Modelling Tool With Radar Channel - RCS Modelling",
+1,
+[],
+[
+"Bangalore"
+]
+],
+[
+"Delivery- Installation- Commissioning- Acceptance Tests- Documentation- Training And Onsite Support",
+1,
+[],
+[
+"Bangalore"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 5,
+"v": 3
+},
 "GEM/2026/B/8172097": {
 "items": [
 [
@@ -101312,6 +102776,22 @@
 "Maharashtra"
 ],
 "total": 7,
+"v": 3
+},
+"GEM/2026/B/8174781": {
+"items": [
+[
+"All In One PC (V2)",
+105,
+[
+"Delhi"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 105,
 "v": 3
 },
 "GEM/2026/B/8174784": {
@@ -105161,6 +106641,22 @@
 "total": 5,
 "v": 3
 },
+"GEM/2026/B/8182939": {
+"items": [
+[
+"High End Laptop - Notebook",
+2,
+[],
+[
+"PUNE CITY"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
 "GEM/2026/B/8182964": {
 "items": [
 [
@@ -107148,6 +108644,22 @@
 "Kerala"
 ],
 "total": 20,
+"v": 3
+},
+"GEM/2026/B/8186705": {
+"items": [
+[
+"All In One PC (V2)",
+7,
+[
+"Chhattisgarh"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 7,
 "v": 3
 },
 "GEM/2026/B/8186840": {
@@ -110098,6 +111610,54 @@
 "total": 50,
 "v": 3
 },
+"GEM/2026/B/8192710": {
+"items": [
+[
+"All In One PC (V2)",
+36,
+[],
+[
+"North"
+]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+3,
+[],
+[
+"North"
+]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+4,
+[],
+[
+"North"
+]
+],
+[
+"Computer Printer (V2)",
+4,
+[],
+[
+"North"
+]
+],
+[
+"Computer Printer (V2)",
+25,
+[],
+[
+"North"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 72,
+"v": 3
+},
 "GEM/2026/B/8192749": {
 "items": [
 [
@@ -111114,6 +112674,30 @@
 "Uttar Pradesh"
 ],
 "total": 5,
+"v": 3
+},
+"GEM/2026/B/8194830": {
+"items": [
+[
+"All In One PC (V2)",
+39,
+[
+"Maharashtra"
+],
+[]
+],
+[
+"Computer Printer (V2)",
+20,
+[
+"Maharashtra"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 59,
 "v": 3
 },
 "GEM/2026/B/8194858": {
@@ -112999,6 +114583,86 @@
 "total": 15,
 "v": 3
 },
+"GEM/2026/B/8199242": {
+"items": [
+[
+"FIXED COMPUTER WORKSTATION",
+10,
+[
+"Karnataka"
+],
+[]
+],
+[
+"VIRTUAL REALITY HEADSETS",
+10,
+[
+"Karnataka"
+],
+[]
+],
+[
+"L-3 LAYER SWITCH 24 PORT",
+1,
+[
+"Karnataka"
+],
+[]
+],
+[
+"INSTRUCTOR PODIUM WITH CONSOLE",
+1,
+[
+"Karnataka"
+],
+[]
+],
+[
+"INTERACTIVE FLAT PANEL DISPLAY 86 INCH",
+1,
+[
+"Karnataka"
+],
+[]
+],
+[
+"ONLINE UPS 5 KVA WITH 120 MIN BACKUP",
+1,
+[
+"Karnataka"
+],
+[]
+],
+[
+"DRONE SIMULATOR SOFTWARE",
+10,
+[
+"Karnataka"
+],
+[]
+],
+[
+"RC CONTROLLERS",
+10,
+[
+"Karnataka"
+],
+[]
+],
+[
+"INSTALLATION AND COMMISSIONING",
+1,
+[
+"Karnataka"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 45,
+"v": 3
+},
 "GEM/2026/B/8199250": {
 "items": [
 [
@@ -114046,6 +115710,22 @@
 "Kerala"
 ],
 "total": 4,
+"v": 3
+},
+"GEM/2026/B/8201923": {
+"items": [
+[
+"High End Laptop - Notebook",
+2,
+[
+"Goa"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
 "v": 3
 },
 "GEM/2026/B/8202030": {
@@ -115519,6 +117199,22 @@
 "total": 2,
 "v": 3
 },
+"GEM/2026/B/8205771": {
+"items": [
+[
+"High End Desktop Computer",
+3,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 3,
+"v": 3
+},
 "GEM/2026/B/8205798": {
 "items": [
 [
@@ -116422,6 +118118,30 @@
 "West Bengal"
 ],
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/8207527": {
+"items": [
+[
+"Financial Breakup - 1793103948.xlsx Entry And Mid Level Laptop - Notebook",
+10,
+[
+"Assam"
+],
+[]
+],
+[
+"A3 Size Multifunction Printer (MFP)",
+1,
+[
+"Assam"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 11,
 "v": 3
 },
 "GEM/2026/B/8207674": {
@@ -118864,6 +120584,22 @@
 "total": 2,
 "v": 3
 },
+"GEM/2026/B/8213836": {
+"items": [
+[
+"Servers (V2)",
+1,
+[
+"West Bengal"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
 "GEM/2026/B/8213914": {
 "items": [
 [
@@ -119277,6 +121013,22 @@
 "total": 9,
 "v": 3
 },
+"GEM/2026/B/8214619": {
+"items": [
+[
+"Servers (V2)",
+15,
+[
+"Delhi"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 15,
+"v": 3
+},
 "GEM/2026/B/8214655": {
 "items": [
 [
@@ -119475,6 +121227,22 @@
 "ok": true,
 "on": "2026-11-03",
 "total": 4,
+"v": 3
+},
+"GEM/2026/B/8214942": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Gujarat"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
 "v": 3
 },
 "GEM/2026/B/8214983": {
@@ -120095,6 +121863,38 @@
 "total": 1,
 "v": 3
 },
+"GEM/2026/B/8216372": {
+"items": [
+[
+"All In One PC (V2)",
+2,
+[
+"Uttar Pradesh"
+],
+[]
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+4,
+[
+"Uttar Pradesh"
+],
+[]
+],
+[
+"All In One PC (V2)",
+2,
+[
+"Uttar Pradesh"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 8,
+"v": 3
+},
 "GEM/2026/B/8216417": {
 "items": [
 [
@@ -120526,6 +122326,22 @@
 "ok": true,
 "on": "2026-11-03",
 "total": 2,
+"v": 3
+},
+"GEM/2026/B/8217387": {
+"items": [
+[
+"High End Desktop Computer As Per Attached Specifications",
+5,
+[
+"Maharashtra"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 5,
 "v": 3
 },
 "GEM/2026/B/8217392": {
@@ -121238,6 +123054,46 @@
 "total": 4,
 "v": 3
 },
+"GEM/2026/B/8219071": {
+"items": [
+[
+"All In One PC (V2)",
+10,
+[],
+[
+"HYDERABAD"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 10,
+"v": 3
+},
+"GEM/2026/B/8219102": {
+"items": [
+[
+"16 INCH FLIP TOUCH DISPLAY LAPTOP",
+2,
+[],
+[
+"West Kameng"
+]
+],
+[
+"IOS TABLET PC WITH M4 CHIP",
+1,
+[],
+[
+"West Kameng"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 3,
+"v": 3
+},
 "GEM/2026/B/8219114": {
 "items": [
 [
@@ -121348,6 +123204,33 @@
 "ok": true,
 "on": "2026-10-31",
 "total": 3,
+"v": 3
+},
+"GEM/2026/B/8219355": {
+"items": [
+[
+"All In One PC (V2)",
+35,
+[
+"Assam",
+"Bihar",
+"Delhi",
+"Gujarat",
+"Karnataka",
+"Maharashtra",
+"Odisha",
+"Rajasthan",
+"Tamil Nadu",
+"Telangana",
+"Uttar Pradesh",
+"West Bengal"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 35,
 "v": 3
 },
 "GEM/2026/B/8219368": {
@@ -121949,6 +123832,22 @@
 "ok": true,
 "on": "2026-10-31",
 "total": 10,
+"v": 3
+},
+"GEM/2026/B/8220368": {
+"items": [
+[
+"Servers (V2)",
+1,
+[
+"Nagaland"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
 "v": 3
 },
 "GEM/2026/B/8220466": {
@@ -122946,6 +124845,38 @@
 "total": 5,
 "v": 3
 },
+"GEM/2026/B/8222608": {
+"items": [
+[
+"Line Interactive UPS With AVR (V2)",
+4,
+[],
+[]
+],
+[
+"High End Desktop Computer",
+4,
+[],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+4,
+[],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+2,
+[],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 14,
+"v": 3
+},
 "GEM/2026/B/8222632": {
 "items": [
 [
@@ -123449,6 +125380,22 @@
 "total": 167,
 "v": 3
 },
+"GEM/2026/B/8223892": {
+"items": [
+[
+"High End Desktop Computer",
+100,
+[
+"Uttar Pradesh"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 100,
+"v": 3
+},
 "GEM/2026/B/8223967": {
 "items": [
 [
@@ -123671,6 +125618,46 @@
 "ok": true,
 "on": "2026-11-02",
 "total": 5,
+"v": 3
+},
+"GEM/2026/B/8224514": {
+"items": [
+[
+"LINE MATRIX PRINTER",
+1,
+[],
+[
+"RANCHI"
+]
+],
+[
+"Entry And Mid Level Desktop Computer",
+15,
+[],
+[
+"RANCHI"
+]
+],
+[
+"Servers (V2)",
+1,
+[],
+[
+"RANCHI"
+]
+],
+[
+"Computer Printer (V2)",
+3,
+[],
+[
+"RANCHI"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 20,
 "v": 3
 },
 "GEM/2026/B/8224533": {
@@ -125457,6 +127444,38 @@
 "total": 2,
 "v": 3
 },
+"GEM/2026/B/8228953": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+50,
+[
+"Madhya Pradesh"
+],
+[]
+],
+[
+"Scanner (V3)",
+7,
+[
+"Madhya Pradesh"
+],
+[]
+],
+[
+"Computer Printer (V2)",
+20,
+[
+"Madhya Pradesh"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 77,
+"v": 3
+},
 "GEM/2026/B/8228992": {
 "items": [
 [
@@ -125751,6 +127770,22 @@
 "ok": true,
 "on": "2026-11-03",
 "total": 3,
+"v": 3
+},
+"GEM/2026/B/8229201": {
+"items": [
+[
+"Tender documents checklist to be uploaded in Part I - 1793611835.xlsx High End Desktop Computer",
+1,
+[
+"Maharashtra"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
 "v": 3
 },
 "GEM/2026/B/8229217": {
@@ -126473,6 +128508,22 @@
 "total": 39,
 "v": 3
 },
+"GEM/2026/B/8229916": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+3,
+[
+"Gujarat"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 3,
+"v": 3
+},
 "GEM/2026/B/8229937": {
 "items": [
 [
@@ -127025,6 +129076,22 @@
 "total": 4,
 "v": 3
 },
+"GEM/2026/B/8230620": {
+"items": [
+[
+"All In One PC (V2)",
+2,
+[
+"Delhi"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
 "GEM/2026/B/8230664": {
 "items": [
 [
@@ -127169,6 +129236,46 @@
 "total": 62,
 "v": 3
 },
+"GEM/2026/B/8230716": {
+"items": [
+[
+"Video Conferencing Camera / Web Camera (V2)",
+2,
+[],
+[
+"AIZAWL"
+]
+],
+[
+"High End Desktop Computer",
+2,
+[],
+[
+"AIZAWL"
+]
+],
+[
+"Entry And Mid Level Desktop Computer",
+5,
+[],
+[
+"AIZAWL"
+]
+],
+[
+"Online UPS (?10 KVA) With Battery Conforming To IS 16242 (Part 1)",
+2,
+[],
+[
+"AIZAWL"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 11,
+"v": 3
+},
 "GEM/2026/B/8230756": {
 "items": [
 [
@@ -127303,6 +129410,46 @@
 "ok": true,
 "on": "2026-11-03",
 "total": 25,
+"v": 3
+},
+"GEM/2026/B/8231091": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+12,
+[
+"Odisha"
+],
+[]
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Odisha"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"Odisha"
+],
+[]
+],
+[
+"Computer Printer (V2)",
+4,
+[
+"Odisha"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 18,
 "v": 3
 },
 "GEM/2026/B/8231119": {
@@ -128473,6 +130620,22 @@
 "total": 1,
 "v": 3
 },
+"GEM/2026/B/8234843": {
+"items": [
+[
+"High End Laptop - Notebook",
+2,
+[
+"Gujarat"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
 "GEM/2026/B/8234850": {
 "items": [
 [
@@ -128575,6 +130738,38 @@
 "ok": true,
 "on": "2026-11-04",
 "total": 59,
+"v": 3
+},
+"GEM/2026/B/8234993": {
+"items": [
+[
+"Industrial PC– 4U Rackmount, Intel Core I9 12th Gen, 32 GB DDR4 RAM, 2 TB SATA SSD, DVD R/W, Win 11",
+7,
+[
+"Maharashtra"
+],
+[]
+],
+[
+"24\" SLIM LED Monitor– Display Port Inputs, (with Each Industrial PC)",
+7,
+[
+"Maharashtra"
+],
+[]
+],
+[
+"17\" SLIM LED Monitor– HDMI Input, Panel Wall-Mount Bracket, With USB Keyboard & Wired Optical Mouse",
+5,
+[
+"Maharashtra"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 19,
 "v": 3
 },
 "GEM/2026/B/8235028": {
@@ -128801,6 +130996,30 @@
 "total": 5,
 "v": 3
 },
+"GEM/2026/B/8235681": {
+"items": [
+[
+"All In One Pc ( 11 the number pi )",
+11,
+[],
+[
+"Leh"
+]
+],
+[
+"Ups ( 11 the number pi )",
+11,
+[],
+[
+"Leh"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 22,
+"v": 3
+},
 "GEM/2026/B/8235776": {
 "items": [
 [
@@ -128855,6 +131074,22 @@
 "ok": true,
 "on": "2026-11-05",
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/8235944": {
+"items": [
+[
+"High End Desktop Computer",
+40,
+[
+"Telangana"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 40,
 "v": 3
 },
 "GEM/2026/B/8236015": {
@@ -129241,6 +131476,22 @@
 "total": 5,
 "v": 3
 },
+"GEM/2026/B/8236760": {
+"items": [
+[
+"Procurement Of Laptop I5",
+1,
+[],
+[
+"Baramulla"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
 "GEM/2026/B/8236928": {
 "items": [
 [
@@ -129271,6 +131522,22 @@
 "ok": true,
 "on": "2026-11-05",
 "total": 4,
+"v": 3
+},
+"GEM/2026/B/8237083": {
+"items": [
+[
+"Procurement Of Notebook/ Laptop",
+1,
+[],
+[
+"Baramulla"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
 "v": 3
 },
 "GEM/2026/B/8237093": {
@@ -129335,6 +131602,22 @@
 "ok": true,
 "on": "2026-11-05",
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/8237377": {
+"items": [
+[
+"High End Desktop Computer",
+2,
+[
+"Andhra Pradesh"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
 "v": 3
 },
 "GEM/2026/B/8237415": {
@@ -129502,6 +131785,38 @@
 ],
 "ok": true,
 "on": "2026-11-05",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8237769": {
+"items": [
+[
+"High End Computer WorkStation",
+1,
+[
+"Telangana"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8237802": {
+"items": [
+[
+"Workstation",
+1,
+[
+"Delhi"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
 "total": 1,
 "v": 3
 },
@@ -129745,6 +132060,22 @@
 "total": 1,
 "v": 3
 },
+"GEM/2026/B/8238536": {
+"items": [
+[
+"High End Desktop Computer",
+4,
+[
+"Telangana"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 4,
+"v": 3
+},
 "GEM/2026/B/8238653": {
 "items": [
 [
@@ -129775,6 +132106,38 @@
 "ok": true,
 "on": "2026-11-05",
 "total": 3,
+"v": 3
+},
+"GEM/2026/B/8238687": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+9,
+[
+"Tamil Nadu"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 9,
+"v": 3
+},
+"GEM/2026/B/8238777": {
+"items": [
+[
+"IT HARDWARE DESKTOP COMPUTER I5",
+1,
+[],
+[
+"Nadia"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
 "v": 3
 },
 "GEM/2026/B/8238838": {
@@ -129993,6 +132356,30 @@
 "total": 36,
 "v": 3
 },
+"GEM/2026/B/8239241": {
+"items": [
+[
+"High End Laptop - Notebook",
+2,
+[
+"Kerala"
+],
+[]
+],
+[
+"Line Interactive UPS With AVR (V2)",
+1,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 3,
+"v": 3
+},
 "GEM/2026/B/8239324": {
 "items": [
 [
@@ -130095,6 +132482,22 @@
 "ok": true,
 "on": "2026-11-05",
 "total": 5,
+"v": 3
+},
+"GEM/2026/B/8239616": {
+"items": [
+[
+"High End Desktop Computer",
+4,
+[
+"Delhi"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 4,
 "v": 3
 },
 "GEM/2026/B/8239644": {
@@ -130241,6 +132644,22 @@
 "total": 16,
 "v": 3
 },
+"GEM/2026/B/8240036": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+400,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 400,
+"v": 3
+},
 "GEM/2026/B/8240137": {
 "items": [
 [
@@ -130263,6 +132682,22 @@
 "ok": true,
 "on": "2026-11-05",
 "total": 150,
+"v": 3
+},
+"GEM/2026/B/8240140": {
+"items": [
+[
+"Computer Workstation With Customized Specifications",
+1,
+[
+"Telangana"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
 "v": 3
 },
 "GEM/2026/B/8240147": {
@@ -130559,6 +132994,22 @@
 "ok": true,
 "on": "2026-11-05",
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/8240846": {
+"items": [
+[
+"All In One PC (V2)",
+26,
+[
+"Bihar"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 26,
 "v": 3
 },
 "GEM/2026/B/8240855": {
@@ -131089,6 +133540,46 @@
 "total": 10,
 "v": 3
 },
+"GEM/2026/B/8241762": {
+"items": [
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+2,
+[
+"Rajasthan"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8241764": {
+"items": [
+[
+"Desktop Computer",
+1,
+[
+"Uttar Pradesh"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
 "GEM/2026/B/8241856": {
 "items": [
 [
@@ -131111,6 +133602,22 @@
 "ok": true,
 "on": "2026-11-05",
 "total": 7,
+"v": 3
+},
+"GEM/2026/B/8241952": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+250,
+[
+"Gujarat"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 250,
 "v": 3
 },
 "GEM/2026/B/8242018": {
@@ -131393,6 +133900,46 @@
 "total": 75,
 "v": 3
 },
+"GEM/2026/B/8243097": {
+"items": [
+[
+"All In One PC (V2)",
+35,
+[
+"Uttar Pradesh"
+],
+[]
+],
+[
+"Entry And Mid Level Desktop Computer",
+30,
+[
+"Uttar Pradesh"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+65,
+[
+"Uttar Pradesh"
+],
+[]
+],
+[
+"Line Interactive UPS With AVR (V2)",
+65,
+[
+"Uttar Pradesh"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 195,
+"v": 3
+},
 "GEM/2026/B/8243208": {
 "items": [
 [
@@ -131407,6 +133954,2838 @@
 "ok": true,
 "on": "2026-11-05",
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/8243277": {
+"items": [
+[
+"Laptop Ultra 7",
+2,
+[],
+[
+"GANGA NAGAR"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8243573": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Kerala"
+],
+[]
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[]
+],
+[
+"Line Interactive UPS With AVR (V2)",
+1,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8243787": {
+"items": [
+[
+"Workstation Without A Dedicated Graphics Card, Including A 1 TB SSD, 24-inch Monitor, USB Wired Keyboard And USB Wired Mouse, 2TB HDD",
+1,
+[
+"Tamil Nadu"
+],
+[]
+],
+[
+"Workstation Without A Dedicated Graphics Card, Including A 2 TB HDD, 24-inch Monitor, USB Wired Keyboard And USB Wired Mouse, 1TB SSD",
+1,
+[
+"Tamil Nadu"
+],
+[]
+],
+[
+"Workstation With NVIDIA RTX 4000 Ada Generation 20 GB GPU And 1 TB SSD, Including A 24-inch Monitor, USB Wired Keyboard And USB Wired Mouse, 2TB HDD",
+1,
+[
+"Tamil Nadu"
+],
+[]
+],
+[
+"Workstation With NVIDIA RTX 4000 Ada Generation 20 GB GPU And 2 TB HDD, Including A 24-inch Monitor, USB Wired Keyboard And USB Wired Mouse, 1TB SSD",
+1,
+[
+"Tamil Nadu"
+],
+[]
+],
+[
+"Workstation With NVIDIA RTX 4000 Ada Generation 20 GB GPU And 2, 1 TB SSDs, Including A 24-inch Monitor, USB Wired Keyboard And USB Wired Mouse, 2TB HDD",
+1,
+[
+"Tamil Nadu"
+],
+[]
+],
+[
+"Workstation With NVIDIA RTX 4000 Ada Generation 20 GB GPU And 2, 2TB HDDs, Including A 24-inch Monitor, USB Wired Keyboard And USB Wired Mouse, 1TB SSD",
+1,
+[
+"Tamil Nadu"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 6,
+"v": 3
+},
+"GEM/2026/B/8243801": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+27,
+[
+"Bihar"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"Bihar"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 28,
+"v": 3
+},
+"GEM/2026/B/8243868": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+17,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 17,
+"v": 3
+},
+"GEM/2026/B/8243896": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+2,
+[
+"Kerala"
+],
+[]
+],
+[
+"Entry And Mid Level Desktop Computer",
+3,
+[
+"Kerala"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"Kerala"
+],
+[]
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+6,
+[
+"Kerala"
+],
+[]
+],
+[
+"Line Interactive UPS With AVR (V2)",
+5,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 17,
+"v": 3
+},
+"GEM/2026/B/8243990": {
+"items": [
+[
+"High End Laptop - Notebook",
+1,
+[
+"Assam"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8244042": {
+"items": [
+[
+"Laptop (Macbook With Ios) ( 4 the number ten for arbitrary powers )",
+4,
+[],
+[
+"NORTH DELHI"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 4,
+"v": 3
+},
+"GEM/2026/B/8244115": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+2,
+[
+"Gujarat"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8244144": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+8,
+[
+"Jharkhand"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 8,
+"v": 3
+},
+"GEM/2026/B/8244151": {
+"items": [
+[
+"LAPTOP",
+1,
+[],
+[
+"North"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8244165": {
+"items": [
+[
+"HIGHER LAPTOP",
+1,
+[],
+[
+"Ernakulam"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8244202": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+3,
+[
+"Kerala"
+],
+[]
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+4,
+[
+"Kerala"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+2,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 9,
+"v": 3
+},
+"GEM/2026/B/8244247": {
+"items": [
+[
+"All In One PC (V2)",
+3,
+[
+"Jharkhand"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8244364": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8244383": {
+"items": [
+[
+"High End Laptop - Notebook",
+1,
+[
+"Uttarakhand"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8244506": {
+"items": [
+[
+"High End Laptop - Notebook",
+35,
+[
+"Maharashtra"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 35,
+"v": 3
+},
+"GEM/2026/B/8244550": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+7,
+[
+"Puducherry"
+],
+[]
+],
+[
+"Entry And Mid Level Desktop Computer",
+2,
+[
+"Puducherry"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+2,
+[
+"Puducherry"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 11,
+"v": 3
+},
+"GEM/2026/B/8244558": {
+"items": [
+[
+"Customised Desktop Computer",
+1,
+[],
+[
+"KOTA CITY"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8244628": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Odisha"
+],
+[]
+],
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Odisha"
+],
+[]
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Odisha"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8244650": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+3,
+[
+"Maharashtra"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+6,
+[
+"Maharashtra"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 9,
+"v": 3
+},
+"GEM/2026/B/8244681": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Kerala"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+5,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 6,
+"v": 3
+},
+"GEM/2026/B/8244684": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+15,
+[
+"Rajasthan"
+],
+[]
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+2,
+[
+"Rajasthan"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 17,
+"v": 3
+},
+"GEM/2026/B/8244721": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+2,
+[
+"Kerala"
+],
+[]
+],
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Kerala"
+],
+[]
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+3,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 6,
+"v": 3
+},
+"GEM/2026/B/8244738": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+3,
+[
+"Kerala"
+],
+[]
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+2,
+[
+"Kerala"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+4,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 9,
+"v": 3
+},
+"GEM/2026/B/8244760": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8244803": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Kerala"
+],
+[]
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8244861": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8244862": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8244914": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+5,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 5,
+"v": 3
+},
+"GEM/2026/B/8244976": {
+"items": [
+[
+"LAPTOP AS PER TECHNICAL SPECIFICATIONS",
+1,
+[
+"Maharashtra"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8244989": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+6,
+[
+"Kerala"
+],
+[]
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[]
+],
+[
+"Scanner (V3)",
+1,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 8,
+"v": 3
+},
+"GEM/2026/B/8245048": {
+"items": [
+[
+"All In One PC (V2)",
+2,
+[],
+[
+"Agra"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8245107": {
+"items": [
+[
+"Laptop",
+1,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8245126": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[],
+[
+"Udaipur"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8245194": {
+"items": [
+[
+"Line Interactive UPS With AVR (V2)",
+5,
+[
+"Bihar"
+],
+[]
+],
+[
+"Entry And Mid Level Desktop Computer",
+5,
+[
+"Bihar"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 10,
+"v": 3
+},
+"GEM/2026/B/8245202": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+2,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8245266": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Karnataka"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8245316": {
+"items": [
+[
+"High End Desktop Computer",
+2,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8245389": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+10,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 10,
+"v": 3
+},
+"GEM/2026/B/8245393": {
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+1,
+[
+"Tamil Nadu"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8245409": {
+"items": [
+[
+"High End Desktop Computer",
+192,
+[
+"Chandigarh"
+],
+[]
+],
+[
+"Line Interactive UPS With AVR (V2)",
+192,
+[
+"Chandigarh"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 384,
+"v": 3
+},
+"GEM/2026/B/8245546": {
+"items": [
+[
+"High End Laptop - Notebook",
+6,
+[
+"Haryana"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 6,
+"v": 3
+},
+"GEM/2026/B/8245583": {
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+1,
+[
+"Gujarat"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8245688": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+2,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8245752": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+5,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 5,
+"v": 3
+},
+"GEM/2026/B/8245766": {
+"items": [
+[
+"_Laptop_Technical_Specifications - 1793875656.xlsx High End Laptop - Notebook",
+4,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 4,
+"v": 3
+},
+"GEM/2026/B/8245773": {
+"items": [
+[
+"High End Desktop Computer",
+2,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8245787": {
+"items": [
+[
+"Servers (V2)",
+1,
+[
+"Punjab"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8245872": {
+"items": [
+[
+"All In One PC (V2)",
+1,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+140,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+40,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+20,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+25,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+50,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+25,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+2,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+2,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+40,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+2,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+2,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+2,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+2,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+2,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+1,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+1,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+1,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+1,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+2,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+2,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+2,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+2,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+5,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+5,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+5,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+5,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+2,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Toner Cartridges / Ink Cartridges / Consumables For Printers",
+2,
+[
+"West Bengal"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 391,
+"v": 3
+},
+"GEM/2026/B/8245989": {
+"items": [
+[
+"Interactive Display",
+1,
+[
+"Assam"
+],
+[]
+],
+[
+"Wireless Presentation Device With USB",
+1,
+[
+"Assam"
+],
+[]
+],
+[
+"Professional Large Format Display",
+2,
+[
+"Assam"
+],
+[]
+],
+[
+"PC For Interactive Display",
+1,
+[
+"Assam"
+],
+[]
+],
+[
+"Visual Presenter",
+1,
+[
+"Assam"
+],
+[]
+],
+[
+"Capacitive LCD Levellers",
+1,
+[
+"Assam"
+],
+[]
+],
+[
+"Video Conferencing Camera",
+2,
+[
+"Assam"
+],
+[]
+],
+[
+"Ceiling Mount Kit",
+2,
+[
+"Assam"
+],
+[]
+],
+[
+"Ceiling Tile Microphone",
+2,
+[
+"Assam"
+],
+[]
+],
+[
+"Digital Signal Processor",
+1,
+[
+"Assam"
+],
+[]
+],
+[
+"Wireless Handheld Microphone",
+1,
+[
+"Assam"
+],
+[]
+],
+[
+"Ceiling Flush Mount Speaker",
+6,
+[
+"Assam"
+],
+[]
+],
+[
+"Wall Mount Touch Controller",
+1,
+[
+"Assam"
+],
+[]
+],
+[
+"Power Sequencer",
+1,
+[
+"Assam"
+],
+[]
+],
+[
+"Light Sequencer",
+1,
+[
+"Assam"
+],
+[]
+],
+[
+"16-Port Gigabit Ethernet PoE Switch",
+1,
+[
+"Assam"
+],
+[]
+],
+[
+"Ultra HD HDMI Matrix Switcher",
+1,
+[
+"Assam"
+],
+[]
+],
+[
+"Full HD HDMI Video Mixing Device",
+1,
+[
+"Assam"
+],
+[]
+],
+[
+"HDMI Capture Card",
+1,
+[
+"Assam"
+],
+[]
+],
+[
+"HDMI Extender",
+5,
+[
+"Assam"
+],
+[]
+],
+[
+"4-Port USB Extender",
+1,
+[
+"Assam"
+],
+[]
+],
+[
+"Cat 6 Ethernet Cable",
+305,
+[
+"Assam"
+],
+[]
+],
+[
+"HDMI Cable",
+4,
+[
+"Assam"
+],
+[]
+],
+[
+"HDMI Cable",
+3,
+[
+"Assam"
+],
+[]
+],
+[
+"USB Booster Cable",
+2,
+[
+"Assam"
+],
+[]
+],
+[
+"Control Cable 4 Core",
+180,
+[
+"Assam"
+],
+[]
+],
+[
+"12-U Floor Mount Rack",
+1,
+[
+"Assam"
+],
+[]
+],
+[
+"U-shaped Central Conference Table For 27 Pax",
+1,
+[
+"Assam"
+],
+[]
+],
+[
+"High Back Revolving Chair For Chairman",
+1,
+[
+"Assam"
+],
+[]
+],
+[
+"Mid Back Revolving Chair For Delegates",
+40,
+[
+"Assam"
+],
+[]
+],
+[
+"Other Required Cables And Accessories",
+1,
+[
+"Assam"
+],
+[]
+],
+[
+"Installation And Commissioning",
+1,
+[
+"Assam"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 573,
+"v": 3
+},
+"GEM/2026/B/8246007": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+2,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8246020": {
+"items": [
+[
+"MSI EdgeXpert- GPU Based Workstation ( Under PAC) ( 2 the number pi )",
+2,
+[
+"Maharashtra"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8246050": {
+"items": [
+[
+"All In One PC (V2)",
+4,
+[
+"Gujarat"
+],
+[]
+],
+[
+"Computer Printer (V2)",
+2,
+[
+"Gujarat"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+2,
+[
+"Gujarat"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 8,
+"v": 3
+},
+"GEM/2026/B/8246089": {
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+3,
+[
+"Delhi"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8246097": {
+"items": [
+[
+"High End Desktop Computer",
+10,
+[
+"Uttar Pradesh"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 10,
+"v": 3
+},
+"GEM/2026/B/8246130": {
+"items": [
+[
+"High End Desktop Computer",
+1,
+[
+"Haryana"
+],
+[]
+],
+[
+"Entry And Mid Level Desktop Computer",
+10,
+[
+"Haryana"
+],
+[]
+],
+[
+"High End Laptop - Notebook",
+1,
+[
+"Haryana"
+],
+[]
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Haryana"
+],
+[]
+],
+[
+"Line Interactive UPS With AVR (V2)",
+5,
+[
+"Haryana"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 18,
+"v": 3
+},
+"GEM/2026/B/8246134": {
+"items": [
+[
+"LAPTOP",
+1,
+[],
+[
+"SOUTH WEST DELHI"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8246156": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+9,
+[
+"Kerala"
+],
+[]
+],
+[
+"Multimedia Projector (MMP)",
+1,
+[
+"Kerala"
+],
+[]
+],
+[
+"Interactive Panels With CPU",
+1,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 11,
+"v": 3
+},
+"GEM/2026/B/8246200": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[]
+],
+[
+"Entry And Mid Level Desktop Computer",
+2,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8246202": {
+"items": [
+[
+"All In One PC (V2)",
+1,
+[
+"Maharashtra"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8246207": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[]
+],
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8246297": {
+"items": [
+[
+"LAPTOP",
+1,
+[],
+[
+"SOUTH WEST DELHI"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8246301": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+3,
+[
+"Assam"
+],
+[]
+],
+[
+"Computer Printer (V2)",
+3,
+[
+"Assam"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"Assam"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 7,
+"v": 3
+},
+"GEM/2026/B/8246359": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+3,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Line Interactive UPS With AVR (V2)",
+3,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Scanner (V3)",
+1,
+[
+"West Bengal"
+],
+[]
+],
+[
+"Computer Printer (V2)",
+2,
+[
+"West Bengal"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"West Bengal"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 10,
+"v": 3
+},
+"GEM/2026/B/8246361": {
+"items": [
+[
+"SERVER PC FOR 10 CLIENT PCS",
+1,
+[],
+[
+"Varanasi"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8246367": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8246481": {
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+2,
+[
+"Uttar Pradesh"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8246569": {
+"items": [
+[
+"High End Desktop Computer",
+44,
+[
+"Bihar"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 44,
+"v": 3
+},
+"GEM/2026/B/8246576": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+28,
+[
+"Gujarat"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 28,
+"v": 3
+},
+"GEM/2026/B/8246637": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Tamil Nadu"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"Tamil Nadu"
+],
+[]
+],
+[
+"Inverter (V2)",
+1,
+[
+"Tamil Nadu"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8246716": {
+"items": [
+[
+"All In One PC (V2)",
+1,
+[
+"West Bengal"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"West Bengal"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8246755": {
+"items": [
+[
+"All In One PC (V2)",
+3,
+[
+"Odisha"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"Odisha"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 4,
+"v": 3
+},
+"GEM/2026/B/8246794": {
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+125,
+[],
+[
+"Central Delhi"
+]
+],
+[
+"Fixed Computer Workstation (V2)",
+125,
+[],
+[
+"Central Delhi"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 250,
+"v": 3
+},
+"GEM/2026/B/8246861": {
+"items": [
+[
+"Desktop ULTRA 7, 512 GB SSD",
+175,
+[
+"Uttar Pradesh"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 175,
+"v": 3
+},
+"GEM/2026/B/8246906": {
+"items": [
+[
+"High End Laptop - Notebook",
+30,
+[
+"Maharashtra"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 30,
+"v": 3
+},
+"GEM/2026/B/8247141": {
+"items": [
+[
+"DESKTOP PC",
+1,
+[],
+[
+"Kupwara"
+]
+],
+[
+"ONLINE UPS",
+1,
+[],
+[
+"Kupwara"
+]
+],
+[
+"THIN CLIENT",
+5,
+[],
+[
+"Kupwara"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 7,
+"v": 3
+},
+"GEM/2026/B/8247150": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+18,
+[
+"Maharashtra"
+],
+[]
+],
+[
+"All In One PC (V2)",
+30,
+[
+"Maharashtra"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 48,
+"v": 3
+},
+"GEM/2026/B/8247178": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+14,
+[
+"Uttar Pradesh"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 14,
+"v": 3
+},
+"GEM/2026/B/8247234": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+17,
+[
+"Gujarat"
+],
+[]
+],
+[
+"Computer Printer (V2)",
+15,
+[
+"Gujarat"
+],
+[]
+],
+[
+"Scanner (V3)",
+7,
+[
+"Gujarat"
+],
+[]
+],
+[
+"Line Interactive UPS With AVR (V2)",
+14,
+[
+"Gujarat"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 53,
+"v": 3
+},
+"GEM/2026/B/8247257": {
+"items": [
+[
+"M5 CHIP LAPTOP",
+2,
+[],
+[
+"Pune"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8247516": {
+"items": [
+[
+"Desktop Computer I5",
+1,
+[],
+[
+"Gurdaspur"
+]
+],
+[
+"HP Desktop Tank 790 Auto Duplex Colour Printer",
+1,
+[],
+[
+"Gurdaspur"
+]
+],
+[
+"UPS 2 KVA",
+1,
+[],
+[
+"Gurdaspur"
+]
+],
+[
+"Epson Power Life FH54",
+1,
+[],
+[
+"Gurdaspur"
+]
+],
+[
+"Samsung Galaxy Tablet",
+10,
+[],
+[
+"Gurdaspur"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 14,
+"v": 3
+},
+"GEM/2026/B/8247533": {
+"items": [
+[
+"All In One PC (V2)",
+3,
+[
+"Maharashtra"
+],
+[]
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+2,
+[
+"Maharashtra"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 5,
+"v": 3
+},
+"GEM/2026/B/8247571": {
+"items": [
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"Karnataka"
+],
+[]
+],
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Karnataka"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8247599": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+4,
+[
+"Madhya Pradesh"
+],
+[]
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Madhya Pradesh"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 5,
+"v": 3
+},
+"GEM/2026/B/8247790": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Karnataka"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8247822": {
+"items": [
+[
+"Network Switch",
+1,
+[],
+[
+"Hyderabad"
+]
+],
+[
+"High End Desktop",
+1,
+[],
+[
+"Hyderabad"
+]
+],
+[
+"Gpu Work Station",
+1,
+[],
+[
+"Hyderabad"
+]
+],
+[
+"Microsoft Project Plan",
+1,
+[],
+[
+"Hyderabad"
+]
+],
+[
+"Minitab Solution Center Copilot",
+1,
+[],
+[
+"Hyderabad"
+]
+],
+[
+"Oracle Crystall Ball",
+1,
+[],
+[
+"Hyderabad"
+]
+],
+[
+"75 Inch Smart Board With Stand",
+1,
+[],
+[
+"Hyderabad"
+]
+],
+[
+"Godrej Centiguard 1060",
+1,
+[],
+[
+"Hyderabad"
+]
+],
+[
+"Visual Svn Server",
+1,
+[],
+[
+"Hyderabad"
+]
+],
+[
+"65 Inch Tv With Stand Accessories",
+1,
+[],
+[
+"Hyderabad"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 10,
+"v": 3
+},
+"GEM/2026/B/8247977": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+2,
+[
+"Tamil Nadu"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8248045": {
+"items": [
+[
+"All In One PC (V2)",
+2,
+[
+"Karnataka"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8248188": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+4,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 4,
+"v": 3
+},
+"GEM/2026/B/8248193": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8248236": {
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+1,
+[
+"Jammu & Kashmir"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8248292": {
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+1,
+[
+"Karnataka"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8248386": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+2,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8248412": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+3,
+[
+"Chandigarh"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8248416": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+125,
+[
+"Madhya Pradesh"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 125,
+"v": 3
+},
+"GEM/2026/B/8248510": {
+"items": [
+[
+"All In One PC (V2)",
+1,
+[
+"Uttarakhand"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8248680": {
+"items": [
+[
+"Laptop ( 1 the number pi )",
+1,
+[],
+[
+"Srinagar"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8248694": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+3,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8248703": {
+"items": [
+[
+"Procurement Of High Performance Rack Servers - 5 Nos",
+5,
+[
+"Tamil Nadu"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 5,
+"v": 3
+},
+"GEM/2026/B/8249058": {
+"items": [
+[
+"High End Laptop - Notebook",
+1,
+[
+"Rajasthan"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8249089": {
+"items": [
+[
+"All In One PC (V2)",
+2,
+[
+"Haryana"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8249253": {
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8249357": {
+"items": [
+[
+"High End Desktop Computer",
+6,
+[],
+[
+"Gurdaspur"
+]
+],
+[
+"Computer Printer (V2)",
+1,
+[],
+[
+"Gurdaspur"
+]
+],
+[
+"Computer Printer (V2)",
+1,
+[],
+[
+"Gurdaspur"
+]
+],
+[
+"Line Interactive UPS With AVR (V2)",
+5,
+[],
+[
+"Gurdaspur"
+]
+],
+[
+"Visual Presenters (V2)",
+1,
+[],
+[
+"Gurdaspur"
+]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 14,
+"v": 3
+},
+"GEM/2026/B/8249440": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Kerala"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8249500": {
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+28,
+[
+"Chandigarh"
+],
+[]
+],
+[
+"Line Interactive UPS With AVR (V2)",
+28,
+[
+"Chandigarh"
+],
+[]
+],
+[
+"Television (V3)",
+28,
+[
+"Chandigarh"
+],
+[]
+],
+[
+"Video Conferencing End Point",
+28,
+[
+"Chandigarh"
+],
+[]
+]
+],
+"ok": true,
+"on": "2026-11-06",
+"total": 112,
 "v": 3
 }
 }
