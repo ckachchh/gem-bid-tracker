@@ -49,6 +49,18 @@ Output is appended to `update.log`.
   A cached item list is trusted only if its quantities add up to the PDF's
   "Total Quantity". If one doesn't, the bid is retried after `PARSER_VERSION` in
   `gem_items.py` is bumped.
+- **Organisation, office and "Bid to RA enabled"** come from the buyer block on
+  page 1 of the bid PDF (cached as `h` in `bid_items.json`). They are read for
+  bids starting on/after `GEM_HDR_FROM` (default 2026-11-01); older bids show
+  only GeM's department/ministry. Masked or "N/a" values are left blank. The
+  dashboard shows an `RA` / `no RA` badge and has a "Bid to RA" filter.
+- **AMD** (same bids) says whether AMD is mentioned in the processor rows
+  ("Processor Number", "Base/Higher Processor Number", or a buyer-added
+  "Processor" row under "Additional Specification Parameters") of each item's
+  technical-specification table. Only a yes/no flag is kept (5th value of each
+  cached item: 1 / 0 / null = no processor row). Many custom items have their
+  spec in a separate downloadable buyer document, so those show "-". Bump
+  `HDR_V` in `gem_items.py` to re-read these bids after changing the rules.
 - **Reverse auctions** resolve to their parent tender number; RA numbers are
   never shown.
 - **State** comes from the buyer's department name. Central bodies (Military

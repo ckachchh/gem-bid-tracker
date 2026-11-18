@@ -66,7 +66,7 @@ def kind_counts(r):
 # verbose "item" string is only needed as a tooltip on bundled rows.
 URL_PREFIX = "https://bidplus.gem.gov.in/showbidDocument/"
 _slim = []
-N_PDF = N_UNREAD = N_STATES = 0
+N_PDF = N_UNREAD = N_STATES = N_HDR = N_AMD = 0
 for r in ROWS:
     o = {
         "b": r.get("bid_number", ""),
@@ -92,6 +92,17 @@ for r in ROWS:
     if _st:
         o["ss"] = _st            # delivery states from the consignee addresses
         N_STATES += 1
+    _h = pc.get("h") or {}       # buyer block of the bid PDF (bids read since Nov 2026)
+    if _h.get("org"):
+        o["og"] = _h["org"]
+    if _h.get("off"):
+        o["of"] = _h["off"]
+    if _h.get("ra"):
+        o["ra"] = _h["ra"]       # 'Y' / 'N': bid may go to reverse auction
+        N_HDR += 1
+    if pc.get("hv", 0) >= 2:     # AMD in the processor spec: 'Y' / 'N' / 'X' no processor spec in PDF
+        o["am"] = gem_items.bid_amd(pc) or "X"
+        N_AMD += o["am"] == "Y"
     kc = kind_counts(r)
     if kc is not None:
         o["k"] = kc
@@ -135,7 +146,7 @@ TEMPLATE = """<!DOCTYPE html>
 *{box-sizing:border-box}
 body{margin:0;background:#f6f7f9;color:#1a1d21;
  font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
-.wrap{max-width:1240px;margin:0 auto;padding:28px 24px 60px}
+.wrap{max-width:1640px;margin:0 auto;padding:28px 24px 60px}
 h1{font-size:23px;font-weight:650;margin:0 0 4px;letter-spacing:-.02em}
 .sub{color:#6b7280;font-size:13px;margin-bottom:22px}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:20px}
@@ -166,12 +177,31 @@ input[type=search]{flex:1;min-width:220px}
 .chip{padding:6px 12px;border:1px solid #d6dae0;background:#fff;border-radius:99px;
  font-size:12.5px;cursor:pointer;user-select:none}
 .chip.on{background:#1a1d21;color:#fff;border-color:#1a1d21}
-table{width:100%;border-collapse:collapse;background:#fff;
- border:1px solid #e3e6ea;border-radius:10px;overflow:hidden}
-th{background:#f0f2f4;text-align:left;font-size:11.5px;text-transform:uppercase;
- letter-spacing:.05em;color:#525a63;padding:10px 12px;cursor:pointer;white-space:nowrap}
+table{width:100%;min-width:1530px;border-collapse:separate;border-spacing:0;background:#fff}
+/* the table scrolls inside its own box, so the sideways slider stays on screen
+   even when a long month is expanded; a second slider sits above the table */
+.tscroll{overflow:auto;max-height:calc(100vh - 90px);border:1px solid #e3e6ea;border-radius:10px}
+.hbar{overflow-x:auto;overflow-y:hidden;margin:0 0 6px;border-radius:6px;background:#f0f2f4}
+.hbar>div{height:1px}
+.hnote{font-size:11.5px;color:#6b7280;margin:0 0 4px}
+.tscroll::-webkit-scrollbar,.hbar::-webkit-scrollbar{height:14px;width:12px}
+.tscroll::-webkit-scrollbar-thumb,.hbar::-webkit-scrollbar-thumb{background:#9aa3ad;border-radius:7px;
+ border:3px solid #f0f2f4}
+.tscroll::-webkit-scrollbar-thumb:hover,.hbar::-webkit-scrollbar-thumb:hover{background:#6b7280}
+.tscroll::-webkit-scrollbar-track,.hbar::-webkit-scrollbar-track{background:#f0f2f4}
+th{background:#f0f2f4;text-align:left;font-size:11px;text-transform:uppercase;
+ letter-spacing:.04em;color:#525a63;padding:10px 8px;cursor:pointer;white-space:nowrap;
+ position:sticky;top:0;z-index:2}
 th:hover{background:#e7eaed}
-td{padding:11px 12px;border-top:1px solid #eef0f2;vertical-align:top}
+/* bid number column and month labels stay put while sliding sideways */
+th:first-child{left:0;z-index:3}
+tbody tr:not(.mrow):not(.more) td:first-child{position:sticky;left:0;z-index:1;background:#fff;
+ box-shadow:1px 0 0 #e3e6ea;min-width:230px;max-width:300px}
+tbody tr:not(.mrow):not(.more):hover td:first-child{background:#fafbfc}
+.mlab{position:sticky;left:12px;display:inline-block}
+td{padding:10px 8px;border-top:1px solid #eef0f2;vertical-align:top}
+td.buyer{font-size:12px;color:#374151;min-width:90px;max-width:190px}
+td.nil{color:#b0b7bf}
 tr:hover td{background:#fafbfc}
 a{color:#1d4ed8;text-decoration:none}
 a:hover{text-decoration:underline}
@@ -194,6 +224,12 @@ a:hover{text-decoration:underline}
 .qty{font-variant-numeric:tabular-nums;font-weight:600}
 .dept{font-size:12.5px}
 .min{color:#6b7280;font-size:11.5px}
+.org{color:#374151;font-size:11.5px;margin-top:1px}
+.ra{display:inline-block;padding:1px 6px;border-radius:5px;font-size:10.5px;
+ font-weight:600;cursor:help;vertical-align:1px}
+.ra-Y{background:#fdecec;border:1px solid #f3b8b8;color:#a12d2d}
+.ra-N{background:#f3f4f6;border:1px solid #e1e4e8;color:#6b7280;font-weight:500}
+.am-Y{background:#e8f6ee;border:1px solid #a9dcbf;color:#17663a}
 .matched{font-size:12.5px;color:#1a1d21;margin-top:2px}
 .bundle{display:inline-block;margin-top:4px;background:#fff8e6;border:1px solid #f0dc9a;color:#7a5c00;font-size:11px;padding:2px 7px;border-radius:5px;cursor:help}
 .approx{color:#b45309;font-weight:700;margin-left:2px;cursor:help}
@@ -273,17 +309,35 @@ a:hover{text-decoration:underline}
    <option value="single">Single-product only</option>
    <option value="bundle">Bundled only</option>
   </select>
+  <select id="ra" title="&lsquo;Bid to RA enabled&rsquo; from the bid PDF (read for bids from November 2026 on)">
+   <option value="all">Bid to RA: any</option>
+   <option value="Y">Bid to RA: Yes</option>
+   <option value="N">Bid to RA: No</option>
+  </select>
+  <select id="amd" title="Is AMD mentioned in the processor rows of the bid PDF&rsquo;s technical specification? (bids from November 2026 on)">
+   <option value="all">AMD: any</option>
+   <option value="Y">AMD mentioned</option>
+   <option value="N">AMD not mentioned</option>
+   <option value="X">No processor spec in PDF</option>
+  </select>
  </div>
- <table><thead><tr>
+ <div class="hnote" id="hnote">Drag the slider (or Shift + mouse wheel) to see all columns &rarr;</div>
+ <div class="hbar" id="hbar"><div id="hbarIn"></div></div>
+ <div class="tscroll" id="tscroll"><table id="tbl"><thead><tr>
   <th data-k="b">Bid Number</th>
   <th data-k="c">Type</th>
+  <th data-k="y">Ministry / State</th>
   <th data-k="d">Department</th>
-  <th data-k="s">State</th>
+  <th data-k="og">Organisation</th>
+  <th data-k="of">Office</th>
+  <th data-k="s">Delivery State</th>
   <th data-k="q">Computers</th>
+  <th data-k="ra" title="Bid to RA enabled (from the bid PDF)">Bid to RA</th>
+  <th data-k="am" title="AMD mentioned in the processor rows of the technical specification (from the bid PDF)">AMD</th>
   <th data-k="t">Bid Start Date</th>
   <th data-k="e">Closes</th>
   <th data-k="a">Added</th>
- </tr></thead><tbody id="tb"></tbody></table>
+ </tr></thead><tbody id="tb"></tbody></table></div>
  <div class="empty" id="empty" style="display:none">No bids match these filters.</div>
  <p class="note"><b>Reading this table.</b> The line under each bid number shows only the
  items that matched your categories &mdash; not the full bid contents. A <b>bundled bid</b> badge
@@ -299,9 +353,17 @@ a:hover{text-decoration:underline}
  publication date. Reverse auctions are excluded &mdash; only open tenders are listed. Bids are grouped by month &mdash; click a month to expand or collapse it. The view defaults to <b>open bids of 5+ units</b> &mdash; single-unit tenders are hidden by default. Use the quantity and status filters to widen it. The page holds the whole history
  (__ALLN__ bids, also in <a href="bids.csv">bids.csv</a>): choose <b>Include closed</b> to see closed bids and
  earlier months, or click a month in the monthly chart.
- <b>State</b> (green) is where the goods are delivered &mdash; read from the consignee addresses in the bid PDF, so
+ <b>Delivery State</b> (green) is where the goods are delivered &mdash; read from the consignee addresses in the bid PDF, so
  one bid can list several states. Where the PDF has not been read yet the state (grey) is guessed from the buyer&rsquo;s
- department name, and <i>central</i> means a national body such as Military Affairs or Indian Railways.</p>
+ department name, and <i>central</i> means a national body such as Military Affairs or Indian Railways.
+ <b>Ministry / State</b> and <b>Department</b> are GeM&rsquo;s buyer fields. For bids from November 2026 on,
+ <b>Organisation</b>, <b>Office</b> and <b>Bid to RA</b> are read from the bid PDF (&mdash; for older bids):
+ <span class="ra ra-Y">Yes</span> means the price round may go to a reverse auction after technical evaluation,
+ <span class="ra ra-N">No</span> means it will not. GeM masks many office names, and those show &mdash;.
+ <b>AMD</b> says whether AMD is mentioned in the processor rows (&ldquo;Processor Number&rdquo; etc.) of the
+ bid PDF&rsquo;s technical specification; &mdash; means the PDF has no processor row (often the spec is a separate
+ buyer document).
+ Click any column heading to sort; on a narrow screen the table scrolls sideways.</p>
 </div>
 </div>
 <script>
@@ -327,6 +389,12 @@ document.querySelectorAll('.chip').forEach(c=>{
 document.getElementById('q').oninput=render;
 document.getElementById('range').onchange=render;
 document.getElementById('bundle').onchange=render;
+const raSel=document.getElementById('ra');
+raSel.value=localStorage.getItem('gem_ra')||'all';
+raSel.onchange=()=>{localStorage.setItem('gem_ra',raSel.value);render();};
+const amSel=document.getElementById('amd');
+amSel.value=localStorage.getItem('gem_amd')||'all';
+amSel.onchange=()=>{localStorage.setItem('gem_amd',amSel.value);render();};
 document.getElementById('status').onchange=()=>{openMonths=null;render();};
 const mq=document.getElementById('minq');
 mq.value=localStorage.getItem('gem_minq')||'5';
@@ -348,6 +416,7 @@ function filtered(ignoreStatus){
   const minq=+document.getElementById('minq').value||0;
   const soon=new Date(Date.now()+7*864e5).toISOString().slice(0,10);
   const stVal=document.getElementById('state').value;
+  const raVal=raSel.value, amVal=amSel.value;
   const days = addedOnly ? 0 : +rangeVal;
   let cut=null;
   if(days){const d=new Date();d.setDate(d.getDate()-(days-1));cut=d.toISOString().slice(0,10);}
@@ -363,9 +432,11 @@ function filtered(ignoreStatus){
     if(!ignoreStatus && stat==='closing' && !((r.e||'') >= TODAY && (r.e||'') <= soon)) return false;
     if(bundleVal==='single' && r.n) return false;
     if(bundleVal==='bundle' && !r.n) return false;
+    if(raVal!=='all' && r.ra!==raVal) return false;
+    if(amVal!=='all' && r.am!==amVal) return false;
     if(addedOnly && (r.a||'')!==TODAY) return false;
     if(cut && (r.t||'') < cut) return false;
-    if(q && !((r.b+' '+r.d+' '+r.y+' '+r.m+' '+sts(r).join(' ')).toLowerCase().includes(q))) return false;
+    if(q && !((r.b+' '+r.d+' '+r.y+' '+r.m+' '+(r.og||'')+' '+(r.of||'')+' '+sts(r).join(' ')).toLowerCase().includes(q))) return false;
     return true;
   }).sort((a,b)=>{
     let x=a[sortK]??'', y=b[sortK]??'';
@@ -373,6 +444,17 @@ function filtered(ignoreStatus){
     return String(x).localeCompare(String(y))*sortDir;
   });
 }
+// top slider mirrors the table box's sideways scroll; hidden when everything fits
+const hbar=document.getElementById('hbar'), tsc=document.getElementById('tscroll');
+hbar.onscroll=()=>{if(tsc.scrollLeft!==hbar.scrollLeft) tsc.scrollLeft=hbar.scrollLeft;};
+tsc.onscroll=()=>{if(hbar.scrollLeft!==tsc.scrollLeft) hbar.scrollLeft=tsc.scrollLeft;};
+function syncBar(){
+  const w=document.getElementById('tbl').scrollWidth, fits = w <= tsc.clientWidth + 1;
+  document.getElementById('hbarIn').style.width = w + 'px';
+  hbar.style.display = fits ? 'none' : '';
+  document.getElementById('hnote').style.display = fits ? 'none' : '';
+}
+window.addEventListener('resize', syncBar);
 function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
 const MONTHNAMES=['January','February','March','April','May','June','July',
   'August','September','October','November','December'];
@@ -391,6 +473,24 @@ function stateHtml(r){
   }
   return r.s?`<span class="st" title="Guessed from the buyer&rsquo;s department name (bid PDF not read yet)">${esc(r.s)}</span>`
             :'<span class="central" title="Central / national body and the bid PDF has not been read yet">central</span>';
+}
+
+// one buyer-field cell; organisation/office/RA come from the bid PDF (bids from Nov 2026 on)
+const NIL_PDF='Not in the bid PDF (masked or N/a)', NIL_OLD='Not read - only bids from November 2026 on';
+function cell(v, fromPdf, r){
+  if(v && !/^(na|n\/a|-)$/i.test(v)) return `<td class="buyer">${esc(v)}</td>`;
+  return `<td class="buyer nil" title="${fromPdf ? (r.ra ? NIL_PDF : NIL_OLD) : 'Not given'}">&mdash;</td>`;
+}
+function raHtml(r){
+  if(r.ra==='Y') return '<span class="ra ra-Y" title="Bid to RA enabled: Yes - after technical evaluation the price round goes to a reverse auction">Yes</span>';
+  if(r.ra==='N') return '<span class="ra ra-N" title="Bid to RA enabled: No - prices are fixed by the sealed bids">No</span>';
+  return `<span class="central" title="${NIL_OLD}">&mdash;</span>`;
+}
+function amHtml(r){
+  if(r.am==='Y') return '<span class="ra am-Y" title="AMD is mentioned in the processor rows of the technical specification">Yes</span>';
+  if(r.am==='N') return '<span class="ra ra-N" title="The processor rows of the technical specification do not mention AMD">No</span>';
+  if(r.am==='X') return '<span class="central" title="No processor row in the bid PDF (spec is a separate buyer document, or not a computer item)">&mdash;</span>';
+  return `<span class="central" title="${NIL_OLD}">&mdash;</span>`;
 }
 
 function rowHtml(r){
@@ -416,9 +516,11 @@ function rowHtml(r){
 <div class="matched">${esc(r.m)}</div>
           ${r.n?`<div class="bundle" title="Full bid contents: ${esc(r.f||r.m)}">bundled bid &middot; ${esc(r.n)} line items</div>`:''}</td>
       <td>${typeHtml}</td>
-      <td><div class="dept">${esc(r.d)}</div><div class="min">${esc(r.y)}</div></td>
+      ${cell(r.y,false,r)}${cell(r.d,false,r)}${cell(r.og,true,r)}${cell(r.of,true,r)}
       <td>${stateHtml(r)}</td>
       <td class="qty">${qtyHtml}</td>
+      <td>${raHtml(r)}</td>
+      <td>${amHtml(r)}</td>
       <td>${esc(r.t)}</td>
       <td>${esc(r.e)}</td>
       <td>${esc(r.a)}${isNewToday?'<span class="new">new</span>':''}</td></tr>`;
@@ -430,7 +532,7 @@ function moreHtml(shown){
   const all=filtered(true), n=all.length-shown;
   if(n<=0) return '';
   const mos=new Set(all.filter(r=>(r.e||'')<TODAY).map(r=>r.mo)).size;
-  return `<tr class="more"><td colspan="8">${n.toLocaleString()} closed bid${n>1?'s':''} matching the other filters
+  return `<tr class="more"><td colspan="13">${n.toLocaleString()} closed bid${n>1?'s':''} matching the other filters
     (${mos} month${mos>1?'s':''}) ${n>1?'are':'is'} hidden &mdash; <a href="#" id="showClosed">include closed bids</a></td></tr>`;
 }
 
@@ -446,13 +548,14 @@ function render(){
     const isOpen=openMonths.includes(k);
     const qty=g.reduce((s,r)=>s+(r.k?cq(r):0),0);
     const unread=g.filter(r=>!r.k).length;
-    const head=`<tr class="mrow" data-mo="${esc(k)}"><td colspan="8">
+    const head=`<tr class="mrow" data-mo="${esc(k)}"><td colspan="13"><span class="mlab">
         <span class="caret">${isOpen?'&#9662;':'&#9656;'}</span>
         <b>${esc(monthLabel(k))}</b>
         <span class="mcount">${g.length} bid${g.length>1?'s':''} &middot; ${qty.toLocaleString()} computers${unread?` + ${unread} unread bundle${unread>1?'s':''}`:''}</span>
-      </td></tr>`;
+      </span></td></tr>`;
     return head + (isOpen ? g.map(rowHtml).join('') : '');
   }).join('') + moreHtml(rows.length);
+  syncBar();
   const sc=document.getElementById('showClosed');
   if(sc) sc.onclick=e=>{e.preventDefault();const st=document.getElementById('status');st.value='all';st.onchange();};
   document.querySelectorAll('.mrow').forEach(tr=>{
@@ -606,3 +709,5 @@ print("Wrote {} ({:,} of {:,} bids{}; {:,} KB)".format(
     len(out.encode("utf8")) // 1024))
 print("Bundled bids counted from PDF: {:,}; not read yet: {:,}".format(N_PDF, N_UNREAD))
 print("Bids with delivery states from PDF: {:,} of {:,}".format(N_STATES, len(ROWS)))
+print("Bids with organisation/office/RA from PDF: {:,}".format(N_HDR))
+print("Bids whose processor spec mentions AMD: {:,}".format(N_AMD))

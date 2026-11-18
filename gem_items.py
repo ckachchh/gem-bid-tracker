@@ -307,6 +307,100 @@ _TS = re.compile(r"/\s*Technical Specifications\s*$|^\s*Technical Specifications
 _ADDL = re.compile(r"Additional Specification Parameters", re.I)
 
 
+# Processor rows of an item's spec table, e.g.
+#   "                        Processor Number             AMD Ryzen 3 5300G, Intel Core i3 12100"
+#   "                                                          Or higher"          <- wrapped value
+# GeM catalogue items use "Processor Number" / "Base Processor Number" /
+# "Higher Processor Number"; custom (BOQ) items fall back to any "Processor ..." row.
+_PNUM = re.compile(r"^\s*(?:\S.*?\s{2,})?((?:base\s+|higher\s+)?processor\s+(?:number|no\.?)"
+                   r"(?:\s+supplied)?)\s{2,}(\S.*?)\s*$", re.I)
+_PANY = re.compile(r"^\s{0,40}(?:\S.*?\s{2,})?(processor(?:\s*[-–(]?\s*(?:make|description|name|series|"
+                   r"generation|intel|amd)\)?)?)\s{2,}(\S.*?)\s*$", re.I)
+_PNOISE = re.compile(r"^\s*$|^\s*\d+\s*/\s*\d+\s*$|[ऀ-ॿ]|Allowed Values|Speci(?:fi|ﬁ)cation\s*$")
+AMD_RE = re.compile(r"\bAMD\b|Ryzen|EPYC|Athlon|Threadripper|Opteron", re.I)
+
+
+def _indent(s):
+    return len(s) - len(s.lstrip(" "))
+
+
+_ADDL = re.compile(r"Additional Specification Parameters")
+_ADDL_END = re.compile(r"Bidders offering must also comply")
+_ADDL_HDR = re.compile(r"^\s*(Specification Parameter|Name)\s*$|Allowed Values")
+_ADDL_CPU = re.compile(r"^(processor|processer|cpu)\b", re.I)
+
+
+def _addl_processor(lines):
+    """'Processor' rows of the buyer's "Additional Specification Parameters"
+    table. There the label sits on the middle line of its cell, so a cell's
+    value lines are split evenly above and below the label line."""
+    toks = []                                   # ('L', label, value) / ('V', value)
+    for s in lines:
+        if _ADDL_END.search(s):
+            break
+        if _PNOISE.search(s) or _ADDL_HDR.search(s):
+            continue
+        if _indent(s) >= 28:
+            toks.append(("V", s.strip()))
+        else:
+            parts = re.split(r"\s{2,}", s.strip(), 1)
+            toks.append(("L", parts[0], parts[1] if len(parts) > 1 else ""))
+    out, below = [], 0
+    labels = [k for k, t in enumerate(toks) if t[0] == "L"]
+    prev = None
+    for k in labels:
+        gap = [t[1] for t in toks[(prev + 1 if prev is not None else 0):k]]
+        if prev is not None:
+            mine = gap[:below]
+            if _ADDL_CPU.match(toks[prev][1]):
+                out[-1] += mine
+            gap = gap[below:]
+        above = gap
+        cell = above + ([toks[k][2]] if toks[k][2] else [])
+        below = len(above)
+        if _ADDL_CPU.match(toks[k][1]):
+            out.append(cell)
+        prev = k
+    if prev is not None and _ADDL_CPU.match(toks[prev][1]):
+        out[-1] += [t[1] for t in toks[prev + 1:]][:below]
+    return [" ".join(v) for v in out if v]
+
+
+def processor_text(lines):
+    """Processor requirement of one item's spec section ('' if none), wrapped
+    values and page breaks joined: 'Processor Number: AMD Ryzen 3 5300G, ...'.
+    Buyer-added "Additional Specification Parameters" processor rows are
+    appended as 'Additional processor: ...'. Only used to flag AMD."""
+    a = next((k for k, s in enumerate(lines) if _ADDL.search(s)), len(lines))
+    extra = ["Additional processor: " + re.sub(r"(?<=\w)-\s+(?=\w)", "-", v)
+             for v in _addl_processor(lines[a + 1:])] if a < len(lines) else []
+    lines = lines[:a]
+    out = []
+    for rx in (_PNUM, _PANY):
+        for i, s in enumerate(lines):
+            m = rx.match(s)
+            if not m:
+                continue
+            v = [m.group(2)]
+            pc, vc = m.start(1), m.start(2)
+            for s2 in lines[i + 1:i + 80]:
+                if _PNOISE.search(s2):
+                    continue            # page footer / repeated table header
+                # wrapped value: text only in the value column (a section
+                # label such as "Platform" may sit left of the parameter column)
+                vb = min(vc - 4, 45)
+                if (s2[vb:].strip() and not s2[max(pc - 1, 0):vb].strip()
+                        and (pc > 1 or not s2[:vb].strip())):
+                    v.append(s2[vb:].strip() if pc > 1 else s2.strip())
+                    continue
+                break
+            val = re.sub(r"(?<=\w)-\s+(?=\w)", "-", " ".join(v))
+            out.append("{}: {}".format(re.sub(r"\s+", " ", m.group(1)).strip().capitalize(), val))
+        if out:
+            break
+    return " | ".join(out + extra)
+
+
 def _skip(line):
     s = line.strip()
     return (not s or _DEV.search(s)
@@ -316,7 +410,8 @@ def _skip(line):
 
 
 def parse_items(txt):
-    """Return (total_quantity or None, [(name, qty, [PIN states], [masked cities]), ...])."""
+    """Return (total_quantity or None, [(name, qty, [PIN states], [masked cities], amd), ...]);
+    amd: 1 processor spec mentions AMD, 0 it does not, None no processor spec."""
     L = txt.replace("\f", "\n").split("\n")
     total = None
     for line in L[:150]:
@@ -367,6 +462,8 @@ def parse_items(txt):
         hi = ts[k + 1] if k + 1 < len(ts) else len(L)
         cq, nrows, inc = 0, 0, False
         pins, cities = [], []
+        cons = next((j for j in range(t, hi) if "Consignees/Reporting" in L[j]), hi)
+        cpu = processor_text(L[t:cons])
         for line in L[t:hi]:
             if "Consignees/Reporting" in line:
                 inc = True
@@ -381,12 +478,29 @@ def parse_items(txt):
                 cities += [c.strip() for c in _MASKED.findall(line)]
         if hq is None and nrows == 0 and re.search(r"ATC|Buyer Added", name):
             continue
+        amd = (1 if AMD_RE.search(cpu) else 0) if cpu else None
         if _ADDL.search(name):
-            continue        # extra spec sheet of the previous item, same quantity
+            # extra spec sheet of the previous item, same quantity
+            if items and amd is not None:
+                items[-1] = items[-1][:4] + (max(items[-1][4] or 0, amd),)
+            continue
         items.append((re.sub(r"\s+", " ", name), hq if hq is not None else cq,
                       sorted({pin_state(p) for p in pins} - {""}),
-                      sorted({c for c in cities if c})))
+                      sorted({c for c in cities if c}), amd))
     return total, items
+
+
+def item_amd(it):
+    """1 the item's processor spec mentions AMD, 0 it doesn't, None no processor
+    spec in the PDF (e.g. only an attached spec document) or not read."""
+    return it[4] if len(it) > 4 else None
+
+
+def bid_amd(entry):
+    """'Y' an item's processor spec mentions AMD, 'N' processor spec found but no AMD,
+    '' no processor spec found / not read."""
+    f = [item_amd(it) for it in entry.get("items", [])]
+    return "Y" if 1 in f else ("N" if 0 in f else "")
 
 
 # --------------------------------------------------------------------------
@@ -554,11 +668,40 @@ def fetch_pdf(url, tries=3):
     raise RuntimeError(str(err))
 
 
+# Buyer block on page 1: "<Hindi>/Ministry/State Name      Ministry Of Defence" etc.
+_HDR_FIELDS = (("ms", r"Ministry/State Name"), ("dept", r"Department Name"),
+               ("org", r"Organisation Name"), ("off", r"Office Name"),
+               ("ra", r"Bid to RA enabled"))
+_HDR_RE = [(k, re.compile(r"/\s*" + lab + r"\s+(\S.*?)\s*$", re.M | re.I)) for k, lab in _HDR_FIELDS]
+_NULL = re.compile(r"^(n/?a|nil|none|-+|\*+)$", re.I)
+
+# Only bids starting on/after this date are re-read just to get the header
+# (newer bids get it anyway on their first read).
+HDR_FROM = os.environ.get("GEM_HDR_FROM", "2026-11-01")
+HDR_V = 2       # 2 = header + AMD flag per item; bump to re-read bids since HDR_FROM
+
+
+def parse_header(txt):
+    """{'ms','dept','org','off': str, 'ra': 'Y'|'N'|''} from the PDF's buyer block.
+    Masked or 'N/a' values come back as ''."""
+    h = {}
+    for k, rx in _HDR_RE:
+        m = rx.search(txt)
+        v = m.group(1).strip() if m else ""
+        v = "" if _NULL.match(v) else re.sub(r"\s{2,}", " ", v)[:120]
+        if k == "ra":
+            v = {"yes": "Y", "no": "N"}.get(v.split(" ")[0].lower() if v else "", "")
+        h[k] = v
+    return h
+
+
 def analyse(data):
-    total, items = parse_items(pdf_text(data))
+    txt = pdf_text(data)
+    total, items = parse_items(txt)
     s = sum(i[1] for i in items)
     ok = bool(items) and (total is None or s == total)
-    return {"total": total, "items": [list(i) for i in items], "ok": ok, "v": PARSER_VERSION}
+    return {"total": total, "items": [list(i) for i in items], "ok": ok, "v": PARSER_VERSION,
+            "h": parse_header(txt), "hv": HDR_V}
 
 
 def wanted(rows, cache):
@@ -570,7 +713,8 @@ def wanted(rows, cache):
         if not r.get("bid_url"):
             continue
         c = cache["bids"].get(r["bid_number"])
-        if c and c.get("v", 0) >= PARSER_VERSION:
+        if c and c.get("v", 0) >= PARSER_VERSION and (
+                c.get("hv", 0) >= HDR_V or (r.get("bid_start_date") or "")[:10] < HDR_FROM):
             continue
         todo.append(r)
     # still-open bids first, newest first
@@ -596,6 +740,9 @@ def main():
             print("  {:>6}  {:<12} {}  [{}]".format(it[1], item_kind(it[0], [i[0] for i in items]) or "-",
                                                   it[0], ", ".join(item_states(it)) or "/".join(it[3])))
         print("counts", counts_for(items))
+        print("header", parse_header(txt))
+        print("AMD mentioned", {"Y": "yes", "N": "no", "": "no processor spec"}[
+            bid_amd({"items": items})])
         return
     max_n = int(os.environ.get("GEM_PDF_MAX", "400"))
     delay = float(os.environ.get("GEM_PDF_DELAY", "0.6"))
@@ -622,7 +769,7 @@ def main():
             res = analyse(data)
         except Exception as e:  # noqa: BLE001
             res = {"total": None, "items": [], "ok": False, "v": PARSER_VERSION,
-                   "err": str(e)[:200]}
+                   "h": {}, "hv": HDR_V, "err": str(e)[:200]}
         res["on"] = datetime.now(timezone.utc).date().isoformat()
         cache["bids"][bn] = res
         done += 1
