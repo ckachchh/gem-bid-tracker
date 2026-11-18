@@ -733,6 +733,31 @@ null
 "total": 3,
 "v": 3
 },
+"GEM/2026/B/7484377": {
+"h": {
+"dept": "Department Of Defence Research & Development",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Office Of Dg ( Med & Cos)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+1,
+[],
+[
+"Bangalore"
+],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
 "GEM/2026/B/7485847": {
 "h": {
 "dept": "Department Of Military Affairs",
@@ -1277,6 +1302,31 @@ null
 "Karnataka"
 ],
 "total": 4,
+"v": 3
+},
+"GEM/2026/B/7595148": {
+"h": {
+"dept": "Central Armed Police Forces",
+"ms": "Ministry Of Home Affairs",
+"off": "Ftr Hq Bsf Shillong",
+"org": "Border Security Force (bsf)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+95,
+[
+"Meghalaya"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 95,
 "v": 3
 },
 "GEM/2026/B/7597456": {
@@ -2357,6 +2407,31 @@ null
 "total": 20,
 "v": 3
 },
+"GEM/2026/B/7679767": {
+"h": {
+"dept": "Department Of Atomic Energy",
+"ms": "Pmo",
+"off": "West Zone",
+"org": "Institute For Plasma Research",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+1,
+[
+"Gujarat"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
 "GEM/2026/B/7680029": {
 "items": [
 [
@@ -2373,6 +2448,58 @@ null
 "Madhya Pradesh"
 ],
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/7681409": {
+"h": {
+"dept": "Department Of Telecommunications (dot)",
+"ms": "Ministry Of Communications",
+"off": "Bsnl Assam Circle East Zone",
+"org": "Bharat Sanchar Nigam Limited Portal(bsnl)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+243,
+[
+"Assam"
+],
+[],
+1
+],
+[
+"All In One PC (V2)",
+10,
+[
+"Assam"
+],
+[],
+1
+],
+[
+"Computer Printer (V2)",
+5,
+[
+"Assam"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+3,
+[
+"Assam"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 261,
 "v": 3
 },
 "GEM/2026/B/7682699": {
@@ -2525,6 +2652,67 @@ null
 "states": [
 "Haryana"
 ],
+"total": 5,
+"v": 3
+},
+"GEM/2026/B/7689448": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Navy",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Smartphone IOS A19 Chip",
+1,
+[],
+[
+"Uttara Kannada"
+],
+null
+],
+[
+"Laptop Mac OS M5 Chip 512 GB Silver Colour",
+1,
+[],
+[
+"Uttara Kannada"
+],
+null
+],
+[
+"Laptop Windows OS Make In India",
+1,
+[],
+[
+"Uttara Kannada"
+],
+null
+],
+[
+"Laptop Mac OS M5 Chip 512 GB Midnight Colour",
+1,
+[],
+[
+"Uttara Kannada"
+],
+null
+],
+[
+"Laptop Mac OS M5 Chip 512 GB",
+1,
+[],
+[
+"Uttara Kannada"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
 "total": 5,
 "v": 3
 },
@@ -3075,6 +3263,31 @@ null
 "total": 22,
 "v": 3
 },
+"GEM/2026/B/7721374": {
+"h": {
+"dept": "Department Of Defence",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Armed Forces Tribunal",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Laptop",
+2,
+[],
+[
+"Tinsukia"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
 "GEM/2026/B/7724311": {
 "items": [
 [
@@ -3309,6 +3522,121 @@ null
 "on": "2026-10-30",
 "states": [],
 "total": 2,
+"v": 3
+},
+"GEM/2026/B/7738846": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Desktop PC",
+22,
+[],
+[
+"LUCKNOW"
+],
+null
+],
+[
+"L2 Managed Switch",
+2,
+[],
+[
+"LUCKNOW"
+],
+null
+],
+[
+"24 U Rack",
+1,
+[],
+[
+"LUCKNOW"
+],
+null
+],
+[
+"10 KVA Online UPS",
+1,
+[],
+[
+"LUCKNOW"
+],
+null
+],
+[
+"Interactive Panel 75 Inch",
+1,
+[],
+[
+"LUCKNOW"
+],
+null
+],
+[
+"UTP Cat 6 Cable",
+2,
+[],
+[
+"LUCKNOW"
+],
+null
+],
+[
+"IO Box D Link",
+24,
+[],
+[
+"LUCKNOW"
+],
+null
+],
+[
+"Short Throw Projector",
+1,
+[],
+[
+"LUCKNOW"
+],
+null
+],
+[
+"Projector Screen",
+1,
+[],
+[
+"LUCKNOW"
+],
+null
+],
+[
+"Rack Server With Monitor",
+1,
+[],
+[
+"LUCKNOW"
+],
+null
+],
+[
+"Installation And Commissioning Charges",
+1,
+[],
+[
+"LUCKNOW"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 57,
 "v": 3
 },
 "GEM/2026/B/7741189": {
@@ -5326,6 +5654,31 @@ null
 "total": 11,
 "v": 3
 },
+"GEM/2026/B/7790070": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+65,
+[],
+[
+"Srinagar"
+],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 65,
+"v": 3
+},
 "GEM/2026/B/7790508": {
 "items": [
 [
@@ -5705,6 +6058,31 @@ null
 "total": 20,
 "v": 3
 },
+"GEM/2026/B/7797797": {
+"h": {
+"dept": "Central Armed Police Forces",
+"ms": "Ministry Of Home Affairs",
+"off": "Dte. Genl.",
+"org": "Central Reserve Police Force (crpf)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+25,
+[
+"Rajasthan"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 25,
+"v": 3
+},
 "GEM/2026/B/7798394": {
 "items": [
 [
@@ -5948,6 +6326,31 @@ null
 "ok": true,
 "on": "2026-10-31",
 "total": 150,
+"v": 3
+},
+"GEM/2026/B/7814391": {
+"h": {
+"dept": "Department Of Higher Education",
+"ms": "Ministry Of Education",
+"off": "Iit Jodhpur",
+"org": "Indian Institute Of Technology (iit)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+80,
+[
+"Rajasthan"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 80,
 "v": 3
 },
 "GEM/2026/B/7815300": {
@@ -7305,6 +7708,65 @@ null
 "on": "2026-10-30",
 "states": [],
 "total": 10,
+"v": 3
+},
+"GEM/2026/B/7839445": {
+"h": {
+"dept": "Department Of Higher Education",
+"ms": "Ministry Of Education",
+"off": "Iit Jodhpur",
+"org": "Indian Institute Of Technology (iit)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Computer Workstation",
+30,
+[
+"Rajasthan"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 30,
+"v": 3
+},
+"GEM/2026/B/7839780": {
+"h": {
+"dept": "Department Of Earth Sciences",
+"ms": "Ministry Of Earth Sciences",
+"off": "National Centre For Seismology",
+"org": "National Center For Seismology (ncs)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+5,
+[
+"Meghalaya"
+],
+[],
+1
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+2,
+[
+"Meghalaya"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 7,
 "v": 3
 },
 "GEM/2026/B/7839979": {
@@ -12744,6 +13206,31 @@ null
 "total": 13,
 "v": 3
 },
+"GEM/2026/B/7917624": {
+"h": {
+"dept": "Department Of Defence Research & Development",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Office Of Dg (mss)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+5,
+[],
+[
+"HYDERABAD"
+],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 5,
+"v": 3
+},
 "GEM/2026/B/7917676": {
 "items": [
 [
@@ -16673,6 +17160,200 @@ null
 "total": 1,
 "v": 3
 },
+"GEM/2026/B/7952405": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Laptop",
+1,
+[],
+[
+"BIKANER"
+],
+null
+],
+[
+"LED Display 105 Inches",
+1,
+[],
+[
+"BIKANER"
+],
+null
+],
+[
+"Cordless Mic Set",
+8,
+[],
+[
+"BIKANER"
+],
+null
+],
+[
+"Collar Mic",
+2,
+[],
+[
+"BIKANER"
+],
+null
+],
+[
+"Gooseneck Mic",
+5,
+[],
+[
+"BIKANER"
+],
+null
+],
+[
+"Amplifier 4000W",
+2,
+[],
+[
+"BIKANER"
+],
+null
+],
+[
+"Amplifier 2500W",
+2,
+[],
+[
+"BIKANER"
+],
+null
+],
+[
+"Speakers 600 W",
+4,
+[],
+[
+"BIKANER"
+],
+null
+],
+[
+"Speakers 300 W Active",
+4,
+[],
+[
+"BIKANER"
+],
+null
+],
+[
+"Speakers 300 W Passive",
+6,
+[],
+[
+"BIKANER"
+],
+null
+],
+[
+"Mixer 16 Channel",
+1,
+[],
+[
+"BIKANER"
+],
+null
+],
+[
+"Woofer 3000 Watt",
+2,
+[],
+[
+"BIKANER"
+],
+null
+],
+[
+"Top Speaker 1500 Watt",
+4,
+[],
+[
+"BIKANER"
+],
+null
+],
+[
+"3 Way Cross Over",
+2,
+[],
+[
+"BIKANER"
+],
+null
+],
+[
+"Speaker Cable 2 Sqmm 90mtr",
+10,
+[],
+[
+"BIKANER"
+],
+null
+],
+[
+"Audio Cable For Mic",
+10,
+[],
+[
+"BIKANER"
+],
+null
+],
+[
+"Speak-on Connector For Speaker",
+20,
+[],
+[
+"BIKANER"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 84,
+"v": 3
+},
+"GEM/2026/B/7952434": {
+"h": {
+"dept": "Department Of Defence",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Coast Guard",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+24,
+[],
+[
+"Kanchipuram"
+],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 24,
+"v": 3
+},
 "GEM/2026/B/7952540": {
 "items": [
 [
@@ -17523,6 +18204,49 @@ null
 "Madhya Pradesh"
 ],
 "total": 2,
+"v": 3
+},
+"GEM/2026/B/7956662": {
+"h": {
+"dept": "Department Of Expenditure",
+"ms": "Ministry Of Finance",
+"off": "Public Financial Management System",
+"org": "Controller General Of Accounts (cga)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Tablet",
+1,
+[
+"Delhi"
+],
+[],
+null
+],
+[
+"Mobile Phone",
+4,
+[
+"Delhi"
+],
+[],
+null
+],
+[
+"Laptop",
+37,
+[
+"Delhi"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 42,
 "v": 3
 },
 "GEM/2026/B/7957207": {
@@ -24594,6 +25318,625 @@ null
 "Gujarat"
 ],
 "total": 14,
+"v": 3
+},
+"GEM/2026/B/8000802": {
+"h": {
+"dept": "Small Scale Industries And Export Promotion Department Uttar Pradesh",
+"ms": "Uttar Pradesh",
+"off": "Directorate Of Industries Up",
+"org": "Directorate Of Industries And Enterprise Promotion",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+0
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+1
+],
+[
+"Entry And Mid Level Desktop Computer",
+4,
+[
+"Uttar Pradesh"
+],
+[],
+1
+],
+[
+"Multimedia Projector (MMP)",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Computer Printer (V2)",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Weighing Machine",
+2,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Mill House",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Fully Automatic Jaggery Production Unit",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Solar Panel Foundation And All Related Items",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Structure Of Complete Plant",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Bought Out For Complete Plan",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Erection Of Mill House And Boiling House",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"HDG Set",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Submersible",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Fire Fighting Equipment",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"HCL KIT SINGLE",
+8,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"OILFREE 15 COM",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"AIR FILTER",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"CYLINDER C2H2",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"REGULATOR C2H2",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"HOOD AAS",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Vacuum Hot Air Oven",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Digital Hot Air Oven",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Air Circulation Fan",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Microprocessor Digital Temperature IndicatoR",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Digital Timer",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Heating Mantle",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Digital Muffle Furnace",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Single Beam UV",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Double Beam UV",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Digital Photo Colorimeter",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Weighing Balance",
+2,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Analytical Balance CY",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Water Bath",
+2,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"PID Temperature Controller",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Atomic Absorption Spectrophotometer",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Gas Chromatography",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Fused Silica Capillary Column",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Gas Purification Panel",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Electromechanical Voltage Stabilizer",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Carbon Steel Cylinder",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Pressure Regulator",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Glassware",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Servo Candy Pillopack Wrapping Machine",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Horizontal Flow WrapePillopack High Speed Packaging Machine",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Automatic Packing Machine",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Vertical Single Face Paper Corrugating Machine",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Corrugated Sheet Pasting Machine",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Eccentric Slotter Machine",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Bar Rotary Cutting Creasing Machine",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Stitching Machine",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Paper Reel To Sheet Cutting Machine",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Flexo Graphic Printing Machine",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Printing Machine",
+2,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Manual Jar Filling Machine",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Manual Pouch Sealing Machine",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Manual Sticker Labelling Machine",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Bag Sewing Machine",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Bar Coding EquipmenT",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Bar Reader Machine",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Public Address Audio System",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Pantry",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"TV 45 Inch Screen",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Solar Panel",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Bio Fertilizer Plant",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"CCTV Unit For Control",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Interactive Panels With CPU",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 81,
 "v": 3
 },
 "GEM/2026/B/8000841": {
@@ -35287,6 +36630,49 @@ null
 "on": "2026-10-30",
 "states": [],
 "total": 8,
+"v": 3
+},
+"GEM/2026/B/8046306": {
+"h": {
+"dept": "Department Of Financial Services",
+"ms": "Ministry Of Finance",
+"off": "National Bank Staff College Lucknow",
+"org": "National Bank For Agriculture And Ruraldevelopment",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+2,
+[
+"Uttar Pradesh"
+],
+[],
+1
+],
+[
+"All In One PC (V2)",
+11,
+[
+"Uttar Pradesh"
+],
+[],
+1
+],
+[
+"All In One PC (V2)",
+5,
+[
+"Uttar Pradesh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 18,
 "v": 3
 },
 "GEM/2026/B/8046524": {
@@ -49122,6 +50508,148 @@ null
 "total": 2,
 "v": 3
 },
+"GEM/2026/B/8081824": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Fixed Computer Workstation",
+2,
+[],
+[
+"Patiala"
+],
+null
+],
+[
+"High Desktop Computer",
+1,
+[],
+[
+"Patiala"
+],
+null
+],
+[
+"Visual Presenters",
+1,
+[],
+[
+"Patiala"
+],
+null
+],
+[
+"Multimedia Projector",
+2,
+[],
+[
+"Patiala"
+],
+null
+],
+[
+"Electronic Lectern System",
+2,
+[],
+[
+"Patiala"
+],
+null
+],
+[
+"Fire Alaram System",
+1,
+[],
+[
+"Patiala"
+],
+null
+],
+[
+"Hard Disk Drive",
+1,
+[],
+[
+"Patiala"
+],
+null
+],
+[
+"Monitor",
+1,
+[],
+[
+"Patiala"
+],
+null
+],
+[
+"Power Over Ethernet Switch",
+1,
+[],
+[
+"Patiala"
+],
+null
+],
+[
+"Network Rack Cabinet",
+1,
+[],
+[
+"Patiala"
+],
+null
+],
+[
+"Cat 6 Ethernet Cable",
+100,
+[],
+[
+"Patiala"
+],
+null
+],
+[
+"Online UPS (?10 KVA) With Battery Conforming To IS 16242 (Part 1)",
+1,
+[],
+[
+"Patiala"
+],
+null
+],
+[
+"Camera For CCTV System (V3)",
+2,
+[],
+[
+"Patiala"
+],
+null
+],
+[
+"Video Recorder For CCTV System (V2)",
+1,
+[],
+[
+"Patiala"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 117,
+"v": 3
+},
 "GEM/2026/B/8081906": {
 "items": [
 [
@@ -49213,6 +50741,40 @@ null
 "Telangana"
 ],
 "total": 16,
+"v": 3
+},
+"GEM/2026/B/8082125": {
+"h": {
+"dept": "Department Of Higher Education",
+"ms": "Ministry Of Education",
+"off": "Indian Institute Of Technology Patna",
+"org": "Indian Institute Of Technology (iit)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Online UPS (?10 KVA) With Battery Conforming To IS 16242 (Part 1)",
+10,
+[
+"Bihar"
+],
+[],
+null
+],
+[
+"High End Desktop Computer",
+10,
+[
+"Bihar"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 20,
 "v": 3
 },
 "GEM/2026/B/8082128": {
@@ -50623,6 +52185,31 @@ null
 "Goa"
 ],
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/8083736": {
+"h": {
+"dept": "Irrigation Department Kerala",
+"ms": "Kerala",
+"off": "Office Of The Chief Engineer Irrigation And Admin",
+"org": "Irrigation And Administration",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+6,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6,
 "v": 3
 },
 "GEM/2026/B/8083802": {
@@ -54071,6 +55658,31 @@ null
 "total": 13,
 "v": 3
 },
+"GEM/2026/B/8089045": {
+"h": {
+"dept": "Department Of Defence",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Armed Forces Tribunal",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Ultra Portable High Performance Professional Notebook Computer (13-14 Inch Class)",
+2,
+[],
+[
+"Jammu"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
 "GEM/2026/B/8089249": {
 "items": [
 [
@@ -54620,6 +56232,31 @@ null
 "Karnataka"
 ],
 "total": 2,
+"v": 3
+},
+"GEM/2026/B/8090340": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"HIGH END LAPTOP WITH TOUCHSCREEN AND STYLUS",
+7,
+[],
+[
+"CENTRAL DELHI"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 7,
 "v": 3
 },
 "GEM/2026/B/8090363": {
@@ -57109,6 +58746,40 @@ null
 "total": 32,
 "v": 3
 },
+"GEM/2026/B/8092509": {
+"h": {
+"dept": "Department Of Defence",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Coast Guard",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+5,
+[],
+[
+"Thiruvananthapura"
+],
+1
+],
+[
+"High End Laptop - Notebook",
+1,
+[],
+[
+"Thiruvananthapura"
+],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6,
+"v": 3
+},
 "GEM/2026/B/8092517": {
 "items": [
 [
@@ -58031,6 +59702,58 @@ null
 "on": "2026-10-30",
 "states": [],
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/8094315": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"M5 Chip Laptop",
+1,
+[],
+[
+"JODHPUR CITY"
+],
+null
+],
+[
+"Tablet Computer",
+1,
+[],
+[
+"JODHPUR CITY"
+],
+null
+],
+[
+"Victus Laptop",
+1,
+[],
+[
+"JODHPUR CITY"
+],
+null
+],
+[
+"M4 Chip Tablet Computer",
+1,
+[],
+[
+"JODHPUR CITY"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 4,
 "v": 3
 },
 "GEM/2026/B/8094318": {
@@ -60496,6 +62219,31 @@ null
 "Chandigarh"
 ],
 "total": 3,
+"v": 3
+},
+"GEM/2026/B/8098100": {
+"h": {
+"dept": "Education Department Gujarat",
+"ms": "Gujarat",
+"off": "Ahmedabad",
+"org": "Gujarat Technological University Ahmedabad",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+2,
+[
+"Gujarat"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
 "v": 3
 },
 "GEM/2026/B/8098122": {
@@ -66907,6 +68655,31 @@ null
 "Uttar Pradesh"
 ],
 "total": 825,
+"v": 3
+},
+"GEM/2026/B/8107430": {
+"h": {
+"dept": "Department Of Defence",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Dg Armed Forces Medical Service",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Laptop I 7 Win 11 Pro 16 GB RAM 512 GB SSD ( 2 the number pi )",
+2,
+[],
+[
+"DARJEELING"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
 "v": 3
 },
 "GEM/2026/B/8107441": {
@@ -76735,6 +78508,40 @@ null
 "total": 50,
 "v": 3
 },
+"GEM/2026/B/8122625": {
+"h": {
+"dept": "",
+"ms": "Ministry Of Labour And Employment",
+"off": "Directorate General Of Employment",
+"org": "",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+6,
+[
+"Delhi"
+],
+[],
+1
+],
+[
+"Office Productivity Suite Software",
+6,
+[
+"Delhi"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 12,
+"v": 3
+},
 "GEM/2026/B/8122628": {
 "items": [
 [
@@ -78838,6 +80645,112 @@ null
 "total": 1,
 "v": 3
 },
+"GEM/2026/B/8126219": {
+"h": {
+"dept": "Department Of Defence",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Dg Armed Forces Medical Service",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"PC ALL IN ONE",
+15,
+[],
+[
+"LUCKNOW"
+],
+null
+],
+[
+"UPS 1 KVA",
+15,
+[],
+[
+"LUCKNOW"
+],
+null
+],
+[
+"LASER JET PRINTER",
+7,
+[],
+[
+"LUCKNOW"
+],
+null
+],
+[
+"COLOUR PRINTER",
+3,
+[],
+[
+"LUCKNOW"
+],
+null
+],
+[
+"MFP HEAVY DUTY MACHINE",
+1,
+[],
+[
+"LUCKNOW"
+],
+null
+],
+[
+"VIDEO VISUAL DEVICE",
+1,
+[],
+[
+"LUCKNOW"
+],
+null
+],
+[
+"CONFRENCING CAMERA",
+1,
+[],
+[
+"LUCKNOW"
+],
+null
+],
+[
+"CONFRENCING SPEAKER",
+1,
+[],
+[
+"LUCKNOW"
+],
+null
+],
+[
+"SERVER",
+1,
+[],
+[
+"LUCKNOW"
+],
+null
+],
+[
+"6 KVA ONLINE UPS",
+1,
+[],
+[
+"LUCKNOW"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 46,
+"v": 3
+},
 "GEM/2026/B/8126282": {
 "items": [
 [
@@ -79440,6 +81353,31 @@ null
 "Andaman & Nicobar"
 ],
 "total": 25,
+"v": 3
+},
+"GEM/2026/B/8126910": {
+"h": {
+"dept": "Chhattisgarh",
+"ms": "Chhattisgarh",
+"off": "Pmgsy",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+10,
+[
+"Chhattisgarh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 10,
 "v": 3
 },
 "GEM/2026/B/8126911": {
@@ -91526,6 +93464,31 @@ null
 "total": 500,
 "v": 3
 },
+"GEM/2026/B/8146539": {
+"h": {
+"dept": "Science And Technology Department Gujarat",
+"ms": "Gujarat",
+"off": "Western Zone",
+"org": "Gujarat Informatics Limited (gil)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+44,
+[
+"Gujarat"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 44,
+"v": 3
+},
 "GEM/2026/B/8146554": {
 "items": [
 [
@@ -91928,6 +93891,31 @@ null
 "total": 5,
 "v": 3
 },
+"GEM/2026/B/8147253": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Air Force",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+67,
+[],
+[
+"KAMRUP"
+],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 67,
+"v": 3
+},
 "GEM/2026/B/8147268": {
 "items": [
 [
@@ -92233,6 +94221,31 @@ null
 "West Bengal"
 ],
 "total": 7,
+"v": 3
+},
+"GEM/2026/B/8147796": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Air Force",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+4,
+[],
+[
+"Bangalore"
+],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 4,
 "v": 3
 },
 "GEM/2026/B/8147812": {
@@ -95291,6 +97304,31 @@ null
 "total": 2,
 "v": 3
 },
+"GEM/2026/B/8153054": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Laptop With Mac OS Latest Version",
+1,
+[],
+[
+"Sonitpur"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
 "GEM/2026/B/8153074": {
 "items": [
 [
@@ -95472,6 +97510,31 @@ null
 "Uttar Pradesh"
 ],
 "total": 4,
+"v": 3
+},
+"GEM/2026/B/8153308": {
+"h": {
+"dept": "Employees State Insuarnce Corporation",
+"ms": "Ministry Of Labour And Employment",
+"off": "Esic Hospital Ompora",
+"org": "Employees State Insurance Corporation",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+19,
+[
+"Jammu & Kashmir"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 19,
 "v": 3
 },
 "GEM/2026/B/8153365": {
@@ -96398,6 +98461,31 @@ null
 "West Bengal"
 ],
 "total": 10,
+"v": 3
+},
+"GEM/2026/B/8154427": {
+"h": {
+"dept": "Education Department Chandigarh",
+"ms": "Chandigarh",
+"off": "Sector 12",
+"org": "Punjab Engineering College (pec)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+115,
+[
+"Chandigarh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 115,
 "v": 3
 },
 "GEM/2026/B/8154428": {
@@ -98192,6 +100280,31 @@ null
 "total": 11,
 "v": 3
 },
+"GEM/2026/B/8157403": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Hqids",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Laptops/Notebooks",
+3,
+[],
+[
+"Kolkata"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
 "GEM/2026/B/8157422": {
 "items": [
 [
@@ -99810,6 +101923,58 @@ null
 "Odisha"
 ],
 "total": 100,
+"v": 3
+},
+"GEM/2026/B/8160408": {
+"h": {
+"dept": "Administration Division",
+"ms": "Ministry Of Home Affairs",
+"off": "Admin Division Mha At Kartvaya Bhawan 03",
+"org": "Admin Division",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+55,
+[
+"Delhi"
+],
+[],
+1
+],
+[
+"High End Laptop - Notebook",
+4,
+[
+"Delhi"
+],
+[],
+0
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+8,
+[
+"Delhi"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+8,
+[
+"Delhi"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 75,
 "v": 3
 },
 "GEM/2026/B/8160425": {
@@ -102150,6 +104315,52 @@ null
 "total": 10,
 "v": 3
 },
+"GEM/2026/B/8163656": {
+"h": {
+"dept": "Department Of Atomic Energy",
+"ms": "Pmo",
+"off": "Rajasthan",
+"org": "Nuclear Power Corporation Of India Limited",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"OIU, Operator Work Station (OWS) As Per Attached NPCIL 700MWe/60000/2068/ISS",
+13,
+[
+"Rajasthan",
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Server As Per Specification As Per Attached NPCIL 700MWe/60000/2068/ISS",
+2,
+[
+"Rajasthan",
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Network Printer As Per Attached 700MWe/60000/2081/ISS",
+3,
+[
+"Rajasthan",
+"Uttar Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 18,
+"v": 3
+},
 "GEM/2026/B/8163802": {
 "items": [
 [
@@ -103725,6 +105936,31 @@ null
 "total": 4,
 "v": 3
 },
+"GEM/2026/B/8166565": {
+"h": {
+"dept": "Department Of Defence",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Office Of Js And Chief Administrative Officer",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Servers (V2)",
+1,
+[],
+[
+"South West delhi"
+],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
 "GEM/2026/B/8166587": {
 "items": [
 [
@@ -103884,6 +106120,31 @@ null
 "Uttar Pradesh"
 ],
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/8166761": {
+"h": {
+"dept": "Department Of Defence Research & Development",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Office Of Dg (mss)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Rugged Notebook - Laptop",
+15,
+[],
+[
+"PANCHKULA"
+],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 15,
 "v": 3
 },
 "GEM/2026/B/8166858": {
@@ -107464,6 +109725,31 @@ null
 "total": 11,
 "v": 3
 },
+"GEM/2026/B/8171411": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Navy",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+22,
+[],
+[
+"Uttara Kannada"
+],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 22,
+"v": 3
+},
 "GEM/2026/B/8171426": {
 "h": {
 "dept": "Department Of Military Affairs",
@@ -109563,6 +111849,40 @@ null
 "total": 2,
 "v": 3
 },
+"GEM/2026/B/8174063": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High Performance Laptop With Next- Generation ARM Processor",
+2,
+[],
+[
+"JAMMU"
+],
+null
+],
+[
+"High End Touchscreen Convertible Notebook/ Omnibook",
+1,
+[],
+[
+"JAMMU"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
 "GEM/2026/B/8174226": {
 "items": [
 [
@@ -110265,6 +112585,40 @@ null
 "Kerala"
 ],
 "total": 22,
+"v": 3
+},
+"GEM/2026/B/8175497": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Mac Os Based Laptop",
+1,
+[],
+[
+"Firozpur"
+],
+null
+],
+[
+"Ios Based Tablet",
+1,
+[],
+[
+"Firozpur"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
 "v": 3
 },
 "GEM/2026/B/8175505": {
@@ -112271,6 +114625,31 @@ null
 "total": 2,
 "v": 3
 },
+"GEM/2026/B/8178782": {
+"h": {
+"dept": "Department Of Defence Research & Development",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Office Of Dg (sss)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+15,
+[],
+[
+"Kullu"
+],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 15,
+"v": 3
+},
 "GEM/2026/B/8178789": {
 "items": [
 [
@@ -112536,6 +114915,67 @@ null
 "Delhi"
 ],
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/8179400": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Navy",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+21,
+[],
+[
+"South Goa"
+],
+1
+],
+[
+"Line Interactive UPS With AVR (V2)",
+21,
+[],
+[
+"South Goa"
+],
+null
+],
+[
+"Computer Printer (V2)",
+7,
+[],
+[
+"South Goa"
+],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+2,
+[],
+[
+"South Goa"
+],
+null
+],
+[
+"Multimedia Projector (MMP)",
+2,
+[],
+[
+"South Goa"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 53,
 "v": 3
 },
 "GEM/2026/B/8179433": {
@@ -113073,6 +115513,49 @@ null
 "Andhra Pradesh"
 ],
 "total": 19,
+"v": 3
+},
+"GEM/2026/B/8180360": {
+"h": {
+"dept": "Department Of Electronics And Information Technology",
+"ms": "Ministry Of Electronics And Information Technology",
+"off": "National Informatics Centre-head Quaters",
+"org": "National Informatics Centre (nic)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+2,
+[
+"Uttarakhand"
+],
+[],
+1
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"Uttarakhand"
+],
+[],
+null
+],
+[
+"USB Type External Solid State Drive Capacity Greater Than 256 GB (V2)",
+2,
+[
+"Uttarakhand"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 5,
 "v": 3
 },
 "GEM/2026/B/8180411": {
@@ -119582,6 +122065,112 @@ null
 "total": 50,
 "v": 3
 },
+"GEM/2026/B/8192675": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Desktop Computer Alonwith Accessories",
+10,
+[],
+[
+"Jammu"
+],
+null
+],
+[
+"CCTV Camera Alongwith Accessories",
+6,
+[],
+[
+"Jammu"
+],
+null
+],
+[
+"DVR Alongwith Accessories",
+1,
+[],
+[
+"Jammu"
+],
+null
+],
+[
+"Audio Announcement System",
+1,
+[],
+[
+"Jammu"
+],
+null
+],
+[
+"Kiosk Machine",
+1,
+[],
+[
+"Jammu"
+],
+null
+],
+[
+"Antivirus",
+10,
+[],
+[
+"Jammu"
+],
+null
+],
+[
+"UPS",
+10,
+[],
+[
+"Jammu"
+],
+null
+],
+[
+"CAT 6 LAN Cable",
+100,
+[],
+[
+"Jammu"
+],
+null
+],
+[
+"D Link Managed Non POE Layer 2 Access Switch",
+1,
+[],
+[
+"Jammu"
+],
+null
+],
+[
+"Server PC",
+1,
+[],
+[
+"Jammu"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 141,
+"v": 3
+},
 "GEM/2026/B/8192710": {
 "h": {
 "dept": "Department Of Defence",
@@ -120755,6 +123344,31 @@ null
 "total": 59,
 "v": 3
 },
+"GEM/2026/B/8194853": {
+"h": {
+"dept": "Department Of Posts",
+"ms": "Ministry Of Communications",
+"off": "Circle, Kolkata-700012",
+"org": "Department Of Posts",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+27,
+[
+"West Bengal"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 27,
+"v": 3
+},
 "GEM/2026/B/8194858": {
 "items": [
 [
@@ -121365,6 +123979,31 @@ null
 "Tamil Nadu"
 ],
 "total": 2,
+"v": 3
+},
+"GEM/2026/B/8196741": {
+"h": {
+"dept": "Indian Railways",
+"ms": "Ministry Of Railways",
+"off": "Central Railway Stores Deptt",
+"org": "Central Railway",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+1,
+[
+"Maharashtra"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
 "v": 3
 },
 "GEM/2026/B/8196879": {
@@ -123363,6 +126002,31 @@ null
 "total": 2,
 "v": 3
 },
+"GEM/2026/B/8200521": {
+"h": {
+"dept": "",
+"ms": "Comptroller And Auditor General (cag) Of India",
+"off": "Office Of The Accountant General Goa",
+"org": "Accountant General, Goa",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+2,
+[
+"Goa"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
 "GEM/2026/B/8200544": {
 "items": [
 [
@@ -124422,6 +127086,49 @@ null
 "total": 1,
 "v": 3
 },
+"GEM/2026/B/8203082": {
+"h": {
+"dept": "Indian Railways",
+"ms": "Ministry Of Railways",
+"off": "Central Railway Stores Deptt",
+"org": "Central Railway",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Computer Printer (V2)",
+8,
+[
+"Maharashtra"
+],
+[],
+null
+],
+[
+"Entry And Mid Level Desktop Computer",
+8,
+[
+"Maharashtra"
+],
+[],
+1
+],
+[
+"Line Interactive UPS With AVR (V2)",
+8,
+[
+"Maharashtra"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 24,
+"v": 3
+},
 "GEM/2026/B/8203098": {
 "items": [
 [
@@ -125161,6 +127868,31 @@ null
 "West Bengal"
 ],
 "total": 2,
+"v": 3
+},
+"GEM/2026/B/8204693": {
+"h": {
+"dept": "Indian Railways",
+"ms": "Ministry Of Railways",
+"off": "Central Railway Stores Deptt",
+"org": "Central Railway",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+10,
+[
+"Maharashtra"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 10,
 "v": 3
 },
 "GEM/2026/B/8204726": {
@@ -126463,6 +129195,31 @@ null
 "total": 7,
 "v": 3
 },
+"GEM/2026/B/8207128": {
+"h": {
+"dept": "Department Of Defence Production",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Bharat Dynamics Limited",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"WORKSTATION FOR CAD & CFD APPLICATIONS",
+8,
+[],
+[
+"Hyderabad"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 8,
+"v": 3
+},
 "GEM/2026/B/8207157": {
 "items": [
 [
@@ -127068,6 +129825,31 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 4,
+"v": 3
+},
+"GEM/2026/B/8208477": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Air Force",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+80,
+[],
+[
+"Varanasi"
+],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 80,
 "v": 3
 },
 "GEM/2026/B/8208550": {
@@ -128183,6 +130965,31 @@ null
 "total": 5,
 "v": 3
 },
+"GEM/2026/B/8210750": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+9,
+[],
+[
+"RAMBAN"
+],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 9,
+"v": 3
+},
 "GEM/2026/B/8210777": {
 "items": [
 [
@@ -128696,6 +131503,31 @@ null
 "Uttar Pradesh"
 ],
 "total": 43,
+"v": 3
+},
+"GEM/2026/B/8211853": {
+"h": {
+"dept": "Department Of Defence Research & Development",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Office Of Dg (ecs)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+6,
+[],
+[
+"BANGALORE"
+],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6,
 "v": 3
 },
 "GEM/2026/B/8211867": {
@@ -130845,6 +133677,31 @@ null
 "total": 17,
 "v": 3
 },
+"GEM/2026/B/8216020": {
+"h": {
+"dept": "Department Of Atomic Energy",
+"ms": "Department Of Atomic Energy",
+"off": "Head Quarter Mumbai",
+"org": "Nuclear Power Corporation Of India Ltd",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"PRICE BREAKUP EXCEL SHEET - 1793265585.xlsx All In One PC (V2)",
+880,
+[
+"Maharashtra"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 880,
+"v": 3
+},
 "GEM/2026/B/8216028": {
 "items": [
 [
@@ -131610,6 +134467,40 @@ null
 "total": 12,
 "v": 3
 },
+"GEM/2026/B/8217009": {
+"h": {
+"dept": "Madhya Pradesh State Election Commission",
+"ms": "Madhya Pradesh",
+"off": "58 Nirvachan Bhavan Arera Hills Bhopal Mp 462010",
+"org": "State Election Commission (sec), Madhya Pradesh",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+8,
+[
+"Madhya Pradesh"
+],
+[],
+0
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+8,
+[
+"Madhya Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 16,
+"v": 3
+},
 "GEM/2026/B/8217076": {
 "items": [
 [
@@ -131624,6 +134515,31 @@ null
 "ok": true,
 "on": "2026-10-31",
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/8217151": {
+"h": {
+"dept": "Department Of Space",
+"ms": "Department Of Space",
+"off": "Master Control Facility",
+"org": "Indian Space Research Organization",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+": Supply And Installation Of Network And Server Racks At MCF-Bhopal",
+14,
+[
+"Madhya Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 14,
 "v": 3
 },
 "GEM/2026/B/8217210": {
@@ -132302,6 +135218,31 @@ null
 "total": 1,
 "v": 3
 },
+"GEM/2026/B/8218263": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+5,
+[],
+[
+"RAJOURI"
+],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 5,
+"v": 3
+},
 "GEM/2026/B/8218304": {
 "items": [
 [
@@ -132340,6 +135281,31 @@ null
 "ok": true,
 "on": "2026-10-31",
 "total": 12,
+"v": 3
+},
+"GEM/2026/B/8218350": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Laptop",
+3,
+[],
+[
+"WEST DELHI"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
 "v": 3
 },
 "GEM/2026/B/8218425": {
@@ -132812,6 +135778,31 @@ null
 "ok": true,
 "on": "2026-10-31",
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/8219369": {
+"h": {
+"dept": "Department Of Atomic Energy",
+"ms": "Department Of Atomic Energy",
+"off": "Directorate Of Purchase And Stores",
+"org": "Directorate Of Purchase And Stores",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High Performance Computing Workstation",
+3,
+[
+"Maharashtra"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
 "v": 3
 },
 "GEM/2026/B/8219459": {
@@ -134950,6 +137941,40 @@ null
 "total": 2,
 "v": 3
 },
+"GEM/2026/B/8222556": {
+"h": {
+"dept": "Housing Department Maharashtra",
+"ms": "Maharashtra",
+"off": "Mumbai",
+"org": "Slum Rehabilitation Authority, Govt. Of Maharashtra",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+1,
+[
+"Maharashtra"
+],
+[],
+0
+],
+[
+"A3 Size Multifunction Printer (MFP)",
+1,
+[
+"Maharashtra"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
 "GEM/2026/B/8222567": {
 "items": [
 [
@@ -135488,6 +138513,67 @@ null
 "ok": true,
 "on": "2026-11-02",
 "total": 11,
+"v": 3
+},
+"GEM/2026/B/8223203": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Desktop PC",
+16,
+[],
+[
+"Baramulla"
+],
+null
+],
+[
+"15 KVA UPS",
+1,
+[],
+[
+"Baramulla"
+],
+null
+],
+[
+"1 KVA UPS",
+7,
+[],
+[
+"Baramulla"
+],
+null
+],
+[
+"Laserjet Printer",
+2,
+[],
+[
+"Baramulla"
+],
+null
+],
+[
+"Duplex Printer",
+3,
+[],
+[
+"Baramulla"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 29,
 "v": 3
 },
 "GEM/2026/B/8223262": {
@@ -137551,6 +140637,31 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/8227753": {
+"h": {
+"dept": "Department Of Home",
+"ms": "Ministry Of Home Affairs",
+"off": "Directorate Of Census Operations Ap And Telangana",
+"org": "Census Of India",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+92,
+[
+"Telangana"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 92,
 "v": 3
 },
 "GEM/2026/B/8227784": {
@@ -139863,6 +142974,31 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 12,
+"v": 3
+},
+"GEM/2026/B/8229882": {
+"h": {
+"dept": "Woman Welfare Department Uttar Pradesh",
+"ms": "Uttar Pradesh",
+"off": "Probation Office Muzaffarnagar",
+"org": "",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+27,
+[
+"Uttar Pradesh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 27,
 "v": 3
 },
 "GEM/2026/B/8229892": {
@@ -142772,6 +145908,40 @@ null
 "total": 1,
 "v": 3
 },
+"GEM/2026/B/8233635": {
+"h": {
+"dept": "Gail India Limited",
+"ms": "Ministry Of Petroleum And Natural Gas",
+"off": "Usar",
+"org": "Gail India Limited",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Servers (V2)",
+1,
+[
+"Maharashtra"
+],
+[],
+0
+],
+[
+"Fixed Computer Workstation (V2)",
+1,
+[
+"Maharashtra"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
 "GEM/2026/B/8233642": {
 "h": {
 "dept": "Department Of Military Affairs",
@@ -143455,6 +146625,31 @@ null
 "total": 2,
 "v": 3
 },
+"GEM/2026/B/8234687": {
+"h": {
+"dept": "Animal Husbandary Department Chhattisgarh",
+"ms": "Chhattisgarh",
+"off": "Raipur",
+"org": "State Live Stock Development Department",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+25,
+[
+"Chhattisgarh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 25,
+"v": 3
+},
 "GEM/2026/B/8234711": {
 "h": {
 "dept": "Revenue And Disaster Department Chhattisgarh",
@@ -143623,6 +146818,31 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/8234823": {
+"h": {
+"dept": "Maharashtra",
+"ms": "Maharashtra",
+"off": "Mumbai",
+"org": "Maharashtra State Skills University",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+3,
+[
+"Maharashtra"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
 "v": 3
 },
 "GEM/2026/B/8234834": {
@@ -144528,6 +147748,49 @@ null
 "total": 18,
 "v": 3
 },
+"GEM/2026/B/8236030": {
+"h": {
+"dept": "Department Of Higher Education Madhya Pradesh",
+"ms": "Madhya Pradesh",
+"off": "Principal Shobha Singh Yadav Govt College Patan",
+"org": "Government Colleges Of Madhya Pradesh",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+1,
+[
+"Madhya Pradesh"
+],
+[],
+0
+],
+[
+"Interactive Panels With CPU",
+1,
+[
+"Madhya Pradesh"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"Madhya Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
 "GEM/2026/B/8236055": {
 "h": {
 "dept": "Indian Railways",
@@ -144957,6 +148220,40 @@ null
 "total": 3,
 "v": 3
 },
+"GEM/2026/B/8236512": {
+"h": {
+"dept": "Indian Railways",
+"ms": "Ministry Of Railways",
+"off": "Ecr Stores",
+"org": "East Central Railway",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+10,
+[
+"Bihar"
+],
+[],
+1
+],
+[
+"Line Interactive UPS With AVR (V2)",
+5,
+[
+"Bihar"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 15,
+"v": 3
+},
 "GEM/2026/B/8236539": {
 "h": {
 "dept": "Department Of Military Affairs",
@@ -145018,6 +148315,31 @@ null
 "total": 21,
 "v": 3
 },
+"GEM/2026/B/8236599": {
+"h": {
+"dept": "Health And Family Welfare Department Tamil Nadu",
+"ms": "Tamil Nadu",
+"off": "D",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+6,
+[
+"Tamil Nadu"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6,
+"v": 3
+},
 "GEM/2026/B/8236694": {
 "h": {
 "dept": "Department Of Military Affairs",
@@ -145041,6 +148363,40 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 5,
+"v": 3
+},
+"GEM/2026/B/8236722": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+6,
+[],
+[
+"Rajauri"
+],
+1
+],
+[
+"Tablet Computer (V2)",
+1,
+[],
+[
+"Rajauri"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 7,
 "v": 3
 },
 "GEM/2026/B/8236735": {
@@ -146079,6 +149435,49 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 10,
+"v": 3
+},
+"GEM/2026/B/8238332": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+12,
+[],
+[
+"Visakhapatnam"
+],
+0
+],
+[
+"Computer Printer (V2)",
+7,
+[],
+[
+"Visakhapatnam"
+],
+null
+],
+[
+"High End Laptop - Notebook",
+1,
+[],
+[
+"Visakhapatnam"
+],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 20,
 "v": 3
 },
 "GEM/2026/B/8238405": {
@@ -147541,6 +150940,40 @@ null
 "total": 1,
 "v": 3
 },
+"GEM/2026/B/8240231": {
+"h": {
+"dept": "Energy Department Madhya Pradesh",
+"ms": "Madhya Pradesh",
+"off": "Procurement",
+"org": "(mptransco) Jabalpur",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+8,
+[
+"Madhya Pradesh"
+],
+[],
+1
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Madhya Pradesh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 9,
+"v": 3
+},
 "GEM/2026/B/8240264": {
 "h": {
 "dept": "Labour Department Puducherry",
@@ -147648,6 +151081,31 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 10,
+"v": 3
+},
+"GEM/2026/B/8240404": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Principal Directorate Lsgd Thiruvananthapuram",
+"org": "Tender Notifications - Local Self Government Department",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
 "v": 3
 },
 "GEM/2026/B/8240474": {
@@ -149241,6 +152699,49 @@ null
 "total": 6,
 "v": 3
 },
+"GEM/2026/B/8242417": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Procurement Of Laptop/ Tablet",
+1,
+[],
+[
+"AMRITSAR CITY"
+],
+null
+],
+[
+"Procurement Of Laptop Ultra 7",
+2,
+[],
+[
+"AMRITSAR CITY"
+],
+null
+],
+[
+"Procurement Of Laptop Ultra 5",
+1,
+[],
+[
+"AMRITSAR CITY"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 4,
+"v": 3
+},
 "GEM/2026/B/8242444": {
 "h": {
 "dept": "Department Of Military Affairs",
@@ -149482,6 +152983,112 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 2,
+"v": 3
+},
+"GEM/2026/B/8243058": {
+"h": {
+"dept": "Department Of Defence Research & Development",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Office Of Dg ( Ns & M)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Ultra High Performance AI Workstation",
+1,
+[],
+[
+"JODHPUR CITY"
+],
+null
+],
+[
+"High End Workstation",
+3,
+[],
+[
+"JODHPUR CITY"
+],
+null
+],
+[
+"Mid End Workstation",
+2,
+[],
+[
+"JODHPUR CITY"
+],
+null
+],
+[
+"Entry Level Workstation",
+1,
+[],
+[
+"JODHPUR CITY"
+],
+null
+],
+[
+"Network Attached Storage",
+1,
+[],
+[
+"JODHPUR CITY"
+],
+null
+],
+[
+"Network Switch",
+2,
+[],
+[
+"JODHPUR CITY"
+],
+null
+],
+[
+"24U Floor Mount Server Rack",
+1,
+[],
+[
+"JODHPUR CITY"
+],
+null
+],
+[
+"Cat6A U UTP Cable Roll",
+1,
+[],
+[
+"JODHPUR CITY"
+],
+null
+],
+[
+"Large Professional Display Unit",
+1,
+[],
+[
+"JODHPUR CITY"
+],
+null
+],
+[
+"Installation Integration Testing Commissioning And Training Services",
+1,
+[],
+[
+"JODHPUR CITY"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 14,
 "v": 3
 },
 "GEM/2026/B/8243080": {
@@ -151307,6 +154914,31 @@ null
 "total": 1,
 "v": 3
 },
+"GEM/2026/B/8245679": {
+"h": {
+"dept": "Architecture Department Haryana",
+"ms": "Haryana",
+"off": "Chandigarh",
+"org": "Department Of Architecture",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+5,
+[
+"Chandigarh"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 5,
+"v": 3
+},
 "GEM/2026/B/8245688": {
 "h": {
 "dept": "Health And Family Welfare Department Kerala",
@@ -151330,6 +154962,40 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 2,
+"v": 3
+},
+"GEM/2026/B/8245689": {
+"h": {
+"dept": "Department Of Defence",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Dg Of Defence Estate",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[],
+[
+"Ahmedabad"
+],
+1
+],
+[
+"Computer Printer (V2)",
+2,
+[],
+[
+"Ahmedabad"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
 "v": 3
 },
 "GEM/2026/B/8245729": {
@@ -152757,6 +156423,31 @@ null
 "total": 28,
 "v": 3
 },
+"GEM/2026/B/8246585": {
+"h": {
+"dept": "Department Of Electronics And Information Technology",
+"ms": "Ministry Of Electronics And Information Technology",
+"off": "West",
+"org": "Centre For Development Of Advanced Computing (c-dac)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+10,
+[
+"Maharashtra"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 10,
+"v": 3
+},
 "GEM/2026/B/8246610": {
 "h": {
 "dept": "Indian Railways",
@@ -152832,6 +156523,31 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 3,
+"v": 3
+},
+"GEM/2026/B/8246656": {
+"h": {
+"dept": "Department Of Atomic Energy",
+"ms": "Department Of Atomic Energy",
+"off": "Directorate Of Purchase And Stores",
+"org": "Directorate Of Purchase And Stores",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Professional Desktop PC As Per Attached Specifications",
+15,
+[
+"Maharashtra"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 15,
 "v": 3
 },
 "GEM/2026/B/8246716": {
@@ -152936,6 +156652,40 @@ null
 "total": 11,
 "v": 3
 },
+"GEM/2026/B/8246764": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Navy",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+14,
+[],
+[
+"SOUTH GOA"
+],
+1
+],
+[
+"High End Desktop Computer",
+2,
+[],
+[
+"SOUTH GOA"
+],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 16,
+"v": 3
+},
 "GEM/2026/B/8246794": {
 "h": {
 "dept": "Department Of Defence Research & Development",
@@ -153018,6 +156768,40 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 175,
+"v": 3
+},
+"GEM/2026/B/8246868": {
+"h": {
+"dept": "Indian Railways",
+"ms": "Ministry Of Railways",
+"off": "North Western Railway",
+"org": "North Western Railway",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+15,
+[
+"Rajasthan"
+],
+[],
+null
+],
+[
+"All In One PC (V2)",
+40,
+[
+"Rajasthan"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 55,
 "v": 3
 },
 "GEM/2026/B/8246906": {
@@ -153111,6 +156895,31 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 4,
+"v": 3
+},
+"GEM/2026/B/8247082": {
+"h": {
+"dept": "Department Of Jammu, Kashmir And Ladakh Affairs",
+"ms": "Ministry Of Home Affairs",
+"off": "Cid Headquarters",
+"org": "Jammu And Kashmir Police",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Servers (V2)",
+1,
+[
+"Jammu & Kashmir"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
 "v": 3
 },
 "GEM/2026/B/8247141": {
@@ -153946,6 +157755,31 @@ null
 "total": 11,
 "v": 3
 },
+"GEM/2026/B/8247933": {
+"h": {
+"dept": "Central Armed Police Forces",
+"ms": "Ministry Of Home Affairs",
+"off": "Fhq Ssb New Delhi",
+"org": "Sashastra Seema Bal (ssb)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+8,
+[
+"Uttar Pradesh"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 8,
+"v": 3
+},
 "GEM/2026/B/8247977": {
 "h": {
 "dept": "Tamil Nadu",
@@ -154203,6 +158037,31 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 142,
+"v": 3
+},
+"GEM/2026/B/8248344": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+32,
+[],
+[
+"Meerut"
+],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 32,
 "v": 3
 },
 "GEM/2026/B/8248386": {
@@ -155365,6 +159224,40 @@ null
 "total": 2,
 "v": 3
 },
+"GEM/2026/B/8249775": {
+"h": {
+"dept": "Health & Family Welfare Department Gujarat",
+"ms": "Gujarat",
+"off": "390015",
+"org": "Government College Of Nursing Vadodara",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+5,
+[
+"Gujarat"
+],
+[],
+1
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+5,
+[
+"Gujarat"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 10,
+"v": 3
+},
 "GEM/2026/B/8249812": {
 "h": {
 "dept": "Department Of Earth Sciences",
@@ -155825,6 +159718,31 @@ null
 "total": 4,
 "v": 3
 },
+"GEM/2026/B/8250501": {
+"h": {
+"dept": "Department Of Atomic Energy",
+"ms": "Department Of Atomic Energy",
+"off": "Directorate Of Purchase And Stores",
+"org": "Directorate Of Purchase And Stores",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+1,
+[
+"Madhya Pradesh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
 "GEM/2026/B/8250504": {
 "h": {
 "dept": "Local Self Government Department Kerala",
@@ -156161,6 +160079,31 @@ null
 "total": 3,
 "v": 3
 },
+"GEM/2026/B/8250919": {
+"h": {
+"dept": "Energy Department Maharashtra",
+"ms": "Maharashtra",
+"off": "Mahagenco",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+20,
+[
+"Maharashtra"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 20,
+"v": 3
+},
 "GEM/2026/B/8250948": {
 "h": {
 "dept": "Local Self Government Department Kerala",
@@ -156361,6 +160304,31 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 8,
+"v": 3
+},
+"GEM/2026/B/8251076": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Muttil Gramapanchayat",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+3,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
 "v": 3
 },
 "GEM/2026/B/8251093": {
@@ -157869,6 +161837,31 @@ null
 "total": 14,
 "v": 3
 },
+"GEM/2026/B/8252549": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+1,
+[],
+[
+"West Kameng"
+],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
 "GEM/2026/B/8252551": {
 "h": {
 "dept": "Department Of Financial Services",
@@ -158628,6 +162621,31 @@ null
 1,
 [
 "Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8253453": {
+"h": {
+"dept": "Health And Family Welfare Department Karnataka",
+"ms": "Karnataka",
+"off": "Thaluka Health Officer Office Gangavathi",
+"org": "Hfws Koppal",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+1,
+[
+"Karnataka"
 ],
 [],
 1
@@ -159501,6 +163519,31 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 6,
+"v": 3
+},
+"GEM/2026/B/8254302": {
+"h": {
+"dept": "Department Of Defence",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Coast Guard",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+12,
+[],
+[
+"Tuticorin ("
+],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 12,
 "v": 3
 },
 "GEM/2026/B/8254371": {
@@ -162480,6 +166523,31 @@ null
 "total": 20,
 "v": 3
 },
+"GEM/2026/B/8258018": {
+"h": {
+"dept": "Department Of Atomic Energy",
+"ms": "Department Of Atomic Energy",
+"off": "Directorate Of Purchase And Stores",
+"org": "Directorate Of Purchase And Stores",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Servers (V2)",
+1,
+[
+"Telangana"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
 "GEM/2026/B/8258124": {
 "h": {
 "dept": "Health And Family Welfare Department Tripura",
@@ -163256,6 +167324,37 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/8259244": {
+"h": {
+"dept": "Department Of Defence",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Controller General Of Defence Accounts",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+13,
+[],
+[
+"Bardhaman",
+"CALCUTTA CENTRAL",
+"Darjeeling",
+"Dimapur",
+"East Khasi hills",
+"Jorhat",
+"Sonitpur"
+],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 13,
 "v": 3
 },
 "GEM/2026/B/8259294": {
@@ -164477,6 +168576,31 @@ null
 "total": 1,
 "v": 3
 },
+"GEM/2026/B/8260747": {
+"h": {
+"dept": "Central Council For Research In Ayurvedic Sciences",
+"ms": "Ministry Of Ayush",
+"off": "Chennai",
+"org": "Institute (csmraddi), Chennai",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+1,
+[
+"Tamil Nadu"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
 "GEM/2026/B/8260871": {
 "h": {
 "dept": "Local Self Government Department Kerala",
@@ -165000,6 +169124,56 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 25,
+"v": 3
+},
+"GEM/2026/B/8262058": {
+"h": {
+"dept": "Department Of Higher Education",
+"ms": "Ministry Of Education",
+"off": "Ropar",
+"org": "Indian Institute Of Technology (iit)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Supply And Installation Of Workstation",
+60,
+[
+"Punjab"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 60,
+"v": 3
+},
+"GEM/2026/B/8262197": {
+"h": {
+"dept": "Department Of Biotechnology (dbt)",
+"ms": "Ministry Of Science And Technology",
+"off": "Ncr Biotech Science Cluster",
+"org": "Regional Centre For Biotechnology (rcb) Gurgaon",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+1,
+[
+"Haryana"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
 "v": 3
 },
 "GEM/2026/B/8262267": {
@@ -166873,6 +171047,31 @@ null
 "total": 3,
 "v": 3
 },
+"GEM/2026/B/8265592": {
+"h": {
+"dept": "Department Of Atomic Energy",
+"ms": "Department Of Atomic Energy",
+"off": "Directorate Of Purchase And Stores",
+"org": "Directorate Of Purchase And Stores",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Desktop Computer With Dual Ethernet Ports, Window 11 Professional And MS-Office As Per Specification",
+100,
+[
+"Tamil Nadu"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 100,
+"v": 3
+},
 "GEM/2026/B/8265670": {
 "h": {
 "dept": "Department Of Higher Education",
@@ -167032,6 +171231,31 @@ null
 "total": 1,
 "v": 3
 },
+"GEM/2026/B/8265974": {
+"h": {
+"dept": "",
+"ms": "Ministry Of Power",
+"off": "Ussc Cpg2 Raipur",
+"org": "Ntpc Limited",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"700077424_ 10_ M9598906070_ DSKTP: WORKSTATION, 24C, 3.2GHZ, 48GB, 32IN",
+2,
+[
+"Chhattisgarh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
 "GEM/2026/B/8265991": {
 "h": {
 "dept": "",
@@ -167130,6 +171354,31 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 15,
+"v": 3
+},
+"GEM/2026/B/8266349": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "N",
+"org": "Tender Notifications - Local Self Government Department",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+18,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 18,
 "v": 3
 },
 "GEM/2026/B/8266358": {
@@ -167280,6 +171529,49 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/8266399": {
+"h": {
+"dept": "Central Public Works Department",
+"ms": "Ministry Of Housing & Urban Affairs (mohua)",
+"off": "Chief Engineer Ghaziabad",
+"org": "Cpwd",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+2,
+[
+"Uttar Pradesh"
+],
+[],
+0
+],
+[
+"Computer Printer (V2)",
+2,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Line Interactive UPS With AVR (V2)",
+2,
+[
+"Uttar Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6,
 "v": 3
 },
 "GEM/2026/B/8266436": {
@@ -168276,6 +172568,31 @@ null
 "total": 3,
 "v": 3
 },
+"GEM/2026/B/8267202": {
+"h": {
+"dept": "Indian Railways",
+"ms": "Ministry Of Railways",
+"off": "North Western Railway",
+"org": "North Western Railway",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+1,
+[
+"Rajasthan"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
 "GEM/2026/B/8267285": {
 "h": {
 "dept": "Department Of Electronics And Information Technology",
@@ -168510,6 +172827,56 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/8267579": {
+"h": {
+"dept": "Department Of Atomic Energy",
+"ms": "Pmo",
+"off": "Naps",
+"org": "Nuclear Power Corporation Of India Limited",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"GST BREAKUP TO BE UPLOAED IN FINANCIAL BID OR PRICE BID ONLY - 1794475385.xlsx High End Desktop Computer",
+40,
+[
+"Uttar Pradesh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 40,
+"v": 3
+},
+"GEM/2026/B/8267588": {
+"h": {
+"dept": "Police Department Haryana",
+"ms": "Haryana",
+"off": "Panchkula",
+"org": "",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+350,
+[
+"Haryana"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 350,
 "v": 3
 },
 "GEM/2026/B/8267597": {
@@ -169544,6 +173911,49 @@ null
 "total": 54,
 "v": 3
 },
+"GEM/2026/B/8267886": {
+"h": {
+"dept": "Indian Railways",
+"ms": "Ministry Of Railways",
+"off": "Northern Railway",
+"org": "Northern Railway",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+6,
+[
+"Delhi"
+],
+[],
+0
+],
+[
+"All In One PC (V2)",
+7,
+[
+"Delhi"
+],
+[],
+0
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+3,
+[
+"Delhi"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 16,
+"v": 3
+},
 "GEM/2026/B/8267914": {
 "h": {
 "dept": "Keral",
@@ -170091,6 +174501,40 @@ null
 "total": 350,
 "v": 3
 },
+"GEM/2026/B/8268560": {
+"h": {
+"dept": "Tourism And Cultural Affairs Department Maharashtra",
+"ms": "Maharashtra",
+"off": "Mumbai",
+"org": "Directorate Of Archeology And Museums Maharashtra",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Servers (V2)",
+1,
+[
+"Maharashtra"
+],
+[],
+0
+],
+[
+"Firewall (V4)",
+1,
+[
+"Maharashtra"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
 "GEM/2026/B/8268601": {
 "h": {
 "dept": "Pradesh",
@@ -170416,6 +174860,31 @@ null
 "total": 2,
 "v": 3
 },
+"GEM/2026/B/8268761": {
+"h": {
+"dept": "Department Of Higher Education",
+"ms": "Ministry Of Education",
+"off": "Bhilai",
+"org": "Indian Institute Of Technology (iit)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Workstation System",
+1,
+[
+"Chhattisgarh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
 "GEM/2026/B/8268789": {
 "h": {
 "dept": "Panchayats And Rural Housing Department Gujarat",
@@ -170625,6 +175094,76 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/8269308": {
+"h": {
+"dept": "Department Of Higher Education",
+"ms": "Ministry Of Education",
+"off": "Kurnool",
+"org": "Indian Institute Of Information Technology (iiit)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"GPU Based Workstation System 1",
+1,
+[
+"Andhra Pradesh"
+],
+[],
+null
+],
+[
+"GPU Based Workstation System 2",
+1,
+[
+"Andhra Pradesh"
+],
+[],
+null
+],
+[
+"High Performance Workstation 3",
+1,
+[
+"Andhra Pradesh"
+],
+[],
+null
+],
+[
+"GPU Based Workstation System 4",
+1,
+[
+"Andhra Pradesh"
+],
+[],
+null
+],
+[
+"High End Workstation 5",
+1,
+[
+"Andhra Pradesh"
+],
+[],
+null
+],
+[
+"High Performance System 6",
+1,
+[
+"Andhra Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6,
 "v": 3
 },
 "GEM/2026/B/8269333": {
@@ -171075,6 +175614,65 @@ null
 "total": 14,
 "v": 3
 },
+"GEM/2026/B/8270192": {
+"h": {
+"dept": "Department Of Space",
+"ms": "Department Of Space",
+"off": "Satish Dhawan Space Centre Shar",
+"org": "Indian Space Research Organization",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+28,
+[
+"Andhra Pradesh"
+],
+[],
+1
+],
+[
+"Entry And Mid Level Desktop Computer",
+60,
+[
+"Andhra Pradesh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 88,
+"v": 3
+},
+"GEM/2026/B/8270293": {
+"h": {
+"dept": "Department Of Electronics And Information Technology",
+"ms": "Ministry Of Electronics And Information Technology",
+"off": "Bangalore",
+"org": "Centre For Development Of Advanced Computing (c-dac)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+5,
+[
+"Karnataka"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 5,
+"v": 3
+},
 "GEM/2026/B/8270317": {
 "h": {
 "dept": "Health And Family Welfare Department Kerala",
@@ -171295,6 +175893,31 @@ null
 "total": 1,
 "v": 3
 },
+"GEM/2026/B/8270631": {
+"h": {
+"dept": "Department Of Atomic Energy",
+"ms": "Department Of Atomic Energy",
+"off": "Directorate Of Purchase And Stores",
+"org": "Directorate Of Purchase And Stores",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Madhya Pradesh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
 "GEM/2026/B/8270695": {
 "h": {
 "dept": "Hospitality And Protocol Department Jammu And Kashmir",
@@ -171318,6 +175941,31 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 7,
+"v": 3
+},
+"GEM/2026/B/8270707": {
+"h": {
+"dept": "Airports Authority Of India (aai)",
+"ms": "Ministry Of Civil Aviation",
+"off": "Airports Authority Of India Bhubaneswar Airport",
+"org": "Airports Authority Of India",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+9,
+[
+"Odisha"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 9,
 "v": 3
 },
 "GEM/2026/B/8270715": {
@@ -171730,6 +176378,67 @@ null
 "total": 1,
 "v": 3
 },
+"GEM/2026/B/8270990": {
+"h": {
+"dept": "Water Resources Department Punjab",
+"ms": "Punjab",
+"off": "Ground Water Division No 1",
+"org": "Ground Water Division No 1 Sas Nagar",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+18,
+[
+"Chandigarh"
+],
+[],
+1
+],
+[
+"Computer Printer (V2)",
+52,
+[
+"Chandigarh"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+50,
+[
+"Chandigarh"
+],
+[],
+null
+],
+[
+"Line Interactive UPS With AVR (V2)",
+170,
+[
+"Chandigarh"
+],
+[],
+null
+],
+[
+"Entry And Mid Level Desktop Computer",
+170,
+[
+"Chandigarh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 460,
+"v": 3
+},
 "GEM/2026/B/8271037": {
 "h": {
 "dept": "Governors Office(raj Bhavan)",
@@ -171984,6 +176693,40 @@ null
 "total": 3,
 "v": 3
 },
+"GEM/2026/B/8271411": {
+"h": {
+"dept": "",
+"ms": "Ministry Of Ayush",
+"off": "O/o Director, Nis Chennai",
+"org": "National Institute Of Siddha (nis)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+70,
+[
+"Tamil Nadu"
+],
+[],
+0
+],
+[
+"All In One PC (V2)",
+10,
+[
+"Tamil Nadu"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 80,
+"v": 3
+},
 "GEM/2026/B/8271425": {
 "h": {
 "dept": "Department Of Biotechnology (dbt)",
@@ -172143,6 +176886,40 @@ null
 "total": 3,
 "v": 3
 },
+"GEM/2026/B/8271644": {
+"h": {
+"dept": "Revenue And Disaster Management Department Haryana",
+"ms": "Haryana",
+"off": "Deputy Coomissioner Office Karnal",
+"org": "",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+15,
+[
+"Haryana"
+],
+[],
+null
+],
+[
+"Entry And Mid Level Desktop Computer",
+10,
+[
+"Haryana"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 25,
+"v": 3
+},
 "GEM/2026/B/8271660": {
 "h": {
 "dept": "Indian Railways",
@@ -172234,6 +177011,31 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 14,
+"v": 3
+},
+"GEM/2026/B/8271746": {
+"h": {
+"dept": "Co-operative Department Rajasthan",
+"ms": "Rajasthan",
+"off": "The Nagaur Central Cooperative Bank Ltd",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+20,
+[
+"Rajasthan"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 20,
 "v": 3
 },
 "GEM/2026/B/8271820": {
@@ -172582,6 +177384,31 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 273,
+"v": 3
+},
+"GEM/2026/B/8272043": {
+"h": {
+"dept": "Home Department Madhya Pradesh",
+"ms": "Madhya Pradesh",
+"off": "Harda",
+"org": "Madhya Pradesh Public Prosecution Portal",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+2,
+[
+"Madhya Pradesh"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
 "v": 3
 },
 "GEM/2026/B/8272055": {
@@ -173065,6 +177892,31 @@ null
 "total": 2,
 "v": 3
 },
+"GEM/2026/B/8272763": {
+"h": {
+"dept": "Medical Education Department Uttar Pradesh",
+"ms": "Uttar Pradesh",
+"off": "Lucknow",
+"org": "Centre Of Biomedical Research Lucknow",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+2,
+[
+"Uttar Pradesh"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
 "GEM/2026/B/8272930": {
 "h": {
 "dept": "Local Self Government Department Kerala",
@@ -173133,6 +177985,31 @@ null
 "total": 2,
 "v": 3
 },
+"GEM/2026/B/8273001": {
+"h": {
+"dept": "Home Department Delhi",
+"ms": "Delhi",
+"off": "Rohini",
+"org": "",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Audio Video Processing Workstation",
+20,
+[
+"Delhi"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 20,
+"v": 3
+},
 "GEM/2026/B/8273073": {
 "h": {
 "dept": "Department Of Animal Husbandry And Dairying",
@@ -173173,6 +178050,31 @@ null
 5,
 [
 "Mizoram"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 5,
+"v": 3
+},
+"GEM/2026/B/8273084": {
+"h": {
+"dept": "Indian Railways",
+"ms": "Ministry Of Railways",
+"off": "Northern Railway",
+"org": "Northern Railway",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+5,
+[
+"Uttar Pradesh"
 ],
 [],
 1
@@ -173521,6 +178423,56 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 39,
+"v": 3
+},
+"GEM/2026/B/8273442": {
+"h": {
+"dept": "Forest Department Uttarakhand",
+"ms": "Uttarakhand",
+"off": "Ramnagar Forest Division, Ramnagar",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+2,
+[
+"Uttar Pradesh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8273454": {
+"h": {
+"dept": "Home Department Jharkhand",
+"ms": "Jharkhand",
+"off": "D.g.p. Office",
+"org": "Police Department",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+12,
+[
+"Jharkhand"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 12,
 "v": 3
 },
 "GEM/2026/B/8273697": {
@@ -173949,6 +178901,58 @@ null
 "total": 2,
 "v": 3
 },
+"GEM/2026/B/8274433": {
+"h": {
+"dept": "Pradesh",
+"ms": "Madhya Pradesh",
+"off": "Zila Panchayat Anuppur",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+3,
+[
+"Madhya Pradesh"
+],
+[],
+0
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+2,
+[
+"Madhya Pradesh"
+],
+[],
+1
+],
+[
+"Line Interactive UPS With AVR (V2)",
+1,
+[
+"Madhya Pradesh"
+],
+[],
+null
+],
+[
+"Line Interactive UPS With AVR (V2)",
+1,
+[
+"Madhya Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 7,
+"v": 3
+},
 "GEM/2026/B/8274531": {
 "h": {
 "dept": "Department Of Health And Family Welfare",
@@ -174047,6 +179051,31 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/8274593": {
+"h": {
+"dept": "Department Of Jammu, Kashmir And Ladakh Affairs",
+"ms": "Ministry Of Home Affairs",
+"off": "Cid Headquarters",
+"org": "Jammu And Kashmir Police",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Servers (V2)",
+2,
+[
+"Jammu & Kashmir"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
 "v": 3
 },
 "GEM/2026/B/8274751": {
@@ -174151,6 +179180,76 @@ null
 "total": 43,
 "v": 3
 },
+"GEM/2026/B/8275212": {
+"h": {
+"dept": "Department Of Revenue",
+"ms": "Ministry Of Finance",
+"off": "Directorate Of Revenue Intelligence, Chennai Zonal Unit",
+"org": "Central Board Of Excise And Customs (cbec)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One Pc",
+1,
+[
+"Tamil Nadu"
+],
+[],
+null
+],
+[
+"Amplifier",
+1,
+[
+"Tamil Nadu"
+],
+[],
+null
+],
+[
+"Hdd",
+5,
+[
+"Tamil Nadu"
+],
+[],
+null
+],
+[
+"Toner",
+1,
+[
+"Tamil Nadu"
+],
+[],
+null
+],
+[
+"MFM Printer",
+1,
+[
+"Tamil Nadu"
+],
+[],
+null
+],
+[
+"Desktop Computer",
+2,
+[
+"Tamil Nadu"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 11,
+"v": 3
+},
 "GEM/2026/B/8275367": {
 "h": {
 "dept": "Department Of Military Affairs",
@@ -174199,6 +179298,31 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 1,
+"v": 3
+},
+"GEM/2026/B/8275477": {
+"h": {
+"dept": "Department Of Jammu, Kashmir And Ladakh Affairs",
+"ms": "Ministry Of Home Affairs",
+"off": "Cyber Crime Investigation Centre For Excellence",
+"org": "Jammu And Kashmir Police",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+8,
+[
+"Jammu & Kashmir"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 8,
 "v": 3
 },
 "GEM/2026/B/8275485": {
@@ -174285,6 +179409,74 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 7,
+"v": 3
+},
+"GEM/2026/B/8275678": {
+"h": {
+"dept": "",
+"ms": "Ministry Of Ayush",
+"off": "Regional Research Institute Of Unani Medicine Alig",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+25,
+[
+"Uttar Pradesh"
+],
+[],
+0
+],
+[
+"Computer Printer (V2)",
+20,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+5,
+[
+"Uttar Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 50,
+"v": 3
+},
+"GEM/2026/B/8275804": {
+"h": {
+"dept": "Higher Education Department Jammu And Kashmir",
+"ms": "Jammu & Kashmir",
+"off": "Abdul Ahad Azad Memorial Degree College Bemina",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+30,
+[
+"Jammu & Kashmir"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 30,
 "v": 3
 },
 "GEM/2026/B/8275833": {
@@ -174693,6 +179885,45 @@ null
 "total": 21,
 "v": 3
 },
+"GEM/2026/B/8277120": {
+"h": {
+"dept": "Department Of Revenue",
+"ms": "Ministry Of Finance",
+"off": "Adg Systems 4",
+"org": "Central Board Of Direct Taxes (cbdt)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+6330,
+[
+"Assam",
+"Bihar",
+"Chandigarh",
+"Delhi",
+"Gujarat",
+"Karnataka",
+"Kerala",
+"Madhya Pradesh",
+"Maharashtra",
+"Odisha",
+"Rajasthan",
+"Tamil Nadu",
+"Telangana",
+"Uttar Pradesh",
+"West Bengal"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6330,
+"v": 3
+},
 "GEM/2026/B/8277163": {
 "h": {
 "dept": "Department Of Home",
@@ -174716,6 +179947,6430 @@ null
 "ok": true,
 "on": "2026-11-18",
 "total": 49,
+"v": 3
+},
+"GEM/2026/B/8277451": {
+"h": {
+"dept": "Department Of Defence Production",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Hindustan Aeronautics Limited (hal)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"GPU SERVER HARDWARE - 1794801039.xlsx GPU SERVER HARDWARE ( 1 the number pi )",
+1,
+[],
+[
+"BANGALORE CITY"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8277650": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+15,
+[],
+[
+"GWALIOR"
+],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 15,
+"v": 3
+},
+"GEM/2026/B/8277790": {
+"h": {
+"dept": "",
+"ms": "Ministry Of Road Transports And Highways",
+"off": "Thiruvananthapuram",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8277804": {
+"h": {
+"dept": "Revenue And Disaster Management Department Haryana",
+"ms": "Haryana",
+"off": "Deputy Coomissioner Office Karnal",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+23,
+[
+"Haryana"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 23,
+"v": 3
+},
+"GEM/2026/B/8277808": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Chekkiad Grama Panchayat Office",
+"org": "Chekkiad Grama Panchayat",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8277896": {
+"h": {
+"dept": "Police Department Haryana",
+"ms": "Haryana",
+"off": "Sunaria Rohtak",
+"org": "3rd Battalion Irb Sunaria Rohtak",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+3,
+[
+"Haryana"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8277912": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Ettumanoor Municipality",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+4,
+[
+"Kerala"
+],
+[],
+1
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 5,
+"v": 3
+},
+"GEM/2026/B/8277918": {
+"h": {
+"dept": "Revenue And Disaster Management Department Haryana",
+"ms": "Haryana",
+"off": "Deputy Coomissioner Office Karnal",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+1,
+[
+"Haryana"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8277934": {
+"h": {
+"dept": "Ministry Of Housing And Urban Affairs",
+"ms": "Ministry Of Housing & Urban Affairs (mohua)",
+"off": "Delhi Metro Rail Corporation Limited",
+"org": "Delhi Metro Rail Corporation Limited",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+10,
+[
+"Delhi"
+],
+[],
+1
+],
+[
+"Interactive Panels With CPU",
+2,
+[
+"Delhi"
+],
+[],
+null
+],
+[
+"High End Desktop Computer",
+1,
+[
+"Delhi"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 13,
+"v": 3
+},
+"GEM/2026/B/8278048": {
+"h": {
+"dept": "Indian Railways",
+"ms": "Ministry Of Railways",
+"off": "North East Frontier Railway",
+"org": "North East Frontier Railway",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+15,
+[
+"Assam"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 15,
+"v": 3
+},
+"GEM/2026/B/8278108": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Kulathupuzha Grama Panchath",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+2,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8278174": {
+"h": {
+"dept": "Department Of Financial Services",
+"ms": "Ministry Of Finance",
+"off": "Headofficeit",
+"org": "Bank Of Maharashtra",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+2900,
+[
+"Maharashtra"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2900,
+"v": 3
+},
+"GEM/2026/B/8278280": {
+"h": {
+"dept": "Indian Railways",
+"ms": "Ministry Of Railways",
+"off": "Office Of The Principal Chief Material Manager Ner",
+"org": "North Eastern Railway",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+30,
+[
+"Uttar Pradesh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 30,
+"v": 3
+},
+"GEM/2026/B/8278407": {
+"h": {
+"dept": "Revenue And Forest Department Maharashtra",
+"ms": "Maharashtra",
+"off": "Dslr Sangli",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+30,
+[
+"Maharashtra"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 30,
+"v": 3
+},
+"GEM/2026/B/8278477": {
+"h": {
+"dept": "Department Of Scientific And Industrial Research (dsir)",
+"ms": "Ministry Of Science And Technology",
+"off": "Academy Of Scientific And Innovative Research",
+"org": "Academy Of Scientific And Innovative Research",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+26,
+[
+"Uttar Pradesh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 26,
+"v": 3
+},
+"GEM/2026/B/8278544": {
+"h": {
+"dept": "Mstc Limited",
+"ms": "Ministry Of Steel",
+"off": "Mstc Limited",
+"org": "Mstc Limited",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Chhattisgarh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8278573": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Pathanadu",
+"org": "Kangazha Grama Panchayath",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+3,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8278654": {
+"h": {
+"dept": "Higher Education Department Jammu And Kashmir",
+"ms": "Jammu & Kashmir",
+"off": "Registrar Office",
+"org": "Technology Of Jammu",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+1,
+[
+"Jammu & Kashmir"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8278772": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"LAPTOP CHIP M5 CPU 10 CORE GPU 10 CORE INGRATED APPLE GPU NATURAL ENGINE",
+1,
+[],
+[
+"Kolkata"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8278798": {
+"h": {
+"dept": "Printing And Stationery Department Jammu And Kashmir",
+"ms": "Jammu & Kashmir",
+"off": "Jammu",
+"org": "Office Of The Genaral Manager Govt Ranbir Press",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+5,
+[
+"Jammu & Kashmir"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 5,
+"v": 3
+},
+"GEM/2026/B/8278834": {
+"h": {
+"dept": "Department Of Higher Education",
+"ms": "Ministry Of Education",
+"off": "Iim Udaipur",
+"org": "Indian Institute Of Management (iim)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Laptop",
+2,
+[
+"Rajasthan"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8278840": {
+"h": {
+"dept": "Pawan Hans Limited",
+"ms": "Ministry Of Civil Aviation",
+"off": "Pawan Hans Limited Noida",
+"org": "Pawan Hans Limited",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+5,
+[
+"Uttar Pradesh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 5,
+"v": 3
+},
+"GEM/2026/B/8278844": {
+"h": {
+"dept": "Revenue And Forest Department Maharashtra",
+"ms": "Maharashtra",
+"off": "Dslr Sangli",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+58,
+[
+"Maharashtra"
+],
+[],
+0
+],
+[
+"High End Laptop - Notebook",
+76,
+[
+"Maharashtra"
+],
+[],
+0
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+13,
+[
+"Maharashtra"
+],
+[],
+null
+],
+[
+"Scanner (V3)",
+13,
+[
+"Maharashtra"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 160,
+"v": 3
+},
+"GEM/2026/B/8278853": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Workstation",
+1,
+[],
+[
+"Jammu"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8278890": {
+"h": {
+"dept": "Panchayats And Rural Housing Department Gujarat",
+"ms": "Gujarat",
+"off": "At Chapari Jhalod Raod Dahod",
+"org": "",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+6,
+[
+"Gujarat"
+],
+[],
+1
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+6,
+[
+"Gujarat"
+],
+[],
+null
+],
+[
+"Scanner (V3)",
+1,
+[
+"Gujarat"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 13,
+"v": 3
+},
+"GEM/2026/B/8278896": {
+"h": {
+"dept": "Home Department Chhattisgarh",
+"ms": "Chhattisgarh",
+"off": "Jagdalpur",
+"org": "Jail Department",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Camera For CCTV System (V3)",
+98,
+[
+"Chhattisgarh"
+],
+[],
+null
+],
+[
+"Video Recorder For CCTV System (V2)",
+5,
+[
+"Chhattisgarh"
+],
+[],
+null
+],
+[
+"Layer 2 Access Switch (V3)",
+17,
+[
+"Chhattisgarh"
+],
+[],
+null
+],
+[
+"Server Or Network Rack (V2)",
+22,
+[
+"Chhattisgarh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 142,
+"v": 3
+},
+"GEM/2026/B/8278906": {
+"h": {
+"dept": "Department Of Financial Services",
+"ms": "Ministry Of Finance",
+"off": "Ho",
+"org": "Industrial Finance Corporation Of India (ifci)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+1,
+[
+"Delhi"
+],
+[],
+0
+],
+[
+"Computer Printer (V2)",
+1,
+[
+"Delhi"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8278931": {
+"h": {
+"dept": "Revenue And Forest Department Maharashtra",
+"ms": "Maharashtra",
+"off": "Pccfitp Office Nagpur",
+"org": "Forest Department",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Servers (V2)",
+2,
+[
+"Maharashtra"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8279035": {
+"h": {
+"dept": "Home Department Madhya Pradesh",
+"ms": "Madhya Pradesh",
+"off": "District Public Pros Ratlam",
+"org": "Directorate Of Public Prosecution Madhya Pradesh",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+2,
+[
+"Madhya Pradesh"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8279036": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Kokkayar Grama Panchayat",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+3,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8279093": {
+"h": {
+"dept": "Uttarakhand",
+"ms": "Uttarakhand",
+"off": "North248001",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+3,
+[
+"Uttarakhand"
+],
+[],
+1
+],
+[
+"High End Laptop - Notebook",
+1,
+[
+"Uttarakhand"
+],
+[],
+0
+],
+[
+"Entry And Mid Level Desktop Computer",
+2,
+[
+"Uttarakhand"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6,
+"v": 3
+},
+"GEM/2026/B/8279121": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Kokkayar Grama Panchayat",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+3,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8279157": {
+"h": {
+"dept": "Culture Department Madhya Pradesh",
+"ms": "Madhya Pradesh",
+"off": "Acharya Shankar Sanskritik Ekta Nyas Bhopal",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+1,
+[
+"Madhya Pradesh"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8279159": {
+"h": {
+"dept": "West Bengal",
+"ms": "West Bengal",
+"off": "Directorate Of Food Processing Industries Hq",
+"org": "Directorate Of Food Processing Industries",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"West Bengal"
+],
+[],
+1
+],
+[
+"Line Interactive UPS With AVR (V2)",
+2,
+[
+"West Bengal"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8279242": {
+"h": {
+"dept": "Home Department Madhya Pradesh",
+"ms": "Madhya Pradesh",
+"off": "District Prosecution Office Jabalpur",
+"org": "Directorate Of Public Prosecution Madhya Pradesh",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+4,
+[
+"Madhya Pradesh"
+],
+[],
+1
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+5,
+[
+"Madhya Pradesh"
+],
+[],
+null
+],
+[
+"Line Interactive UPS With AVR (V2)",
+4,
+[
+"Madhya Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 13,
+"v": 3
+},
+"GEM/2026/B/8279392": {
+"h": {
+"dept": "Irrigation And Flood Control Department Uttar Pradesh",
+"ms": "Uttar Pradesh",
+"off": "Department, Up, Cantt. Road, Udaiganj, Lucknow-226001",
+"org": "Upid Web Portal - Irrigation Department",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+71,
+[
+"Uttar Pradesh"
+],
+[],
+1
+],
+[
+"Line Interactive UPS With AVR (V2)",
+71,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+52,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+20,
+[
+"Uttar Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 214,
+"v": 3
+},
+"GEM/2026/B/8279454": {
+"h": {
+"dept": "Department Of Health And Family Welfare",
+"ms": "Ministry Of Health And Family Welfare",
+"off": "South Zone",
+"org": "Central Government Health Scheme (cghs)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+1,
+[
+"Delhi"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8279514": {
+"h": {
+"dept": "Medical Education & Research Department Haryana",
+"ms": "Haryana",
+"off": "University Of Health Sciences Rohtak",
+"org": "Directorate Of Medical Education & Research",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+2,
+[
+"Haryana"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8279523": {
+"h": {
+"dept": "Department Of Financial Services",
+"ms": "Ministry Of Finance",
+"off": "Lho Thiruvananthapuram",
+"org": "State Bank Of India (sbi)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+25,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 25,
+"v": 3
+},
+"GEM/2026/B/8279557": {
+"h": {
+"dept": "",
+"ms": "Ministry Of Ayush",
+"off": "Regional Research Institute Of Unani Medicine Alig",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+2,
+[
+"Uttar Pradesh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8279591": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Kodom Belur Gramapanchayat",
+"org": "Kodom Belur Gramapanchayat",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+2,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8279605": {
+"h": {
+"dept": "Women Safety Division",
+"ms": "Ministry Of Home Affairs",
+"off": "382007",
+"org": "National Forensic Sciences University",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+97,
+[
+"Gujarat"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 97,
+"v": 3
+},
+"GEM/2026/B/8279616": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Peruvanthanam Gramapanchayath",
+"org": "Peruvanthanam Gramapanchayat",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8279657": {
+"h": {
+"dept": "Department Of Scientific And Industrial Research (dsir)",
+"ms": "Ministry Of Science And Technology",
+"off": "National Institute Of Oceanography",
+"org": "Council Of Scientific And Industrial Research (csir)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+2,
+[
+"Maharashtra"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8279682": {
+"h": {
+"dept": "Pradesh",
+"ms": "Madhya Pradesh",
+"off": "Chief Medical & Health Officer Seoni",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+3,
+[
+"Madhya Pradesh"
+],
+[],
+0
+],
+[
+"Entry And Mid Level Desktop Computer",
+3,
+[
+"Madhya Pradesh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6,
+"v": 3
+},
+"GEM/2026/B/8279732": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Peruvanthanam Gramapanchayath",
+"org": "Peruvanthanam Gramapanchayat",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+3,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8279778": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Chavakkad Municipality",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+3,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8279867": {
+"h": {
+"dept": "Highways And Minor Ports Department Tamil Nadu",
+"ms": "Tamil Nadu",
+"off": "Poompuhar Shipping Corporation Limited Chennai",
+"org": "Highways Department",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+1,
+[
+"Tamil Nadu"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8279895": {
+"h": {
+"dept": "Home Department Maharashtra",
+"ms": "Maharashtra",
+"off": "Maharashtra Maritime Board Mumbai",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+1,
+[
+"Maharashtra"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8279907": {
+"h": {
+"dept": "Higher Education Department Kerala",
+"ms": "Kerala",
+"off": "Office",
+"org": "Directorate Of Technical Education",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Purchase of desktop computer to Software lab of Computer Engineering Department - 1794824232.xlsx Entry And Mid Level Desktop Computer",
+5,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 5,
+"v": 3
+},
+"GEM/2026/B/8279932": {
+"h": {
+"dept": "Indian Railways",
+"ms": "Ministry Of Railways",
+"off": "Central Railway Stores Deptt",
+"org": "Central Railway",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+3,
+[
+"Maharashtra"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8279982": {
+"h": {
+"dept": "Revenue Department Uttar Pradesh",
+"ms": "Uttar Pradesh",
+"off": "Lucknow",
+"org": "",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+30,
+[
+"Uttar Pradesh"
+],
+[],
+0
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+30,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Line Interactive UPS With AVR (V2)",
+30,
+[
+"Uttar Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 90,
+"v": 3
+},
+"GEM/2026/B/8280005": {
+"h": {
+"dept": "Department Of Health And Family Welfare",
+"ms": "Ministry Of Health And Family Welfare",
+"off": "Indira Gandhi Medical College Research Institute",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+10,
+[
+"Puducherry"
+],
+[],
+1
+],
+[
+"Line Interactive UPS With AVR (V2)",
+10,
+[
+"Puducherry"
+],
+[],
+null
+],
+[
+"Computer Printer (V2)",
+9,
+[
+"Puducherry"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 29,
+"v": 3
+},
+"GEM/2026/B/8280239": {
+"h": {
+"dept": "Department Of Electronics And Information Technology",
+"ms": "Ministry Of Electronics And Information Technology",
+"off": "Place, New Delhi-110066",
+"org": "National Informatics Centre Services Incorporated (nicsi)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+2,
+[
+"Delhi"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8280286": {
+"h": {
+"dept": "Education Department Gujarat",
+"ms": "Gujarat",
+"off": "M G Science Institute",
+"org": "",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+54,
+[
+"Gujarat"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 54,
+"v": 3
+},
+"GEM/2026/B/8280289": {
+"h": {
+"dept": "Department Of Earth Sciences",
+"ms": "Ministry Of Earth Sciences",
+"off": "Chennai",
+"org": "National Institute Of Ocean Technology (niot)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Laptop",
+2,
+[
+"Tamil Nadu"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8280299": {
+"h": {
+"dept": "Department Of Higher Education",
+"ms": "Ministry Of Education",
+"off": "Karnataka, Surathkal, Mangaluru",
+"org": "National Institute Of Technology (nit)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+1,
+[
+"Karnataka"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8280314": {
+"h": {
+"dept": "Central Police Organisation",
+"ms": "Ministry Of Home Affairs",
+"off": "West",
+"org": "",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+21,
+[
+"Rajasthan"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 21,
+"v": 3
+},
+"GEM/2026/B/8280333": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Thiruvananthapuram Municipal Corporation Health",
+"org": "Directorate Of Urban Affairs Kerala",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+3,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8280388": {
+"h": {
+"dept": "Parliamentary Affairs Department Maharashtra",
+"ms": "Maharashtra",
+"off": "Parliamentary Affairs Department Mantralaya Mumbai",
+"org": "Parliamentary Affairs Department Mantralaya",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+4,
+[
+"Maharashtra"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 4,
+"v": 3
+},
+"GEM/2026/B/8280393": {
+"h": {
+"dept": "Urban Development And Urban Housing Department Gujarat",
+"ms": "Gujarat",
+"off": "Vaghodia Nagarpalika",
+"org": "Nagarpalika",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+6,
+[
+"Gujarat"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6,
+"v": 3
+},
+"GEM/2026/B/8280402": {
+"h": {
+"dept": "Home Department Maharashtra",
+"ms": "Maharashtra",
+"off": "Head Office",
+"org": "Directorate Of Public Prosecutions Maharashtra",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+669,
+[
+"Maharashtra"
+],
+[],
+1
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+669,
+[
+"Maharashtra"
+],
+[],
+null
+],
+[
+"Line Interactive UPS With AVR (V2)",
+669,
+[
+"Maharashtra"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2007,
+"v": 3
+},
+"GEM/2026/B/8280437": {
+"h": {
+"dept": "Gail India Limited",
+"ms": "Ministry Of Petroleum And Natural Gas",
+"off": "Gail Noida",
+"org": "Gail India Limited",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"ROUTER, PORT 6, CENTRALIZED SCADA",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"REMOTE WORKSTATION, TO DISPLAY SCADA SCREEN TO USER",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8280439": {
+"h": {
+"dept": "Panchayats And Rural Housing Department Gujarat",
+"ms": "Gujarat",
+"off": "Ahmedabad",
+"org": "Ahmedabad District Panchayat",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+30,
+[
+"Gujarat"
+],
+[],
+0
+],
+[
+"Computer Printer (V2)",
+30,
+[
+"Gujarat"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 60,
+"v": 3
+},
+"GEM/2026/B/8280537": {
+"h": {
+"dept": "Department Of Higher Education",
+"ms": "Ministry Of Education",
+"off": "Iim Udaipur",
+"org": "Indian Institute Of Management (iim)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Laptop",
+1,
+[
+"Rajasthan"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8280709": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Kasaragod Municipality",
+"org": "Kasaragod Municipality",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8280730": {
+"h": {
+"dept": "Irrigation And Flood Control Department Uttar Pradesh",
+"ms": "Uttar Pradesh",
+"off": "Department, Up, Cantt. Road, Udaiganj, Lucknow-226001",
+"org": "Upid Web Portal - Irrigation Department",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+12,
+[
+"Uttar Pradesh"
+],
+[],
+1
+],
+[
+"Line Interactive UPS With AVR (V2)",
+12,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+10,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+5,
+[
+"Uttar Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 39,
+"v": 3
+},
+"GEM/2026/B/8280791": {
+"h": {
+"dept": "Agriculture Department Maharashtra",
+"ms": "Maharashtra",
+"off": "30 B Arcade World Trade Center Mumbai",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+17,
+[
+"Maharashtra"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 17,
+"v": 3
+},
+"GEM/2026/B/8280878": {
+"h": {
+"dept": "Nadu",
+"ms": "Tamil Nadu",
+"off": "Assistant Director Panchayats Salem",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+2,
+[
+"Tamil Nadu"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8280976": {
+"h": {
+"dept": "Department Of Defence",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Dg Of Defence Estate",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Desktop",
+6,
+[],
+[
+"Nashik"
+],
+null
+],
+[
+"LED Monitor",
+6,
+[],
+[
+"Nashik"
+],
+null
+],
+[
+"UPS",
+6,
+[],
+[
+"Nashik"
+],
+null
+],
+[
+"Keyboard",
+6,
+[],
+[
+"Nashik"
+],
+null
+],
+[
+"Mouse",
+6,
+[],
+[
+"Nashik"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 30,
+"v": 3
+},
+"GEM/2026/B/8281001": {
+"h": {
+"dept": "Energy Department Madhya Pradesh",
+"ms": "Madhya Pradesh",
+"off": "Jabalpur",
+"org": "(mppgenco) Jabalpur",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+4,
+[
+"Madhya Pradesh"
+],
+[],
+1
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"Madhya Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 5,
+"v": 3
+},
+"GEM/2026/B/8281063": {
+"h": {
+"dept": "Urban Development Department Chhattisgarh",
+"ms": "Chhattisgarh",
+"off": "Nava Raipur Atal Nagar Vikas Pradhikaran",
+"org": "Naya Raipur Develoment Authority",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+33,
+[
+"Chhattisgarh"
+],
+[],
+1
+],
+[
+"A3 Size Multifunction Printer (MFP)",
+4,
+[
+"Chhattisgarh"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+21,
+[
+"Chhattisgarh"
+],
+[],
+null
+],
+[
+"Scanner (V3)",
+13,
+[
+"Chhattisgarh"
+],
+[],
+null
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Chhattisgarh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 72,
+"v": 3
+},
+"GEM/2026/B/8281065": {
+"h": {
+"dept": "",
+"ms": "Ministry Of Power",
+"off": "Ministry Of Power",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Purchase Of Apple Make All In One Computer System ( 1 the number pi )",
+1,
+[
+"Delhi"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8281103": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+1,
+[],
+[
+"Ajmer"
+],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8281107": {
+"h": {
+"dept": "Irrigation And Flood Control Department Uttar Pradesh",
+"ms": "Uttar Pradesh",
+"off": "Department, Up, Cantt. Road, Udaiganj, Lucknow-226001",
+"org": "Upid Web Portal - Irrigation Department",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+160,
+[
+"Uttar Pradesh"
+],
+[],
+1
+],
+[
+"Line Interactive UPS With AVR (V2)",
+160,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+115,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+46,
+[
+"Uttar Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 481,
+"v": 3
+},
+"GEM/2026/B/8281129": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Karoor Grama Panchayath",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Interactive Panels With CPU",
+3,
+[
+"Kerala"
+],
+[],
+null
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+3,
+[
+"Kerala"
+],
+[],
+1
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+2,
+[
+"Kerala"
+],
+[],
+1
+],
+[
+"Line Interactive UPS With AVR (V2)",
+3,
+[
+"Kerala"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 11,
+"v": 3
+},
+"GEM/2026/B/8281168": {
+"h": {
+"dept": "Department Of Financial Services",
+"ms": "Ministry Of Finance",
+"off": "Headofficeit",
+"org": "Bank Of Maharashtra",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+350,
+[
+"Maharashtra"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 350,
+"v": 3
+},
+"GEM/2026/B/8281172": {
+"h": {
+"dept": "National Highways Authority Of India",
+"ms": "Ministry Of Road Transports And Highways",
+"off": "Nhai Ro Jaipur",
+"org": "Central Autonomous",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Desktop Computers",
+6,
+[
+"Rajasthan"
+],
+[],
+null
+],
+[
+"Printers",
+4,
+[
+"Rajasthan"
+],
+[],
+null
+],
+[
+"Air Conditioners 2 Ton",
+2,
+[
+"Rajasthan"
+],
+[],
+null
+],
+[
+"UPS Double Battery",
+1,
+[
+"Rajasthan"
+],
+[],
+null
+],
+[
+"Executive Chairs",
+5,
+[
+"Rajasthan"
+],
+[],
+null
+],
+[
+"Visitor Chairs",
+15,
+[
+"Rajasthan"
+],
+[],
+null
+],
+[
+"Sofa Set 3 Seater",
+2,
+[
+"Rajasthan"
+],
+[],
+null
+],
+[
+"L Shape Tables",
+2,
+[
+"Rajasthan"
+],
+[],
+null
+],
+[
+"Office Tables 3x5",
+3,
+[
+"Rajasthan"
+],
+[],
+null
+],
+[
+"Office Tables 4x5",
+2,
+[
+"Rajasthan"
+],
+[],
+null
+],
+[
+"Wall-Mounted Fans",
+3,
+[
+"Rajasthan"
+],
+[],
+null
+],
+[
+"Iron Racks",
+5,
+[
+"Rajasthan"
+],
+[],
+null
+],
+[
+"RO Water Purifiers",
+2,
+[
+"Rajasthan"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 52,
+"v": 3
+},
+"GEM/2026/B/8281236": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Apple 2026 MacBook Air 13 Inch Laptop",
+1,
+[],
+[
+"Imphal West"
+],
+null
+],
+[
+"Apple IPad Air 11 Inch M2 512GB",
+1,
+[],
+[
+"Imphal West"
+],
+null
+],
+[
+"JAMJAKE IPad Pencil No 1",
+1,
+[],
+[
+"Imphal West"
+],
+null
+],
+[
+"ProElite Case For IPad Air 11",
+1,
+[],
+[
+"Imphal West"
+],
+null
+],
+[
+"Laptop Bag",
+1,
+[],
+[
+"Imphal West"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 5,
+"v": 3
+},
+"GEM/2026/B/8281444": {
+"h": {
+"dept": "Irrigation And Flood Control Department Uttar Pradesh",
+"ms": "Uttar Pradesh",
+"off": "Department, Up, Cantt. Road, Udaiganj, Lucknow-226001",
+"org": "Upid Web Portal - Irrigation Department",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+10,
+[
+"Uttar Pradesh"
+],
+[],
+0
+],
+[
+"Entry And Mid Level Desktop Computer",
+10,
+[
+"Uttar Pradesh"
+],
+[],
+1
+],
+[
+"Entry And Mid Level Desktop Computer",
+47,
+[
+"Uttar Pradesh"
+],
+[],
+1
+],
+[
+"Line Interactive UPS With AVR (V2)",
+57,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Line Interactive UPS With AVR (V2)",
+10,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+51,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+20,
+[
+"Uttar Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 205,
+"v": 3
+},
+"GEM/2026/B/8281671": {
+"h": {
+"dept": "Ministry Of Housing And Urban Affairs",
+"ms": "Ministry Of Housing & Urban Affairs (mohua)",
+"off": "Delhi Metro Rail Corporation Limited",
+"org": "Delhi Metro Rail Corporation Limited",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+2,
+[
+"Delhi"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8281845": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+12,
+[],
+[
+"AMBALA"
+],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 12,
+"v": 3
+},
+"GEM/2026/B/8281969": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Purathur Gramapanchayat",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8281995": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Udayagiri Grama Panchayat Kannur",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+3,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8282036": {
+"h": {
+"dept": "Cooperation Department Haryana State",
+"ms": "Haryana",
+"off": "Kurukshetra",
+"org": "The Kurukshetra Central Cooperative Bank Ltd.",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+13,
+[
+"Haryana"
+],
+[],
+1
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+2,
+[
+"Haryana"
+],
+[],
+null
+],
+[
+"Passbook Or Bankbook Printer",
+1,
+[
+"Haryana"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 16,
+"v": 3
+},
+"GEM/2026/B/8282098": {
+"h": {
+"dept": "Airports Authority Of India (aai)",
+"ms": "Ministry Of Civil Aviation",
+"off": "Nagpur",
+"org": "Airports Authority Of India",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+1,
+[
+"Maharashtra"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8282189": {
+"h": {
+"dept": "Department Of Higher Education",
+"ms": "Ministry Of Education",
+"off": "Mohali",
+"org": "Indian Institutes Of Science Education And Research (iiser)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Computing Server",
+1,
+[
+"Punjab"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8282208": {
+"h": {
+"dept": "Department Of Financial Services",
+"ms": "Ministry Of Finance",
+"off": "Local Head Office Mumbai Metro",
+"org": "State Bank Of India (sbi)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+9,
+[
+"Maharashtra"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 9,
+"v": 3
+},
+"GEM/2026/B/8282259": {
+"h": {
+"dept": "Tamil Nadu",
+"ms": "Tamil Nadu",
+"off": "Directorate",
+"org": "Directorate Of Town Panchayats",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Computer Printer (V2)",
+1,
+[
+"Tamil Nadu"
+],
+[],
+null
+],
+[
+"Line Interactive UPS With AVR (V2)",
+1,
+[
+"Tamil Nadu"
+],
+[],
+null
+],
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Tamil Nadu"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8282296": {
+"h": {
+"dept": "Department Of Revenue",
+"ms": "Ministry Of Finance",
+"off": "Chennai South Commissionerate",
+"org": "Cbic Central Board Of Indirect Taxes & Customs",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+25,
+[
+"Tamil Nadu"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 25,
+"v": 3
+},
+"GEM/2026/B/8282304": {
+"h": {
+"dept": "Department Of Higher Education",
+"ms": "Ministry Of Education",
+"off": "Purchase Section Main Campus",
+"org": "Jamia Hamdard Deemed University",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Workstation",
+1,
+[
+"Delhi"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8282354": {
+"h": {
+"dept": "Health And Family Welfare Department Kerala",
+"ms": "Kerala",
+"off": "District Medical Office Of Health Ernakulam",
+"org": "Health Department",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+2,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8282355": {
+"h": {
+"dept": "Department Of Higher Education",
+"ms": "Ministry Of Education",
+"off": "Kanpur",
+"org": "Indian Institute Of Technology (iit)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Servers (V2)",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8282396": {
+"h": {
+"dept": "Department Of Space",
+"ms": "Department Of Space",
+"off": "Liquid Propulsion Systems Centre",
+"org": "Indian Space Research Organization",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Supply And Installation Of Workstation",
+3,
+[
+"Kerala"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8282398": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Paravur Municipality",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+2,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8282474": {
+"h": {
+"dept": "Higher Education Department Kerala",
+"ms": "Kerala",
+"off": "Vilayil Parappur",
+"org": "Directorate Of Collegiate Education",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+9,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 9,
+"v": 3
+},
+"GEM/2026/B/8282539": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Alur",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+9,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 9,
+"v": 3
+},
+"GEM/2026/B/8282620": {
+"h": {
+"dept": "Indian Railways",
+"ms": "Ministry Of Railways",
+"off": "Southern Railway",
+"org": "Southern Railway",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+2,
+[
+"Tamil Nadu"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8282659": {
+"h": {
+"dept": "Department Of Higher Education",
+"ms": "Ministry Of Education",
+"off": "Administrative Building University Of Hyderabad",
+"org": "University Of Hyderabad",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Computer Workstation High End",
+1,
+[
+"Telangana"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8282660": {
+"h": {
+"dept": "Higher Education Department Kerala",
+"ms": "Kerala",
+"off": "Office",
+"org": "Directorate Of Technical Education",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Procurement of Desktop computer to Electronics & Communication Department - 1794896476.xlsx Entry And Mid Level Desktop Computer",
+5,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 5,
+"v": 3
+},
+"GEM/2026/B/8282680": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Alur",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+10,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 10,
+"v": 3
+},
+"GEM/2026/B/8282695": {
+"h": {
+"dept": "Health And Family Welfare Department Kerala",
+"ms": "Kerala",
+"off": "Thiruvanathapuram",
+"org": "Kerala State Aids Control Society",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+1,
+[
+"Kerala"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8282801": {
+"h": {
+"dept": "Health And Family Welfare Department Kerala",
+"ms": "Kerala",
+"off": "Thiruvanathapuram",
+"org": "Kerala State Aids Control Society",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+2,
+[
+"Kerala"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8282862": {
+"h": {
+"dept": "Ahmedabad",
+"ms": "Gujarat",
+"off": "Icem Dev Dholera",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+1,
+[
+"Gujarat"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8282871": {
+"h": {
+"dept": "Environment And Forests Department Tamil Nadu",
+"ms": "Tamil Nadu",
+"off": "Advanced Institute For Wildlife Conservation R T E",
+"org": "Forest Department",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+1,
+[
+"Tamil Nadu"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8282933": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+1,
+[],
+[
+"KAMENG WEST"
+],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8282955": {
+"h": {
+"dept": "Industries And Mines Department Gujarat",
+"ms": "Gujarat",
+"off": "Gujarat Pavitra Yatradham Vikas Board",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+4,
+[
+"Gujarat"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 4,
+"v": 3
+},
+"GEM/2026/B/8283033": {
+"h": {
+"dept": "Department Of Revenue",
+"ms": "Ministry Of Finance",
+"off": "Deputy Commissioner Pulwama",
+"org": "",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+4,
+[
+"Jammu & Kashmir"
+],
+[],
+0
+],
+[
+"Scanner (V3)",
+10,
+[
+"Jammu & Kashmir"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+3,
+[
+"Jammu & Kashmir"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+2,
+[
+"Jammu & Kashmir"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 19,
+"v": 3
+},
+"GEM/2026/B/8283042": {
+"h": {
+"dept": "Health And Family Welfare Department Kerala",
+"ms": "Kerala",
+"off": "Thiruvanathapuram",
+"org": "Kerala State Aids Control Society",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+6,
+[
+"Kerala"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6,
+"v": 3
+},
+"GEM/2026/B/8283129": {
+"h": {
+"dept": "Department Of Financial Services",
+"ms": "Ministry Of Finance",
+"off": "Lho Maharashtra",
+"org": "State Bank Of India (sbi)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Laptop - Notebook I5-1345U OR AMD RYZEN 5 7530U 16GB RAM, 512 GB SD, WINDOWS 11, 3YRS WARRANTY INCLU",
+6,
+[
+"Maharashtra"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6,
+"v": 3
+},
+"GEM/2026/B/8283140": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Athirampuzha",
+"org": "Athirampuzha Grama Panchayat",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+3,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8283165": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Padiyur Gramapanchayat",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+9,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 9,
+"v": 3
+},
+"GEM/2026/B/8283191": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Karimbam",
+"org": "Block Panchayath Office Taliparamba",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+2,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8283218": {
+"h": {
+"dept": "Irrigation And Flood Control Department Delhi",
+"ms": "Delhi",
+"off": "Cd-xi/zone-ii",
+"org": "",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+33,
+[
+"Delhi"
+],
+[],
+1
+],
+[
+"Computer Printer (V2)",
+33,
+[
+"Delhi"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 66,
+"v": 3
+},
+"GEM/2026/B/8283351": {
+"h": {
+"dept": "Home Department Maharashtra",
+"ms": "Maharashtra",
+"off": "Maharashtra Maritime Board Mumbai",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+5,
+[
+"Maharashtra"
+],
+[],
+0
+],
+[
+"High End Laptop - Notebook",
+3,
+[
+"Maharashtra"
+],
+[],
+0
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"Maharashtra"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+2,
+[
+"Maharashtra"
+],
+[],
+null
+],
+[
+"High End Desktop Computer",
+1,
+[
+"Maharashtra"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 12,
+"v": 3
+},
+"GEM/2026/B/8283537": {
+"h": {
+"dept": "Dredging Corporation Of India Limited",
+"ms": "Ministry Of Ports, Shipping And Waterways",
+"off": "Dredge House Port Area Visakhapatnam",
+"org": "Dredging Corporation Of India Limited",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"SUPPLY OF MECHANICAL ITEMS TO DCI DREDGE XXI - 1794901413.xlsx Loctite PC 7222",
+15,
+[
+"West Bengal"
+],
+[],
+null
+],
+[
+"Loctite PC 7210",
+1,
+[
+"West Bengal"
+],
+[],
+null
+],
+[
+"Loctite PC 7333",
+2,
+[
+"West Bengal"
+],
+[],
+null
+],
+[
+"Dial Spring",
+1,
+[
+"West Bengal"
+],
+[],
+null
+],
+[
+"Pressure Gauge",
+5,
+[
+"West Bengal"
+],
+[],
+null
+],
+[
+"Pressure Gauge",
+10,
+[
+"West Bengal"
+],
+[],
+null
+],
+[
+"Pressure Gauge",
+10,
+[
+"West Bengal"
+],
+[],
+null
+],
+[
+"R Royal G-24 1.6MM Spray Gun",
+1,
+[
+"West Bengal"
+],
+[],
+null
+],
+[
+"Riveting Gun",
+1,
+[
+"West Bengal"
+],
+[],
+null
+],
+[
+"Portable Manual Grease Pump",
+1,
+[
+"West Bengal"
+],
+[],
+null
+],
+[
+"Grease Hose",
+2,
+[
+"West Bengal"
+],
+[],
+null
+],
+[
+"Hex Head SS Bolt With Nut And Washer",
+50,
+[
+"West Bengal"
+],
+[],
+null
+],
+[
+"Wall Mounted Fan",
+10,
+[
+"West Bengal"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 109,
+"v": 3
+},
+"GEM/2026/B/8283546": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Thazhekode Grama Panchayat",
+"org": "Thazhekode Grama Panchayat",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8283549": {
+"h": {
+"dept": "Department Of Financial Services",
+"ms": "Ministry Of Finance",
+"off": "Jaipur",
+"org": "Punjab National Bank (pnb)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+20,
+[
+"Rajasthan"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 20,
+"v": 3
+},
+"GEM/2026/B/8283556": {
+"h": {
+"dept": "Forests And Environment Department Gujarat",
+"ms": "Gujarat",
+"off": "78 \"vanganga\", Alkapuri",
+"org": "(gsfdc) Vadodara",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+14,
+[
+"Gujarat"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 14,
+"v": 3
+},
+"GEM/2026/B/8283598": {
+"h": {
+"dept": "Department Of Atomic Energy",
+"ms": "Department Of Atomic Energy",
+"off": "Central Office Aees",
+"org": "Atomic Energy Education Society",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+5,
+[
+"Maharashtra"
+],
+[],
+0
+],
+[
+"All In One PC (V2)",
+5,
+[
+"Maharashtra"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 10,
+"v": 3
+},
+"GEM/2026/B/8283625": {
+"h": {
+"dept": "Home Department Kerala",
+"ms": "Kerala",
+"off": "Kottayam",
+"org": "Police Department",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8283776": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Vettathur",
+"org": "Vettathur Gramapanchayat",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8283824": {
+"h": {
+"dept": "Kannada And Culture Department Karnataka",
+"ms": "Karnataka",
+"off": "Kannada Bhavan Jc Road Bangalore",
+"org": "Kannada & Culture",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+15,
+[
+"Karnataka"
+],
+[],
+0
+],
+[
+"High End Laptop - Notebook",
+1,
+[
+"Karnataka"
+],
+[],
+0
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Karnataka"
+],
+[],
+1
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+2,
+[
+"Karnataka"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+7,
+[
+"Karnataka"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 26,
+"v": 3
+},
+"GEM/2026/B/8283889": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Engandiyur Gramapanchayat",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8283897": {
+"h": {
+"dept": "Urban Development & Housing Department Bihar",
+"ms": "Bihar",
+"off": "Nagar Parishad Benipur Darbhanga",
+"org": "Urban Development And Housing Department",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+35,
+[
+"Bihar"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 35,
+"v": 3
+},
+"GEM/2026/B/8283941": {
+"h": {
+"dept": "Housing And Environment Department Madhya Pradesh",
+"ms": "Madhya Pradesh",
+"off": "Regional Office Mppcb Mandideep",
+"org": "Madhya Pradesh Pollution Control Board (mpccb) Bhopal",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+5,
+[
+"Madhya Pradesh"
+],
+[],
+1
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"Madhya Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6,
+"v": 3
+},
+"GEM/2026/B/8283958": {
+"h": {
+"dept": "Tourism Department Jammu And Kashmir",
+"ms": "Jammu & Kashmir",
+"off": "Kokernag Development Authority",
+"org": "Kashmir",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"A3 Size Multifunction Printer (MFP)",
+1,
+[
+"Jammu & Kashmir"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"Jammu & Kashmir"
+],
+[],
+null
+],
+[
+"High End Laptop - Notebook",
+1,
+[
+"Jammu & Kashmir"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8284057": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Vengad Gramapanchayath",
+"org": "Directorate Of Panchayats",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8284172": {
+"h": {
+"dept": "Higher Education Department Kerala",
+"ms": "Kerala",
+"off": "Office",
+"org": "Directorate Of Technical Education",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+4,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 4,
+"v": 3
+},
+"GEM/2026/B/8284352": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Muriyad Grama Panchayat",
+"org": "Directorate Of Panchayats",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8284395": {
+"h": {
+"dept": "Irrigation And Flood Control Department Uttar Pradesh",
+"ms": "Uttar Pradesh",
+"off": "Department, Up, Cantt. Road, Udaiganj, Lucknow-226001",
+"org": "Upid Web Portal - Irrigation Department",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+13,
+[
+"Uttar Pradesh"
+],
+[],
+0
+],
+[
+"A3 Size Multifunction Printer (MFP)",
+3,
+[
+"Uttar Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 16,
+"v": 3
+},
+"GEM/2026/B/8284496": {
+"h": {
+"dept": "Department West Bengal",
+"ms": "West Bengal",
+"off": "West Bengal",
+"org": "Directorate Of Technical Education And Training",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+10,
+[
+"West Bengal"
+],
+[],
+1
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+2,
+[
+"West Bengal"
+],
+[],
+null
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+4,
+[
+"West Bengal"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 16,
+"v": 3
+},
+"GEM/2026/B/8284511": {
+"h": {
+"dept": "Bhakra Beas Managemet Board",
+"ms": "Ministry Of Power",
+"off": "Bhakra Beas Management Board, Chandigarh",
+"org": "Bhakra Beas Management Board",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+8,
+[
+"Chandigarh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 8,
+"v": 3
+},
+"GEM/2026/B/8284617": {
+"h": {
+"dept": "Revenue Department Kerala",
+"ms": "Kerala",
+"off": "Waqf Tribunal Kozhikode",
+"org": "Minister For Revenue",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+4,
+[
+"Kerala"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 4,
+"v": 3
+},
+"GEM/2026/B/8284627": {
+"h": {
+"dept": "Department Of Higher Education",
+"ms": "Ministry Of Education",
+"off": "Kanpur",
+"org": "Indian Institute Of Technology (iit)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8284704": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Kayyur Cheemeni Gramapanchayat",
+"org": "Directorate Of Panchayats",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+3,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8284728": {
+"h": {
+"dept": "Land And Land Reforms Department West Bengal",
+"ms": "West Bengal",
+"off": "Office Of The Dm Malda",
+"org": "Secretariat Office",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+3,
+[
+"West Bengal"
+],
+[],
+0
+],
+[
+"Line Interactive UPS With AVR (V2)",
+3,
+[
+"West Bengal"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"West Bengal"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 7,
+"v": 3
+},
+"GEM/2026/B/8284823": {
+"h": {
+"dept": "Indian Railways",
+"ms": "Ministry Of Railways",
+"off": "Western Railway",
+"org": "Western Railway",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+39,
+[
+"Maharashtra"
+],
+[],
+1
+],
+[
+"Computer Printer (V2)",
+39,
+[
+"Maharashtra"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 78,
+"v": 3
+},
+"GEM/2026/B/8284836": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Madakkathara Gramapanchayath",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+7,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 7,
+"v": 3
+},
+"GEM/2026/B/8284873": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Nenmanikkara Grama Panchayat",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8284929": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Desktop Computer ( 4 the number pi )",
+4,
+[],
+[
+"SAGAR"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 4,
+"v": 3
+},
+"GEM/2026/B/8284935": {
+"h": {
+"dept": "Irrigation And Flood Control Department Uttar Pradesh",
+"ms": "Uttar Pradesh",
+"off": "Department, Up, Cantt. Road, Udaiganj, Lucknow-226001",
+"org": "Upid Web Portal - Irrigation Department",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+96,
+[
+"Uttar Pradesh"
+],
+[],
+1
+],
+[
+"Line Interactive UPS With AVR (V2)",
+96,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Line Interactive UPS With AVR (V2)",
+15,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+127,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Computer Printer (V2)",
+5,
+[
+"Uttar Pradesh"
+],
+[],
+null
+],
+[
+"Scanner (V3)",
+18,
+[
+"Uttar Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 357,
+"v": 3
+},
+"GEM/2026/B/8284990": {
+"h": {
+"dept": "Department Of Expenditure",
+"ms": "Ministry Of Finance",
+"off": "Public Financial Management System",
+"org": "Controller General Of Accounts (cga)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+6,
+[
+"Haryana"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6,
+"v": 3
+},
+"GEM/2026/B/8285020": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Hqids",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Servers (V2)",
+1,
+[],
+[
+"New Delhi"
+],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8285111": {
+"h": {
+"dept": "Department Of Health And Family Welfare",
+"ms": "Ministry Of Health And Family Welfare",
+"off": "Hites",
+"org": "Hll Infra Tech Services Limited",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Laptop Computer System",
+32,
+[
+"Uttar Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 32,
+"v": 3
+},
+"GEM/2026/B/8285148": {
+"h": {
+"dept": "Information Technology Department Kerala",
+"ms": "Kerala",
+"off": "Iiitmk Technopark Karyavattom Po Thiruvananthapura",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+30,
+[
+"Kerala"
+],
+[],
+1
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+8,
+[
+"Kerala"
+],
+[],
+null
+],
+[
+"A3 Size Multifunction Printer (MFP)",
+1,
+[
+"Kerala"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 39,
+"v": 3
+},
+"GEM/2026/B/8285164": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Desktop Computer ( 3 the number pi )",
+3,
+[],
+[
+"SAGAR"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8285233": {
+"h": {
+"dept": "Technical Education Department Chhattisgarh",
+"ms": "Chhattisgarh",
+"off": "Directorate Of Employment And Training",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+31,
+[
+"Chhattisgarh"
+],
+[],
+1
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+4,
+[
+"Chhattisgarh"
+],
+[],
+1
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+14,
+[
+"Chhattisgarh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 49,
+"v": 3
+},
+"GEM/2026/B/8285272": {
+"h": {
+"dept": "Department Of Defence Production",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Bharat Electronics Limited (bel)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"RUGGED LAPTOP",
+6,
+[],
+[
+"Bangalore"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6,
+"v": 3
+},
+"GEM/2026/B/8285377": {
+"h": {
+"dept": "Department Of Defence",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Director General Of National Cadet Corps (dgncc)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Desktop PC",
+1,
+[],
+[
+"Kolkata"
+],
+null
+],
+[
+"UPS",
+2,
+[],
+[
+"Kolkata"
+],
+null
+],
+[
+"Wireless KB Mouse",
+2,
+[],
+[
+"Kolkata"
+],
+null
+],
+[
+"Monitor",
+1,
+[],
+[
+"Kolkata"
+],
+null
+],
+[
+"Wired Mouse",
+1,
+[],
+[
+"Kolkata"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 7,
+"v": 3
+},
+"GEM/2026/B/8285381": {
+"h": {
+"dept": "Department Of Higher Education",
+"ms": "Ministry Of Education",
+"off": "Office Of The Registrar, Iit (bhu), Varanasi - 221005, U.p.",
+"org": "Indian Institute Of Technology (iit)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+1,
+[
+"Uttar Pradesh"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8285447": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"MONITOR (DESKTOP COMPUTER)",
+3,
+[],
+[
+"Ahmedabad"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8285655": {
+"h": {
+"dept": "Indian Railways",
+"ms": "Ministry Of Railways",
+"off": "South Eastern Railway",
+"org": "South Eastern Railway",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+3,
+[
+"West Bengal"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8285657": {
+"h": {
+"dept": "Department Of Financial Services",
+"ms": "Ministry Of Finance",
+"off": "It Department Bcc",
+"org": "Bank Of Baroda",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Laptop - Notebook",
+4,
+[
+"Maharashtra"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 4,
+"v": 3
+},
+"GEM/2026/B/8285721": {
+"h": {
+"dept": "Department Of Food And Public Distribution",
+"ms": "Ministry Of Consumer Affairs Food And Public Distribution",
+"off": "Regional Office Kerala Trivandrum",
+"org": "Food Corporation Of India (fci)",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+50,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 50,
+"v": 3
+},
+"GEM/2026/B/8286014": {
+"h": {
+"dept": "Rural Development Department Jharkhand",
+"ms": "Jharkhand",
+"off": "Ranchi",
+"org": "Jharkhand State Livelihood Promotion Society(jslps)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+17,
+[
+"Jharkhand"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 17,
+"v": 3
+},
+"GEM/2026/B/8286019": {
+"h": {
+"dept": "Gurugram Metro Rail Limited",
+"ms": "Ministry Of Housing & Urban Affairs (mohua)",
+"off": "Gurugram North",
+"org": "Gurugram Metro Rail Limited",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Laptop",
+1,
+[
+"Haryana"
+],
+[],
+null
+],
+[
+"Workstation",
+1,
+[
+"Haryana"
+],
+[],
+null
+],
+[
+"Desktop",
+17,
+[
+"Haryana"
+],
+[],
+null
+],
+[
+"Tablet",
+1,
+[
+"Haryana"
+],
+[],
+null
+],
+[
+"Printer HP Color Laser MFP 178nw",
+1,
+[
+"Haryana"
+],
+[],
+null
+],
+[
+"Headphone",
+5,
+[
+"Haryana"
+],
+[],
+null
+],
+[
+"SSD",
+6,
+[
+"Haryana"
+],
+[],
+null
+],
+[
+"Display Monitor",
+19,
+[
+"Haryana"
+],
+[],
+null
+],
+[
+"LED TV",
+17,
+[
+"Haryana"
+],
+[],
+null
+],
+[
+"BIM SOFTWARE SUITE",
+2,
+[
+"Haryana"
+],
+[],
+null
+],
+[
+"CAD SOFTWARE - FULL VERSION",
+2,
+[
+"Haryana"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 72,
+"v": 3
+},
+"GEM/2026/B/8286029": {
+"h": {
+"dept": "Department Of Financial Services",
+"ms": "Ministry Of Finance",
+"off": "Zonal Office 46 49 Royapettah High Road Royapettah",
+"org": "Punjab National Bank (pnb)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+50,
+[
+"Tamil Nadu"
+],
+[],
+1
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+4,
+[
+"Tamil Nadu"
+],
+[],
+null
+],
+[
+"Scanner (V3)",
+7,
+[
+"Tamil Nadu"
+],
+[],
+null
+],
+[
+"Computer Printer (V2)",
+12,
+[
+"Tamil Nadu"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 73,
+"v": 3
+},
+"GEM/2026/B/8286142": {
+"h": {
+"dept": "Department Of Revenue",
+"ms": "Ministry Of Finance",
+"off": "North Jaipur",
+"org": "Central Board Of Direct Taxes (cbdt)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+1,
+[
+"Rajasthan"
+],
+[],
+0
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+3,
+[
+"Rajasthan"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 4,
+"v": 3
+},
+"GEM/2026/B/8286188": {
+"h": {
+"dept": "Planning Department Maharashtra",
+"ms": "Maharashtra",
+"off": "District Planning Committee Office",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+200,
+[
+"Maharashtra"
+],
+[],
+1
+],
+[
+"Computer Printer (V2)",
+200,
+[
+"Maharashtra"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 400,
+"v": 3
+},
+"GEM/2026/B/8286225": {
+"h": {
+"dept": "Railways Public Sector Undertakings",
+"ms": "Ministry Of Railways",
+"off": "Corporate Office",
+"org": "Indian Railway Catering And Tourism Corporation Limited",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+23,
+[
+"Telangana"
+],
+[],
+1
+],
+[
+"All In One PC (V2)",
+12,
+[
+"Telangana"
+],
+[],
+1
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+7,
+[
+"Telangana"
+],
+[],
+null
+],
+[
+"Line Interactive UPS With AVR (V2)",
+28,
+[
+"Telangana"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 70,
+"v": 3
+},
+"GEM/2026/B/8286293": {
+"h": {
+"dept": "Kashmir",
+"ms": "Jammu & Kashmir",
+"off": "Janipur/srinagar",
+"org": "Directorate Of Economics And Statistics",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+8,
+[
+"Jammu & Kashmir"
+],
+[],
+1
+],
+[
+"Computer Printer (V2)",
+8,
+[
+"Jammu & Kashmir"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 16,
+"v": 3
+},
+"GEM/2026/B/8286348": {
+"h": {
+"dept": "",
+"ms": "Ministry Of Petroleum And Natural Gas",
+"off": "Petroleum And Natural Gas Regulatory Board",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One Pc",
+46,
+[
+"Delhi"
+],
+[],
+null
+],
+[
+"Laptop Notebook",
+4,
+[
+"Delhi"
+],
+[],
+null
+],
+[
+"Multifunction Color Printer",
+10,
+[
+"Delhi"
+],
+[],
+null
+],
+[
+"Wireless Keyboard",
+2,
+[
+"Delhi"
+],
+[],
+null
+],
+[
+"Wireless Mouse",
+2,
+[
+"Delhi"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 64,
+"v": 3
+},
+"GEM/2026/B/8286665": {
+"h": {
+"dept": "Oil India Limited",
+"ms": "Ministry Of Petroleum And Natural Gas",
+"off": "Oil India Limited",
+"org": "Oil India Limited",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+24,
+[
+"Andhra Pradesh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 24,
+"v": 3
+},
+"GEM/2026/B/8287029": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Mavelikara",
+"org": "Mavelikara Municipality",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+10,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 10,
+"v": 3
+},
+"GEM/2026/B/8287030": {
+"h": {
+"dept": "Revenue And Disaster Management Department Odisha",
+"ms": "Odisha",
+"off": "Dharamgarh Tahasil",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Line Interactive UPS With AVR (V2)",
+3,
+[
+"Odisha"
+],
+[],
+null
+],
+[
+"Entry And Mid Level Desktop Computer",
+3,
+[
+"Odisha"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6,
+"v": 3
+},
+"GEM/2026/B/8287419": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Xeon Server",
+1,
+[],
+[
+"GWALIOR"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8287444": {
+"h": {
+"dept": "Department Of Higher Education Madhya Pradesh",
+"ms": "Madhya Pradesh",
+"off": "Gmacc Jabalpur",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+2,
+[
+"Madhya Pradesh"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8287460": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Block Panchayath Office Kilimanoor",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+6,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6,
+"v": 3
+},
+"GEM/2026/B/8287474": {
+"h": {
+"dept": "Panchayath",
+"ms": "Kerala",
+"off": "Pampady Grama Panchayath",
+"org": "Deputy Director Of Panchayat",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8287507": {
+"h": {
+"dept": "Higher Education Department Kerala",
+"ms": "Kerala",
+"off": "Government College Madappally",
+"org": "Directorate Of Collegiate Education",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+7,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 7,
+"v": 3
+},
+"GEM/2026/B/8287520": {
+"h": {
+"dept": "Department Of Space",
+"ms": "Department Of Space",
+"off": "Space Applications Centre",
+"org": "Indian Space Research Organization",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+4,
+[
+"Gujarat"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 4,
+"v": 3
+},
+"GEM/2026/B/8287666": {
+"h": {
+"dept": "Higher Education Department Kerala",
+"ms": "Kerala",
+"off": "Ems Memorial College Of Applied Science Iritty",
+"org": "Institute Of Human Resources Development (ihrd)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+5,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 5,
+"v": 3
+},
+"GEM/2026/B/8287667": {
+"h": {
+"dept": "Department Of Financial Services",
+"ms": "Ministry Of Finance",
+"off": "Regional Office Delhi Central",
+"org": "Central Bank Of India",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+7,
+[
+"Delhi"
+],
+[],
+1
+],
+[
+"Entry And Mid Level Desktop Computer",
+3,
+[
+"Delhi"
+],
+[],
+1
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+7,
+[
+"Delhi"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 17,
+"v": 3
+},
+"GEM/2026/B/8287842": {
+"h": {
+"dept": "Department Of Higher Education",
+"ms": "Ministry Of Education",
+"off": "Kanpur",
+"org": "Indian Institute Of Technology (iit)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Fixed Computer Workstation (V2)",
+2,
+[
+"Uttar Pradesh"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8287932": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Mukkam Municipality",
+"org": "Mukkam Municipality",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+6,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6,
+"v": 3
+},
+"GEM/2026/B/8287960": {
+"h": {
+"dept": "Department Of Commerce",
+"ms": "Ministry Of Commerce And Industry",
+"off": "Head Office",
+"org": "Rubber Board",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+1,
+[
+"Kerala"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8288087": {
+"h": {
+"dept": "Department Of Defence",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Sainik School Sangathan",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Supply And Installation Of Desktop Computer-1",
+5,
+[],
+[
+"Chandrapur"
+],
+null
+],
+[
+"Supply And Installation Of Desktop Computer-2",
+5,
+[],
+[
+"Chandrapur"
+],
+null
+],
+[
+"Supply And Installation Of Desktop Computer-3",
+5,
+[],
+[
+"Chandrapur"
+],
+null
+],
+[
+"Supply And Installation Of Desktop Computer-4",
+5,
+[],
+[
+"Chandrapur"
+],
+null
+],
+[
+"Supply And Installation Of Desktop Computer-5",
+8,
+[],
+[
+"Chandrapur"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 28,
+"v": 3
+},
+"GEM/2026/B/8288166": {
+"h": {
+"dept": "Department Of Defence",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Director General Of National Cadet Corps (dgncc)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"HIGHER LAPTOP",
+1,
+[],
+[
+"Ernakulam"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8288183": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Malappuram",
+"org": "Peruvallur Grama Panchayat Office",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[],
+1
+],
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8288185": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Karoor Grama Panchayath",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8288237": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Panjal Grama Panchayat",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+2,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8288493": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Chalakudy Municipality",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+4,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 4,
+"v": 3
+},
+"GEM/2026/B/8288630": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+5,
+[],
+[
+"PAURI GARHWAL"
+],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 5,
+"v": 3
+},
+"GEM/2026/B/8288815": {
+"h": {
+"dept": "Department Of Military Affairs",
+"ms": "Ministry Of Defence",
+"off": "",
+"org": "Indian Army",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Desktop, Laptop And Workstation Operating System Software",
+4,
+[],
+[
+"JODHPUR CITY"
+],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 4,
+"v": 3
+},
+"GEM/2026/B/8288840": {
+"h": {
+"dept": "Contract & Procurement",
+"ms": "Ministry Of Petroleum And Natural Gas",
+"off": "Mangalore Karnataka",
+"org": "Gail Mangalore Petrochemicals Limited",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"High End Desktop Computer",
+40,
+[
+"Karnataka"
+],
+[],
+1
+],
+[
+"High End Laptop - Notebook",
+1,
+[
+"Karnataka"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 41,
+"v": 3
+},
+"GEM/2026/B/8288913": {
+"h": {
+"dept": "Bengal",
+"ms": "West Bengal",
+"off": "West Bengal Electronics Industry Development Corpo",
+"org": "E - District",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+13,
+[
+"West Bengal"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 13,
+"v": 3
+},
+"GEM/2026/B/8288978": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Pandalamthekkekara Gramapanchayat",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+5,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 5,
+"v": 3
+},
+"GEM/2026/B/8289012": {
+"h": {
+"dept": "Revenue And Forest Department Maharashtra",
+"ms": "Maharashtra",
+"off": "Dslr Nashik",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+25,
+[
+"Maharashtra"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 25,
+"v": 3
+},
+"GEM/2026/B/8289045": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Vattamkulam Grama Panchayat",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+8,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 8,
+"v": 3
+},
+"GEM/2026/B/8289131": {
+"h": {
+"dept": "Agriculture Department Tamil Nadu",
+"ms": "Tamil Nadu",
+"off": "Coimbatore",
+"org": "Tamil Nadu Agricultural University (tnau)",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+2,
+[
+"Tamil Nadu"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 2,
+"v": 3
+},
+"GEM/2026/B/8289145": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Kumaramputhur Grama Panchayat",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+17,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 17,
+"v": 3
+},
+"GEM/2026/B/8289164": {
+"h": {
+"dept": "Agriculture Production Department Jammu And Kashmir",
+"ms": "Jammu & Kashmir",
+"off": "Jammu",
+"org": "Command Area Development",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+1,
+[
+"Jammu & Kashmir"
+],
+[],
+0
+],
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Jammu & Kashmir"
+],
+[],
+1
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+1,
+[
+"Jammu & Kashmir"
+],
+[],
+null
+],
+[
+"Line Interactive UPS With AVR (V2)",
+3,
+[
+"Jammu & Kashmir"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6,
+"v": 3
+},
+"GEM/2026/B/8289455": {
+"h": {
+"dept": "Revenue Department Kerala",
+"ms": "Kerala",
+"off": "Waqf Tribunal Kozhikode",
+"org": "Minister For Revenue",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"All In One PC (V2)",
+4,
+[
+"Kerala"
+],
+[],
+0
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 4,
+"v": 3
+},
+"GEM/2026/B/8289499": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Principal Directorate Lsgd Thiruvananthapuram",
+"org": "Tender Notifications - Local Self Government Department",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+4,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 4,
+"v": 3
+},
+"GEM/2026/B/8289500": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Kanichar Grama Panchayat",
+"org": "",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+1,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 1,
+"v": 3
+},
+"GEM/2026/B/8289549": {
+"h": {
+"dept": "Health And Family Welfare Department Kerala",
+"ms": "Kerala",
+"off": "District Medical Office Of Health Ernakulam",
+"org": "Health Department",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Desktop Computer",
+3,
+[
+"Kerala"
+],
+[],
+1
+],
+[
+"A4 And Legal Size Multifunction Printer (MFP)",
+3,
+[
+"Kerala"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 6,
+"v": 3
+},
+"GEM/2026/B/8289664": {
+"h": {
+"dept": "Local Self Government Department Kerala",
+"ms": "Kerala",
+"off": "Nannamukku Gramapanchayat",
+"org": "Nannamukku Gramapanchayath",
+"ra": "N"
+},
+"hv": 2,
+"items": [
+[
+"Entry And Mid Level Laptop - Notebook",
+2,
+[
+"Kerala"
+],
+[],
+1
+],
+[
+"Entry And Mid Level Desktop Computer",
+1,
+[
+"Kerala"
+],
+[],
+1
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 3,
+"v": 3
+},
+"GEM/2026/B/8289724": {
+"h": {
+"dept": "Department Of Justice",
+"ms": "Ministry Of Law And Justice",
+"off": "Amaravati",
+"org": "High Court Of Andhra Pradesh",
+"ra": "Y"
+},
+"hv": 2,
+"items": [
+[
+"1 2U Rack Server",
+1,
+[
+"Andhra Pradesh"
+],
+[],
+null
+],
+[
+"2 Integrated Smart Rack SmartRow Solution",
+1,
+[
+"Andhra Pradesh"
+],
+[],
+null
+],
+[
+"3 Unified Storage 500 TB",
+1,
+[
+"Andhra Pradesh"
+],
+[],
+null
+],
+[
+"4 Network 48 Port Switch",
+1,
+[
+"Andhra Pradesh"
+],
+[],
+null
+],
+[
+"5 Next Generation Enterprise Firewall",
+1,
+[
+"Andhra Pradesh"
+],
+[],
+null
+]
+],
+"ok": true,
+"on": "2026-11-18",
+"total": 5,
 "v": 3
 }
 }
