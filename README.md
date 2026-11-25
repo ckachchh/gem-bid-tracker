@@ -55,6 +55,7 @@ Output is appended to `update.log`.
   only GeM's department/ministry. Masked or "N/a" values are left blank. The
   dashboard shows an `RA` / `no RA` badge and has a "Bid to RA" filter.
 - **AMD** (same bids) says whether AMD is mentioned in the processor rows
+- **Export to Excel** (button beside the filters) downloads every bid matching the current filters and sort — all months, whether expanded or not — as `GeM_bids_YYYY-MM-DD.xlsx`: one "Bids" sheet (22 columns, clickable bid numbers, frozen header, auto-filter) plus a "Filters" sheet recording what was selected. Built in-browser, no library.
   ("Processor Number", "Base/Higher Processor Number", or a buyer-added
   "Processor" row under "Additional Specification Parameters") of each item's
   technical-specification table. Only a yes/no flag is kept (5th value of each

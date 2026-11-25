@@ -32,6 +32,9 @@ h1{font-size:23px;font-weight:650;margin:0 0 4px;letter-spacing:-.02em}
 .st+.st{margin-left:3px}
 .st.pdf-st{background:#e8f1ec;color:#1f5133}
 .controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+.xbtn{padding:7px 13px;border:1px solid #1d7a45;background:#1f8a4c;color:#fff;border-radius:7px;
+ font-weight:600;font-size:13px;font-family:inherit;cursor:pointer;margin-left:auto;white-space:nowrap}
+.xbtn:hover{background:#1a7540}.xbtn:disabled{opacity:.55;cursor:default}
 input[type=search],select{padding:7px 11px;border:1px solid #d6dae0;border-radius:7px;
  font-size:13px;background:#fff;min-width:150px}
 input[type=search]{flex:1;min-width:220px}
@@ -181,6 +184,7 @@ a:hover{text-decoration:underline}
    <option value="N">AMD not mentioned</option>
    <option value="X">No processor spec in PDF</option>
   </select>
+  <button class="xbtn" id="xlsx" title="Download every bid matching the current filters (all months, expanded or not) as an Excel file">&#11015; Export to Excel</button>
  </div>
  <div class="hnote" id="hnote">Drag the slider (or Shift + mouse wheel) to see all columns &rarr;</div>
  <div class="hbar" id="hbar"><div id="hbarIn"></div></div>
@@ -444,6 +448,102 @@ function render(){
   document.getElementById('kAdded').textContent=rows.filter(r=>(r.a||'')===TODAY).length;
   document.getElementById('kState').textContent=new Set(rows.flatMap(sts)).size;
 }
+// ---- Excel export: the bids matching the current filters -> .xlsx (no library) ----
+const CRC=(()=>{const t=new Uint32Array(256);for(let n=0;n<256;n++){let c=n;for(let k=0;k<8;k++)c=c&1?0xEDB88320^(c>>>1):c>>>1;t[n]=c>>>0;}return t;})();
+function crc32(b){let c=0xFFFFFFFF;for(let i=0;i<b.length;i++)c=CRC[(c^b[i])&255]^(c>>>8);return (c^0xFFFFFFFF)>>>0;}
+function zip(files){   // [[name, Uint8Array]] -> stored (uncompressed) zip
+  const enc=new TextEncoder(), parts=[], cen=[]; let off=0;
+  const u16=v=>[v&255,(v>>>8)&255], u32=v=>[v&255,(v>>>8)&255,(v>>>16)&255,(v>>>24)&255];
+  for(const [name,data] of files){
+    const nm=enc.encode(name), crc=crc32(data);
+    const common=[...u16(20),...u16(0x0800),...u16(0),...u16(0),...u16(0x21),...u32(crc),...u32(data.length),...u32(data.length),...u16(nm.length),...u16(0)];
+    const lh=new Uint8Array([...u32(0x04034b50),...common]);
+    parts.push(lh,nm,data);
+    cen.push(new Uint8Array([...u32(0x02014b50),...u16(20),...common,...u16(0),...u16(0),...u16(0),...u32(0),...u32(off)]),nm);
+    off+=lh.length+nm.length+data.length;
+  }
+  const csz=cen.reduce((a,b)=>a+b.length,0);
+  const end=new Uint8Array([...u32(0x06054b50),0,0,0,0,...u16(files.length),...u16(files.length),...u32(csz),...u32(off),0,0]);
+  return new Blob([...parts,...cen,end],{type:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'});
+}
+function xe(v){return String(v??'').replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g,'')
+  .replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function colL(i){let s='';i++;while(i){const m=(i-1)%26;s=String.fromCharCode(65+m)+s;i=(i-m-1)/26;}return s;}
+function xDate(d){const m=/^(\d{4})-(\d\d)-(\d\d)/.exec(d||'');return m?(Date.UTC(+m[1],m[2]-1,+m[3])-Date.UTC(1899,11,30))/864e5:null;}
+// cell spec: string | number | null | {d:'YYYY-MM-DD'} | {link:url, text}
+function sheetXml(rows, widths, frozen){
+  const out=rows.map((row,ri)=>'<row r="'+(ri+1)+'">'+row.map((v,ci)=>{
+    const ref=colL(ci)+(ri+1);
+    if(v===null||v===undefined||v==='') return '';
+    if(ri===0&&frozen) return `<c r="${ref}" s="1" t="inlineStr"><is><t>${xe(v)}</t></is></c>`;
+    if(typeof v==='number') return `<c r="${ref}"><v>${v}</v></c>`;
+    if(typeof v!=='object') return `<c r="${ref}" t="inlineStr"><is><t xml:space="preserve">${xe(v)}</t></is></c>`;
+    if(v.d!==undefined){const n=xDate(v.d);return n===null?'':`<c r="${ref}" s="2"><v>${n}</v></c>`;}
+    if(v.link) return `<c r="${ref}" s="3" t="str"><f>HYPERLINK("${xe(v.link)}","${xe(String(v.text).replace(/"/g,'""'))}")</f><v>${xe(v.text)}</v></c>`;
+    if(v.b) return `<c r="${ref}" s="1" t="inlineStr"><is><t xml:space="preserve">${xe(v.b)}</t></is></c>`;
+    return `<c r="${ref}" t="inlineStr"><is><t xml:space="preserve">${xe(v)}</t></is></c>`;
+  }).join('')+'</row>').join('');
+  const last=colL(widths.length-1)+rows.length;
+  return '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+   +'<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">'
+   +(frozen?'<sheetViews><sheetView workbookViewId="0"><pane xSplit="1" ySplit="1" topLeftCell="B2" activePane="bottomRight" state="frozen"/></sheetView></sheetViews>':'')
+   +'<cols>'+widths.map((w,i)=>`<col min="${i+1}" max="${i+1}" width="${w}" customWidth="1"/>`).join('')+'</cols>'
+   +'<sheetData>'+out+'</sheetData>'+(frozen&&rows.length>1?`<autoFilter ref="A1:${last}"/>`:'')+'</worksheet>';
+}
+function filterSummary(n){
+  const t=id=>{const e=document.getElementById(id), o=e.options&&e.options[e.selectedIndex];return o?o.text:e.value;};
+  const q=document.getElementById('q').value.trim();
+  return [[{b:'GeM bids export'}],
+    ['Exported',new Date().toLocaleString('en-IN')],
+    ['Data updated','2026-11-25 07:53 UTC'],
+    ['Bids in this file',n],[],
+    [{b:'Filters applied'}],
+    ['Search',q||'(none)'],
+    ['Type',cat==='all'?'All':cat],
+    ['Bid start',t('range')],['State',t('state')],['Quantity',t('minq')],['Status',t('status')],
+    ['Bundles',t('bundle')],['Bid to RA',t('ra')],['AMD',t('amd')],[],
+    ['Source','https://bidplus.gem.gov.in/all-bids'],
+    ['Note','Organisation, Office, Bid to RA and AMD are read from the bid PDF for bids from November 2026 on.']];
+}
+function buildXlsx(rows){
+  const yn=v=>v==='Y'?'Yes':v==='N'?'No':v==='X'?'No processor spec in PDF':'';
+  const H=['Bid Number','Items','Type','Desktops','Laptops','All-in-Ones','Workstations','Servers','Computers',
+    'Bid Total Quantity','Bundled (line items)','Ministry / State','Department','Organisation','Office',
+    'Delivery State(s)','Bid to RA','AMD mentioned','Bid Start Date','Closes','Added','Status'];
+  const data=[H].concat(rows.map(r=>{
+    const types=r.k?KN.filter((k,i)=>r.k[i]>0):[C2K[r.c]||r.c];
+    const kc=r.k?r.k.map(v=>v||null):[null,null,null,null,null];
+    if(!r.k){const i=KN.indexOf(C2K[r.c]);if(i>=0&&!r.n)kc[i]=+r.q||null;}
+    const nz=v=>(v&&!/^(na|n\/a|-)$/i.test(v))?v:'';
+    return [{link:URLP+r.i,text:r.b}, r.f||r.m, types.join(', '), ...kc,
+      r.k?cq(r):(r.n?null:(+r.q||null)), +r.q||null, r.n?`Yes (${r.n})`:'No',
+      nz(r.y), nz(r.d), r.og||'', r.of||'', sts(r).join(', ')||(r.s?'':'central'),
+      yn(r.ra), yn(r.am), {d:r.t}, {d:r.e}, {d:r.a}, (r.e||'')>=TODAY?'Open':'Closed'];
+  }));
+  const W=[22,60,16,9,9,11,12,8,11,11,13,26,30,30,30,24,9,13,13,12,12,8];
+  const enc=new TextEncoder(), X=s=>enc.encode(s);
+  const NS='xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"';
+  const files=[
+    ['[Content_Types].xml',X('<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/><Override PartName="/xl/worksheets/sheet2.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/></Types>')],
+    ['_rels/.rels',X('<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>')],
+    ['xl/workbook.xml',X(`<?xml version="1.0" encoding="UTF-8" standalone="yes"?><workbook ${NS}><sheets><sheet name="Bids" sheetId="1" r:id="rId1"/><sheet name="Filters" sheetId="2" r:id="rId2"/></sheets><definedNames><definedName name="_xlnm._FilterDatabase" localSheetId="0" hidden="1">Bids!$A$1:$${colL(H.length-1)}$${data.length}</definedName></definedNames></workbook>`)],
+    ['xl/_rels/workbook.xml.rels',X('<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet1.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet2.xml"/><Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/></Relationships>')],
+    ['xl/styles.xml',X('<?xml version="1.0" encoding="UTF-8" standalone="yes"?><styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><numFmts count="1"><numFmt numFmtId="164" formatCode="dd-mmm-yyyy"/></numFmts><fonts count="3"><font><sz val="11"/><name val="Calibri"/></font><font><b/><sz val="11"/><name val="Calibri"/></font><font><u/><sz val="11"/><color rgb="FF0563C1"/><name val="Calibri"/></font></fonts><fills count="3"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill><fill><patternFill patternType="solid"><fgColor rgb="FFE2EFDA"/><bgColor indexed="64"/></patternFill></fill></fills><borders count="1"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs><cellXfs count="4"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/><xf numFmtId="0" fontId="1" fillId="2" borderId="0" xfId="0" applyFont="1" applyFill="1"/><xf numFmtId="164" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/><xf numFmtId="0" fontId="2" fillId="0" borderId="0" xfId="0" applyFont="1"/></cellXfs><cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles></styleSheet>')],
+    ['xl/worksheets/sheet1.xml',X(sheetXml(data,W,true))],
+    ['xl/worksheets/sheet2.xml',X(sheetXml(filterSummary(rows.length),[20,90],false))],
+  ];
+  return zip(files);
+}
+document.getElementById('xlsx').onclick=()=>{
+  const rows=filtered();
+  if(!rows.length){alert('No bids match the current filters.');return;}
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(buildXlsx(rows));
+  const d=new Date(), p=n=>String(n).padStart(2,'0');
+  a.download=`GeM_bids_${d.getFullYear()}-${p(d.getMonth()+1)}-${p(d.getDate())}.xlsx`;
+  document.body.appendChild(a);a.click();
+  setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},1000);
+};
 render();
 // ---- bar chart (plain SVG, no library) ----
 const KCOL=['#3b74d6','#2f9a55','#8a55c7','#1b8f84','#d4732c','#b8bfc8'];
